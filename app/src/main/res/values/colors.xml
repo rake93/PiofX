@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorMediumTurquoise">#4AC9F2</color>
+    <color name="login_info_bgcolor">#457</color>
+    <color name="info_text_color">#e0e7e5</color>
+    <color name="progress_starting_color">#b0b1b4</color>
+    <color name="progress_middle_color">#fcd863</color>
+    <color name="progress_ending_color">#3ac2ae</color>
+    <color name="card1_text_bkg_color">#82806e</color>
+    <color name="card2_text_bkg_color">#ff6b58</color>
+    <color name="card3_text_bkg_color">#273b7a</color>
+    <color name="card4_text_bkg_color">#324a5e</color>
+</resources>

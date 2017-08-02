@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lin_lay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorMediumTurquoise"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:ignore="MissingPrefix">
+
+    <ImageView
+        android:id="@+id/splash"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.19"
+        android:background="@drawable/splash_img" />
+
+    <TextView android:text="@string/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textAllCaps="true"
+        android:textAppearance="@style/CustomFont.SplashAppName"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/appTitle" />
+
+</LinearLayout>

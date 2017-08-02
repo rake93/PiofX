@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">First Academy</string>
+    <string name="action_about">About Us</string>
+    <string name="action_home">Home</string>
+    <string name="action_profile">Profile</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in">Sign In</string>
+    <string name="logn_info">Create a login. It is free and takes a minute. It allows you to save progress..! </string>
+    <string name="basic_vocab_card_title">Basic Vocabulary</string>
+    <string name="basic_vocab_card1_content">Enough for you to walk around the bedroom, and to keep your feet warm, but not much else.</string>
+    <string name="basic_vocab_card2_content">Enough for you to travel the world faster than earlier, but still not enough to save it.</string>
+    <string name="inter_vocab_card1_content">Shoes and running are all good, but a bicycle will get you places faster and farther! But, you dont get to save the world</string>
+    <string name="inter_vocab_card2_content">Mastered the bicycle. Proceed to the scooter. But whoever saved the world on scooter ? </string>
+    <string name="inter_vocab_card_title">Intermediate Vocabulary</string>
+    <string name="action_practice"> PRACTICE </string>
+    <string name="action_quiz"> TAKE QUIZ </string>
+</resources>

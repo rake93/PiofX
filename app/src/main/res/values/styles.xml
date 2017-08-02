@@ -1,0 +1,47 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="TextAppearance.FontPath" parent="android:TextAppearance">
+        <!-- Custom Attr -->
+        <!--<item name="fontPath">fonts/Patua_One/Patua_One-Regular.ttf</item>-->
+        <item name="fontPath">fonts/Open_Sans/OpenSans-Bold.ttf</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <style name="TextViewCustomFont">
+        <item name="fontPath">fonts/fonts/Open_Sans/OpenSans-Bold.ttf</item>
+    </style>
+
+    <style name="CustomFont.SplashAppName" parent="android:TextAppearance">
+        <item name="fontPath">fonts/Open_Sans_Condensed/OpenSansCondensed-Bold.ttf</item>
+        <item name="android:textColor">@color/login_info_bgcolor</item>
+    </style>
+
+    <!--<style name="TextStyle">
+        <item name="android:layout_marginTop">25dp</item>
+        <item name="android:layout_marginBottom">25dp</item>
+        <item name="android:layout_marginLeft">25dp</item>
+        <item name="android:layout_marginRight">25dp</item>
+        &lt;!&ndash;<item name="android:textColor">#990000</item>&ndash;&gt;
+    </style>
+
+    <style name="TextStyle.Title" parent="TextStyle">
+        <item name="android:textAppearance">@style/TextAppearance.FontPath</item>
+    </style>-->
+
+    <!-- Button Styles for Cards -->
+    <style name="PrimaryFlatButton" parent="Theme.AppCompat.Light">
+        <item name="android:buttonStyle">
+            @style/Widget.AppCompat.Button.Borderless.Colored
+        </item>
+        <item name="colorAccent">#404247</item>
+    </style>
+
+</resources>
