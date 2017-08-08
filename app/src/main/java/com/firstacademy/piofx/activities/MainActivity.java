@@ -1,12 +1,19 @@
-package com.firstacademy.piofx;
+package com.firstacademy.piofx.activities;
 
 import android.content.Context;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.FrameLayout;
 import android.widget.Toast;
+
+import com.firstacademy.piofx.R;
+import com.firstacademy.piofx.fragments.AboutUs;
+import com.firstacademy.piofx.fragments.HomeFragment;
+import com.firstacademy.piofx.fragments.Profile;
 
 import javax.inject.Inject;
 
@@ -16,15 +23,29 @@ import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
 public class MainActivity extends AppCompatActivity {
 
     private Toolbar toolbar;
+    private FragmentTransaction fragmentTransaction;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        initializeViews();
         setTitle(null);
         toolbar = (Toolbar) findViewById(R.id.tool_bar);
         setSupportActionBar(toolbar);
 
+    }
+
+    private void initializeViews() {
+        fragmentTransaction = getSupportFragmentManager().beginTransaction();
+        loadDefaultFragment();
+    }
+
+    private void loadDefaultFragment() {
+        fragmentTransaction.replace(R.id.home_container_body, new HomeFragment());
+        setSupportActionBar(toolbar);
+        fragmentTransaction.commit();
     }
 
     @Override
@@ -39,13 +60,19 @@ public class MainActivity extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_about) {
-            Toast.makeText(MainActivity.this, " About Action", Toast.LENGTH_LONG).show();
+            fragmentTransaction.replace(R.id.home_container_body, new AboutUs());
+            setSupportActionBar(toolbar);
+            fragmentTransaction.commit();
         }
         if (id == R.id.action_home) {
-            Toast.makeText(MainActivity.this, " Home Action", Toast.LENGTH_LONG).show();
+            fragmentTransaction.replace(R.id.home_container_body, new HomeFragment());
+            setSupportActionBar(toolbar);
+            fragmentTransaction.commit();
         }
         if (id == R.id.action_profile) {
-            Toast.makeText(MainActivity.this, " Profile Action ", Toast.LENGTH_LONG).show();
+            fragmentTransaction.replace(R.id.home_container_body, new Profile());
+            setSupportActionBar(toolbar);
+            fragmentTransaction.commit();
         }
 
         return super.onOptionsItemSelected(item);

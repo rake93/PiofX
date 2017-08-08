@@ -8,10 +8,33 @@
     <string name="logn_info">Create a login. It is free and takes a minute. It allows you to save progress..! </string>
     <string name="basic_vocab_card_title">Basic Vocabulary</string>
     <string name="basic_vocab_card1_content">Enough for you to walk around the bedroom, and to keep your feet warm, but not much else.</string>
-    <string name="basic_vocab_card2_content">Enough for you to travel the world faster than earlier, but still not enough to save it.</string>
+    <string name="basic_vocab_card2_content">You can go out of the bedroom and take a walk.
+            But you can go only as far as your feet can take you,and it is not too far!</string>
     <string name="inter_vocab_card1_content">Shoes and running are all good, but a bicycle will get you places faster and farther! But, you dont get to save the world</string>
     <string name="inter_vocab_card2_content">Mastered the bicycle. Proceed to the scooter. But whoever saved the world on scooter ? </string>
+
+
     <string name="inter_vocab_card_title">Intermediate Vocabulary</string>
     <string name="action_practice"> PRACTICE </string>
     <string name="action_quiz"> TAKE QUIZ </string>
+
+    <!--profile-->
+    <string name="edit_profile">You can edit your profile here!</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="share_app">Share the App</string>
+    <string name="personal_details">Personal Details</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="photo">Photo</string>
+    <string name="change_photo">Change Photo</string>
+    <string name="remove_photo">Remove Photo</string>
+    <string name="app_settings">App Settings</string>
+    <string name="reset_progress">Reset Progress</string>
+    <string name="reset_desc">This will reset all the settings to zero.All your progress will be
+            lost.Use this only if you are certain about what you are doing!</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="sign_out_desc">We will be said to see you leave.Are you sure you can\'t stay
+            a while longer?</string>
+
+
 </resources>

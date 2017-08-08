@@ -13,4 +13,18 @@
     <color name="card2_text_bkg_color">#ff6b58</color>
     <color name="card3_text_bkg_color">#273b7a</color>
     <color name="card4_text_bkg_color">#324a5e</color>
+    <color name="gold_color">#C09B49</color>
+    <color name="dark_sky">#2E9BD6</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="sky_color">#32D5FF</color>
+    <color name="personal_details_bgcolor">#CCEDFC</color>
+    <color name="light_gray">#AEAEA8</color>
+    <color name="agri_green">#13A953</color>
+    <color name="dark_red">#C83A32</color>
+    <color name="app_settings_bg_color">#92D8B3</color>
+    <color name="login_bg_color">#424E69</color>
+    <color name="button_bg_color">#90DFAA</color>
+    <color name="darker_gray">#6e6e6e</color>
+
 </resources>

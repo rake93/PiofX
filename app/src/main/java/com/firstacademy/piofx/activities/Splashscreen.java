@@ -1,4 +1,4 @@
-package com.firstacademy.piofx;
+package com.firstacademy.piofx.activities;
 
 import android.content.Context;
 import android.content.Intent;
@@ -10,6 +10,8 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+
+import com.firstacademy.piofx.R;
 
 import java.util.Random;
 
@@ -108,7 +110,7 @@ public class Splashscreen extends AppCompatActivity {
                         waited += 100;
                     }
                     Intent intent = new Intent(Splashscreen.this,
-                            MainActivity.class);
+                            Home.class);
                     intent.setFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
                     startActivity(intent);
                     Splashscreen.this.finish();
