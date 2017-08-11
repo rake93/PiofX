@@ -16,7 +16,7 @@
             android:paddingLeft="@dimen/dp_20"
             android:paddingRight="@dimen/dp_20"
             android:paddingTop="@dimen/dp_20">
-            <TextView
+            <com.firstacademy.piofx.fonts.openSans.OpenSansRegular
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/logn_info"
@@ -36,12 +36,12 @@
                     android:textAllCaps="false"
                     android:textColor="@android:color/white"
                     android:textSize="@dimen/sp_14"/>
-                <TextView
+                <com.firstacademy.piofx.fonts.openSans.OpenSansBold
                     android:id="@+id/fhome_tvSingin"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/sign_in"
-                    android:textColor="@android:color/white"
+                    android:textColor="@color/sky_color"
                     android:paddingLeft="@dimen/dp_10" />
             </LinearLayout>
         </LinearLayout>

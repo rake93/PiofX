@@ -37,4 +37,9 @@
             a while longer?</string>
 
 
+    <string name="back">Back</string>
+    <string name="skip">skip</string>
+    <string name="next">Next!</string>
+    <string name="got_it">got it!</string>
+
 </resources>

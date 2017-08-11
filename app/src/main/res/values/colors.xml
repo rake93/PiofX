@@ -26,5 +26,10 @@
     <color name="login_bg_color">#424E69</color>
     <color name="button_bg_color">#90DFAA</color>
     <color name="darker_gray">#6e6e6e</color>
+    <color name="answer_right_bg_color">#9ADAB9</color>
+    <color name="answer_wrong_bg_color">#F8AEB0</color>
+    <color name="oopsie_color">#EE1D23</color>
+    <color name="green">#26BEA7</color>
+    <color name="silver_activity_bg">#6A7785</color>
 
 </resources>

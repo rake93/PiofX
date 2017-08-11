@@ -13,17 +13,22 @@ import android.widget.TextView;
 import com.firstacademy.piofx.R;
 import com.firstacademy.piofx.adapters.HomeAdapter;
 import com.firstacademy.piofx.models.HomeModel;
+import com.firstacademy.piofx.utils.Fonts;
 
 import java.util.ArrayList;
 
 
 public class HomeFragment extends Fragment implements View.OnClickListener {
     private RecyclerView homeRecycler;
-    private Button signup;
+    private Button bnSignup;
     private TextView signin;
     private static ArrayList<HomeModel> data;
+    Integer[] idArray;
+    Integer[] imagesArray;
+    String[] headingArray;
+    String[] descArray;
 
-    Integer[] idArray={1,2,3,4,5,6,7};
+   /* Integer[] idArray={1,2,3,4,5,6,7};
     Integer[] imagesArray={R.drawable.bv_socks_shadow,R.drawable.bv_shoess_hadow,
             R.drawable.iv_bicycle_shadow,R.drawable.iv_scooter_shadow,R.drawable.motor_cycle,
             R.drawable.car,R.drawable.team};
@@ -40,7 +45,7 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
             "Mastered the bicycle. Proceed to the scooter. But whoever saved the world on scooter ?",
             "Mastered the bicycle. Proceed to the scooter. But whoever saved the world on scooter ?",
             "Mastered the bicycle. Proceed to the scooter. But whoever saved the world on scooter ?"};
-
+*/
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -49,15 +54,37 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
         View view=inflater.inflate(R.layout.fragment_home, container, false);
         initializeViews(view);
         initializeClickListeners();
+        setFont();
         return view;
     }
 
 
+
+
     private void initializeViews(View view) {
         homeRecycler=(RecyclerView)view.findViewById(R.id.fhome_recycler);
-        signup=(Button) view.findViewById(R.id.fhome_bnSignup);
+        bnSignup=(Button) view.findViewById(R.id.fhome_bnSignup);
         signin=(TextView)view.findViewById(R.id.fhome_tvSingin);
         data=new ArrayList<HomeModel>();
+
+        idArray= new Integer[]{1, 2, 3, 4, 5, 6, 7};
+        imagesArray= new Integer[]{R.drawable.bv_socks_shadow, R.drawable.bv_shoess_hadow,
+                R.drawable.iv_bicycle_shadow, R.drawable.iv_scooter_shadow, R.drawable.motor_cycle,
+                R.drawable.car, R.drawable.team};
+        headingArray= new String[]{getActivity().getResources().getString(R.string.basic_vocab_card_title),
+                getActivity().getResources().getString(R.string.basic_vocab_card_title),
+                getActivity().getResources().getString(R.string.inter_vocab_card_title),
+                getActivity().getResources().getString(R.string.inter_vocab_card_title),
+                getActivity().getResources().getString(R.string.inter_vocab_card_title),
+                getActivity().getResources().getString(R.string.inter_vocab_card_title),
+                getActivity().getResources().getString(R.string.inter_vocab_card_title)};
+        descArray= new String[]{ getActivity().getResources().getString(R.string.basic_vocab_card1_content),
+                getActivity().getResources().getString(R.string.basic_vocab_card2_content),
+                getActivity().getResources().getString(R.string.inter_vocab_card1_content),
+                getActivity().getResources().getString(R.string.inter_vocab_card2_content),
+                getActivity().getResources().getString(R.string.inter_vocab_card2_content),
+                getActivity().getResources().getString(R.string.inter_vocab_card2_content),
+                getActivity().getResources().getString(R.string.inter_vocab_card2_content)};
 
         setRecyclerView();
 
@@ -74,8 +101,12 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
 
 
     private void initializeClickListeners() {
-        signup.setOnClickListener(this);
+        bnSignup.setOnClickListener(this);
         signin.setOnClickListener(this);
+    }
+
+    private void setFont() {
+        Fonts.setFont(bnSignup,Fonts.opensansRegular,"Button");
     }
 
     @Override
