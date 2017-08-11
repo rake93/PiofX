@@ -1,0 +1,58 @@
+[
+  {
+    "option_text": "wrong_option1",
+    "question_id": 1,
+    "is_correct": false,
+	"word_definition": null,
+	"word_description": null
+  },
+  {
+    "option_text": "commensurate",
+    "question_id": 1,
+    "is_correct": true,
+	"word_definition": "to be in proportion or corresponding in degree or amount",
+	"word_description": "The convicted felon's life sentence was commensurate with the heinousness of his crime."
+  },
+  {
+    "option_text": "wrong_option3",
+    "question_id": 1,
+    "is_correct": false,
+	"word_definition": null,
+	"word_description": null
+  },
+  {
+    "option_text": "wrong_option4",
+    "question_id": 1,
+    "is_correct": false,
+	"word_definition": null,
+	"word_description": null
+  },
+  {
+    "option_text": "ask",
+    "question_id": 2,
+    "is_correct": false,
+	"word_definition": null,
+	"word_description": null
+  },
+  {
+    "option_text": "influence",
+    "question_id": 2,
+    "is_correct": true,
+	"word_definition": "to have an influence on",
+	"word_description": "Einstein's ideas have informed many generations of physicists.\n Religion informs many aspects of people's lives."
+  },
+  {
+    "option_text": "tell a secret",
+    "question_id": 2,
+    "is_correct": false,
+	"word_definition": null,
+	"word_description": null
+  },
+  {
+    "option_text": "refer to back",
+    "question_id": 2,
+    "is_correct": false,
+	"word_definition": null,
+	"word_description": null
+  }
+]

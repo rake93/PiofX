@@ -3,6 +3,9 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="black_effective">#2a2a2a</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
     <color name="colorMediumTurquoise">#4AC9F2</color>
     <color name="login_info_bgcolor">#457</color>
     <color name="info_text_color">#e0e7e5</color>

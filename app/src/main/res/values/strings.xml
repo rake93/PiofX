@@ -14,4 +14,18 @@
     <string name="inter_vocab_card_title">Intermediate Vocabulary</string>
     <string name="action_practice"> PRACTICE </string>
     <string name="action_quiz"> TAKE QUIZ </string>
+
+
+    <!--App Message-->
+    <string name="api_retry_error">Please retry!</string>
+    <string name="api_default_error">Something wrong happened!</string>
+    <string name="some_error">Some Error Occurred!</string>
+    <string name="connection_error">Internet connection lost!</string>
+
+    <!--Login-->
+    <string name="login_dummy">Login Dummy</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+
 </resources>

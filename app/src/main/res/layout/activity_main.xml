@@ -1,9 +1,8 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".ui.main.MainActivity">
 
 <android.support.constraint.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -13,17 +12,17 @@
     <include
         android:id="@+id/tool_bar"
         layout="@layout/tool_bar"
-        android:layout_height="0dp"
         android:layout_width="0dp"
-        tools:layout_constraintTop_creator="1"
-        tools:layout_constraintRight_creator="1"
-        tools:layout_constraintBottom_creator="1"
-        card_view:layout_constraintBottom_toTopOf="@+id/linearLayout"
-        card_view:layout_constraintRight_toRightOf="parent"
-        tools:layout_constraintLeft_creator="1"
+        android:layout_height="0dp"
         android:layout_marginBottom="7dp"
+        card_view:layout_constraintBottom_toTopOf="@+id/linearLayout"
         card_view:layout_constraintLeft_toLeftOf="parent"
-        card_view:layout_constraintTop_toTopOf="parent" />
+        card_view:layout_constraintRight_toRightOf="parent"
+        card_view:layout_constraintTop_toTopOf="parent"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -47,8 +46,8 @@
             android:textColor="@color/info_text_color"
             android:textSize="12sp"
             android:textStyle="bold"
-            tools:layout_editor_absoluteY="25dp"
-            tools:layout_editor_absoluteX="8dp" />
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="25dp" />
 
     </LinearLayout>
 
@@ -57,13 +56,13 @@
         android:layout_width="165dp"
         android:layout_height="230dp"
         android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="20dp"
         card_view:cardBackgroundColor="@android:color/white"
         card_view:cardElevation="8dp"
         card_view:layout_constraintLeft_toLeftOf="parent"
         card_view:layout_constraintTop_toBottomOf="@+id/linearLayout"
-        tools:ignore="MissingConstraints"
-        android:layout_marginStart="8dp">
+        tools:ignore="MissingConstraints">
 
         <ImageView
             android:id="@+id/bv_socks"
@@ -90,11 +89,11 @@
             android:layout_marginTop="122dp"
             android:background="@color/card1_text_bkg_color"
             android:orientation="vertical"
+            android:weightSum="1"
             card_view:layout_constraintLeft_toLeftOf="parent"
             card_view:layout_constraintTop_toTopOf="parent"
             tools:layout_constraintLeft_creator="1"
-            tools:layout_constraintTop_creator="1"
-            android:weightSum="1">
+            tools:layout_constraintTop_creator="1">
 
             <TextView
                 android:id="@+id/bvCardHeading"
@@ -111,13 +110,13 @@
                 android:id="@+id/bvCardDesc"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
                 android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.23"
                 android:text="@string/basic_vocab_card1_content"
                 android:textColor="@color/info_text_color"
                 android:textSize="10sp"
-                android:textStyle="bold"
-                android:layout_weight="0.23" />
+                android:textStyle="bold" />
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -128,9 +127,9 @@
                 android:layout_height="30dp"
                 android:background="@android:color/transparent"
                 android:text="@string/action_practice"
+                android:textColor="#444"
                 android:textSize="10sp"
                 android:textStyle="bold"
-                android:textColor="#444"
                  />
 
             <Button
@@ -139,9 +138,9 @@
                 android:layout_height="30dp"
                 android:background="@android:color/transparent"
                 android:text="@string/action_quiz"
+                android:textColor="@color/info_text_color"
                 android:textSize="10sp"
-                android:textStyle="bold"
-                android:textColor="@color/info_text_color" />
+                android:textStyle="bold" />
         </LinearLayout>
 
         </LinearLayout>
@@ -189,11 +188,11 @@
             android:layout_marginTop="122dp"
             android:background="@color/card3_text_bkg_color"
             android:orientation="vertical"
+            android:weightSum="1"
             card_view:layout_constraintLeft_toLeftOf="parent"
             card_view:layout_constraintTop_toTopOf="parent"
             tools:layout_constraintLeft_creator="1"
-            tools:layout_constraintTop_creator="1"
-            android:weightSum="1">
+            tools:layout_constraintTop_creator="1">
 
             <TextView
                 android:id="@+id/ivCard1Heading"
@@ -210,13 +209,13 @@
                 android:id="@+id/ivCard1Desc"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
                 android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.23"
                 android:text="@string/inter_vocab_card1_content"
                 android:textColor="@color/info_text_color"
                 android:textSize="10sp"
-                android:textStyle="bold"
-                android:layout_weight="0.23" />
+                android:textStyle="bold" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -229,9 +228,9 @@
                     android:layout_height="30dp"
                     android:background="@android:color/transparent"
                     android:text="@string/action_practice"
+                    android:textColor="#B86"
                     android:textSize="10sp"
                     android:textStyle="bold"
-                    android:textColor="#B86"
                     />
 
                 <Button
@@ -240,9 +239,9 @@
                     android:layout_height="30dp"
                     android:background="@android:color/transparent"
                     android:text="@string/action_quiz"
+                    android:textColor="#38C"
                     android:textSize="10sp"
-                    android:textStyle="bold"
-                    android:textColor="#38C" />
+                    android:textStyle="bold" />
             </LinearLayout>
 
         </LinearLayout>
@@ -254,13 +253,13 @@
         android:layout_width="165dp"
         android:layout_height="230dp"
         android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp"
         android:layout_marginTop="20dp"
         card_view:cardBackgroundColor="@android:color/white"
         card_view:cardCornerRadius="5dp"
         card_view:cardElevation="8dp"
         card_view:layout_constraintLeft_toRightOf="@+id/bv_card1"
-        card_view:layout_constraintTop_toBottomOf="@+id/linearLayout"
-        android:layout_marginStart="14dp">
+        card_view:layout_constraintTop_toBottomOf="@+id/linearLayout">
 
         <ImageView
             android:id="@+id/bv_shoes"
@@ -288,11 +287,11 @@
             android:layout_marginTop="122dp"
             android:background="@color/card2_text_bkg_color"
             android:orientation="vertical"
+            android:weightSum="1"
             card_view:layout_constraintLeft_toLeftOf="parent"
             card_view:layout_constraintTop_toTopOf="parent"
             tools:layout_constraintLeft_creator="1"
-            tools:layout_constraintTop_creator="1"
-            android:weightSum="1">
+            tools:layout_constraintTop_creator="1">
 
             <TextView
                 android:id="@+id/bvCard2Heading"
@@ -309,13 +308,13 @@
                 android:id="@+id/bvCard2Desc"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
                 android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.23"
                 android:text="@string/basic_vocab_card2_content"
                 android:textColor="@color/info_text_color"
                 android:textSize="10sp"
-                android:textStyle="bold"
-                android:layout_weight="0.23" />
+                android:textStyle="bold" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -328,9 +327,9 @@
                     android:layout_height="30dp"
                     android:background="@android:color/transparent"
                     android:text="@string/action_practice"
+                    android:textColor="#766"
                     android:textSize="10sp"
                     android:textStyle="bold"
-                    android:textColor="#766"
                     />
 
                 <Button
@@ -339,9 +338,9 @@
                     android:layout_height="30dp"
                     android:background="@android:color/transparent"
                     android:text="@string/action_quiz"
+                    android:textColor="@color/info_text_color"
                     android:textSize="10sp"
-                    android:textStyle="bold"
-                    android:textColor="@color/info_text_color" />
+                    android:textStyle="bold" />
             </LinearLayout>
 
         </LinearLayout>
@@ -354,6 +353,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
         card_view:cardBackgroundColor="@android:color/white"
         card_view:cardCornerRadius="5dp"
         card_view:cardElevation="8dp"
@@ -364,8 +364,7 @@
         card_view:layout_constraintTop_toBottomOf="@+id/bv_card2"
         card_view:layout_constraintVertical_bias="0.050000012"
         tools:layout_constraintBottom_creator="1"
-        tools:layout_constraintRight_creator="1"
-        android:layout_marginStart="8dp">
+        tools:layout_constraintRight_creator="1">
 
         <ImageView
             android:id="@+id/iv_scooter"
@@ -392,11 +391,11 @@
             android:layout_marginTop="122dp"
             android:background="@color/card4_text_bkg_color"
             android:orientation="vertical"
+            android:weightSum="1"
             card_view:layout_constraintLeft_toLeftOf="parent"
             card_view:layout_constraintTop_toTopOf="parent"
             tools:layout_constraintLeft_creator="1"
-            tools:layout_constraintTop_creator="1"
-            android:weightSum="1">
+            tools:layout_constraintTop_creator="1">
 
             <TextView
                 android:id="@+id/ivCard2Heading"
@@ -413,13 +412,13 @@
                 android:id="@+id/ivCard2Desc"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
                 android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.23"
                 android:text="@string/inter_vocab_card2_content"
                 android:textColor="@color/info_text_color"
                 android:textSize="10sp"
-                android:textStyle="bold"
-                android:layout_weight="0.23" />
+                android:textStyle="bold" />
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -431,9 +430,9 @@
                     android:layout_height="30dp"
                     android:background="@android:color/transparent"
                     android:text="@string/action_practice"
+                    android:textColor="@color/info_text_color"
                     android:textSize="10sp"
                     android:textStyle="bold"
-                    android:textColor="@color/info_text_color"
                     />
 
                 <Button
@@ -442,9 +441,9 @@
                     android:layout_height="30dp"
                     android:background="@android:color/transparent"
                     android:text="@string/action_quiz"
+                    android:textColor="#cea75c"
                     android:textSize="10sp"
-                    android:textStyle="bold"
-                    android:textColor="#cea75c" />
+                    android:textStyle="bold" />
             </LinearLayout>
 
         </LinearLayout>
@@ -480,8 +479,8 @@
             android:id="@+id/advprogressBar"
             style="?android:attr/progressBarStyleHorizontal"
             android:layout_width="match_parent"
-            android:layout_marginTop="118dp"
             android:layout_height="3dp"
+            android:layout_marginTop="118dp"
             android:background="@color/progress_starting_color" />
     </android.support.v7.widget.CardView>
 
@@ -492,6 +491,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
         card_view:cardBackgroundColor="@android:color/white"
         card_view:cardCornerRadius="5dp"
         card_view:cardElevation="8dp"
@@ -502,8 +502,7 @@
         card_view:layout_constraintTop_toBottomOf="@+id/iv_card1"
         card_view:layout_constraintVertical_bias="0.050000012"
         tools:layout_constraintBottom_creator="1"
-        tools:layout_constraintRight_creator="1"
-        android:layout_marginStart="8dp">
+        tools:layout_constraintRight_creator="1">
 
         <ImageView
             android:id="@+id/adv_scooter"

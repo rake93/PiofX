@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "question_text": "correlative",
+	"question_clause": "verb",
+	"question_category": "basic"
+  },
+  {
+    "id": 2,
+    "question_text": "inform",
+	"question_clause": "verb",
+	"question_category": "basic"
+  },
+  {
+    "id": 3,
+    "question_text": "equivocal",
+	"question_clause": "adjective",
+	"question_category": "intermediate"
+  },
+  {
+    "id": 4,
+    "question_text": "sample_question4",
+	"question_clause": "noun",
+	"question_category": "advanced"
+  }
+]
