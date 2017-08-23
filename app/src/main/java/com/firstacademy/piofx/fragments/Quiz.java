@@ -41,17 +41,8 @@ public class Quiz extends Fragment implements View.OnClickListener {
         return view;
     }
 
-    private void initializeClickListeners() {
-        llBackLayout.setOnClickListener(this);
-        rlBottomLayout.setOnClickListener(this);
-        llALayout.setOnClickListener(this);
-        llBLayout.setOnClickListener(this);
-        llCLayout.setOnClickListener(this);
-        llDLayout.setOnClickListener(this);
-    }
-
     private void initializeViews(View view) {
-        tvVocabularyTitle=(TextView)view.findViewById(R.id.fquiz_vocabulary_heading);
+        tvVocabularyTitle=(TextView)view.findViewById(R.id.practice_quiz_vocabulary_heading);
         tvQuestion=(TextView)view.findViewById(R.id.fquiz_question);
         tvPartsOfSpeech=(TextView)view.findViewById(R.id.fquiz_parts_of_speech);
         tvOptionA=(TextView)view.findViewById(R.id.fquiz_option_a);
@@ -66,9 +57,9 @@ public class Quiz extends Fragment implements View.OnClickListener {
         tvBackExample1=(TextView)view.findViewById(R.id.fquiz_back_example1);
         tvBackExample2=(TextView)view.findViewById(R.id.fquiz_back_example2);
 
-        ivImage=(ImageView) view.findViewById(R.id.fquiz_image);
+        ivImage=(ImageView) view.findViewById(R.id.practice_quiz_image);
 
-        llBackLayout=(LinearLayout) view.findViewById(R.id.fquiz_back_layout);
+        llBackLayout=(LinearLayout) view.findViewById(R.id.practice_quiz_back_layout);
         llALayout=(LinearLayout) view.findViewById(R.id.fquiz_option_a_layout);
         llBLayout=(LinearLayout) view.findViewById(R.id.fquiz_option_b_layout);
         llCLayout=(LinearLayout) view.findViewById(R.id.fquiz_option_c_layout);
@@ -79,8 +70,17 @@ public class Quiz extends Fragment implements View.OnClickListener {
         llBackTextLayout=(LinearLayout) view.findViewById(R.id.fquiz_back_text_layout);
 
         rlBottomLayout=(RelativeLayout)view.findViewById(R.id.fquiz_bottom_layout);
-        rlTopLayout=(RelativeLayout)view.findViewById(R.id.fquiz_top_layout);
+        rlTopLayout=(RelativeLayout)view.findViewById(R.id.practice_quiz_top_layout);
 
+    }
+
+    private void initializeClickListeners() {
+        llBackLayout.setOnClickListener(this);
+        rlBottomLayout.setOnClickListener(this);
+        llALayout.setOnClickListener(this);
+        llBLayout.setOnClickListener(this);
+        llCLayout.setOnClickListener(this);
+        llDLayout.setOnClickListener(this);
     }
 
     private void setText() {
@@ -92,7 +92,7 @@ public class Quiz extends Fragment implements View.OnClickListener {
     @Override
     public void onClick(View view) {
         switch (view.getId()){
-            case R.id.fquiz_back_layout:
+            case R.id.practice_quiz_back_layout:
                 getActivity().finish();
                 break;
             case R.id.fquiz_bottom_layout:

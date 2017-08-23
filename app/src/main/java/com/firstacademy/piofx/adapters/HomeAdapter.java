@@ -108,20 +108,19 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder> im
         }else if(dataSet.get(position).getId()==7){
             color=context.getResources().getColor(R.color.card4_text_bkg_color);
         }
-
+        Constants.vocabularyTitle=dataSet.get(position).getVocabularyHeading();
+        Constants.image=dataSet.get(position).getImage();
+        Constants.backGroundColor=color;
         switch (view.getId()){
             case R.id.adapter_home_practice:
-                Constants.vocabularyTitle=dataSet.get(position).getVocabularyHeading();
-                Constants.image=dataSet.get(position).getImage();
-                Constants.backGroundColor=color;
                 Intent practiceIntent=new Intent(context, PracticeQuiz.class);
                 practiceIntent.putExtra("intent","practice");
                 context.startActivity(practiceIntent);
                 break;
             case R.id.adapter_home_quiz:
-                Constants.vocabularyTitle=dataSet.get(position).getVocabularyHeading();
+               /* Constants.vocabularyTitle=dataSet.get(position).getVocabularyHeading();
                 Constants.image=dataSet.get(position).getImage();
-                Constants.backGroundColor=color;
+                Constants.backGroundColor=color;*/
                 Intent quizIntent=new Intent(context, PracticeQuiz.class);
                 quizIntent.putExtra("intent","quiz");
                 context.startActivity(quizIntent);

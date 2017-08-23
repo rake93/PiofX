@@ -59,7 +59,7 @@ dependencies {
     compile "org.greenrobot:greendao:$rootProject.greenDaoVersion"
 
     // debug database
-//    debugCompile "com.amitshekhar.android:debug-db:$rootProject.debugDBVersion"
+    debugCompile "com.amitshekhar.android:debug-db:$rootProject.debugDBVersion"
 
     // dependency injection
     compile "com.google.dagger:dagger:$rootProject.dagger2Version"

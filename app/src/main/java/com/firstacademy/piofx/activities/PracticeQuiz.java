@@ -43,6 +43,10 @@ public class PracticeQuiz extends AppCompatActivity {
             fragmentTransaction.replace(R.id.practice_quiz_container_body, new Quiz());
             setSupportActionBar(toolbar);
             fragmentTransaction.commit();
+        }else if(receiveingIntent.equals("practiceAdapter")){
+            fragmentTransaction.replace(R.id.practice_quiz_container_body, new Quiz());
+            setSupportActionBar(toolbar);
+            fragmentTransaction.commit();
         }
     }
 
