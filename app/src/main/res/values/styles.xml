@@ -52,7 +52,7 @@
     </style>
 
     <style name="Button" parent="Theme.AppCompat.Light">
-        <item name="colorControlHighlight">@color/button_bg_color</item>
-        <item name="colorButtonNormal">@color/button_bg_color</item>
+        <item name="colorControlHighlight">@color/light_gray</item>
+        <item name="colorButtonNormal">@color/light_gray</item>
     </style>
 </resources>

@@ -12,15 +12,23 @@
         android:background="@color/colorMediumTurquoise"
         android:layout_alignParentBottom="true">
 
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="?android:attr/selectableItemBackground">
+
         <com.firstacademy.piofx.fonts.openSans.OpenSansBold
             android:id="@+id/fquiz_bottom_layout_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/skip"
-            android:textSize="@dimen/sp_30"
+            android:textSize="@dimen/sp_25"
             android:textStyle="bold"
+            android:textAllCaps="true"
             android:textColor="@android:color/white"
             android:layout_centerInParent="true"/>
+        </RelativeLayout>
     </RelativeLayout>
 
     <RelativeLayout
@@ -106,9 +114,10 @@
                 android:background="@drawable/rectangle_gray"
                 android:orientation="vertical"
                 android:paddingBottom="@dimen/dp_10"
-                android:paddingTop="@dimen/dp_10">
+                android:paddingTop="@dimen/dp_10"
+                android:visibility="gone">
 
-                <com.firstacademy.piofx.fonts.openSans.OpenSansBold
+                <com.firstacademy.piofx.fonts.patua.PatuaRegular
                     android:id="@+id/fquiz_question"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -137,7 +146,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/dp_60"
                     android:layout_marginLeft="@dimen/dp_15"
-                    android:orientation="horizontal">
+                    android:orientation="horizontal"
+                    android:background="?android:attr/selectableItemBackground">
 
                     <com.firstacademy.piofx.fonts.openSans.OpenSansBold
                         android:layout_width="@dimen/dp_20"
@@ -170,7 +180,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/dp_60"
                     android:layout_marginLeft="@dimen/dp_15"
-                    android:orientation="horizontal">
+                    android:orientation="horizontal"
+                    android:background="?android:attr/selectableItemBackground">
 
                     <com.firstacademy.piofx.fonts.openSans.OpenSansBold
                         android:layout_width="@dimen/dp_20"
@@ -203,7 +214,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/dp_60"
                     android:layout_marginLeft="@dimen/dp_15"
-                    android:orientation="horizontal">
+                    android:orientation="horizontal"
+                    android:background="?android:attr/selectableItemBackground">
 
                     <com.firstacademy.piofx.fonts.openSans.OpenSansBold
                         android:layout_width="@dimen/dp_20"
@@ -236,7 +248,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/dp_60"
                     android:layout_marginLeft="@dimen/dp_15"
-                    android:orientation="horizontal">
+                    android:orientation="horizontal"
+                    android:background="?android:attr/selectableItemBackground">
 
                     <com.firstacademy.piofx.fonts.openSans.OpenSansBold
                         android:layout_width="@dimen/dp_20"
@@ -265,7 +278,7 @@
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
                     android:visibility="gone">
-                    <com.firstacademy.piofx.fonts.openSans.OpenSansBold
+                    <com.firstacademy.piofx.fonts.patua.PatuaRegular
                         android:id="@+id/fquiz_oopsie_bingo"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -286,7 +299,7 @@
                 android:paddingLeft="@dimen/dp_15"
                 android:paddingRight="@dimen/dp_15">
 
-                <com.firstacademy.piofx.fonts.openSans.OpenSansBold
+                <com.firstacademy.piofx.fonts.patua.PatuaRegular
                     android:id="@+id/fquiz_back_question"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"

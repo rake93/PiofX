@@ -9,4 +9,8 @@ public class Constants {
     public static String vocabularyTitle;
     public static int image;
     public static int backGroundColor;
+    public static int homeAdapterId;
+
+    public static String skip;
+
 }

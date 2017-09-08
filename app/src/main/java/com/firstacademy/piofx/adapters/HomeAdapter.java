@@ -139,6 +139,7 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder> im
                 Constants.vocabularyTitle=dataSet.get(position).getVocabularyHeading();
                 Constants.image=dataSet.get(position).getImage();
                 Constants.backGroundColor=color;
+                Constants.homeAdapterId=dataSet.get(position).getId();
                 Intent quizIntent=new Intent(context, PracticeQuiz.class);
                 quizIntent.putExtra("intent","quiz");
                 context.startActivity(quizIntent);

@@ -16,6 +16,7 @@ import com.firstacademy.piofx.fragments.HomeFragment;
 import com.firstacademy.piofx.fragments.Practice;
 import com.firstacademy.piofx.fragments.Profile;
 import com.firstacademy.piofx.fragments.Quiz;
+import com.firstacademy.piofx.utils.Constants;
 
 public class PracticeQuiz extends AppCompatActivity implements View.OnClickListener{
     private FragmentTransaction fragmentTransaction;
@@ -54,10 +55,12 @@ public class PracticeQuiz extends AppCompatActivity implements View.OnClickListe
             setSupportActionBar(toolbar);
             fragmentTransaction.commit();
         }else if(receiveingIntent.equals("quiz")){
+            Constants.skip="quiz";
             fragmentTransaction.replace(R.id.practice_quiz_container_body, new Quiz());
             setSupportActionBar(toolbar);
             fragmentTransaction.commit();
         }else if(receiveingIntent.equals("practiceAdapter")){
+            Constants.skip="practiceAdapter";
             fragmentTransaction.replace(R.id.practice_quiz_container_body, new Quiz());
             setSupportActionBar(toolbar);
             fragmentTransaction.commit();
@@ -100,7 +103,7 @@ public class PracticeQuiz extends AppCompatActivity implements View.OnClickListe
     public void onClick(View view) {
         switch (view.getId()){
             case R.id.practice_quiz_toolbar_back:
-                this.finish();
+                PracticeQuiz.this.finish();
                 break;
         }
     }

@@ -56,7 +56,27 @@
 
     <string name="back">Back</string>
     <string name="skip">skip</string>
+    <string name="take_ahead">Take me Ahead!</string>
+    <string name="who_next">Who\'s next</string>
+    <string name="learning_time">Learning time!</string>
     <string name="next">Next!</string>
     <string name="got_it">got it!</string>
+    <string name="silver_text">You\'ve just missed the gold medal and a full star!</string>
+    <string name="bronze_text">You\'ve just missed the silver medal and a star!</string>
+    <string name="retake_quiz">Retake the quiz</string>
+    <string name="may_be_later">May be later</string>
+    <string name="gold_medal">Gold Medal!</string>
+    <string name="You_are_star">You are a star! and You\'ve got one!</string>
+    <string name="share_the_news">Share the news!</string>
+    <string name="learn_more">Learn more</string>
+    <string name="bronze_medal">Bronze Medal!</string>
+    <string name="section_complete">Section Complete!</string>
+    <string name="take_a_quiz_earn_star">Take a quiz and earn a star!</string>
+    <string name="goto_quiz">Go to the quiz</string>
+    <string name="level_complete">Level Complete!</string>
+
+
+
+
 
 </resources>

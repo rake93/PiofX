@@ -35,13 +35,18 @@
     <color name="answer_wrong_bg_color">#F8AEB0</color>
     <color name="oopsie_color">#EE1D23</color>
     <color name="green">#26BEA7</color>
+    <color name="who_next_bg_color">#D7CB6E</color>
     <color name="silver_activity_bg">#6A7785</color>
     <color name="lighter_gray">#60D3D3D3</color>
     <color name="practice_color">#404E68 </color>
     <color name="take_quiz_color">#32CDFF</color>
     <color name="pressed_colorr">#9ADAB9</color> <!--custom color for pressed state -->
+    <color name="light_orange">#EA643D</color>
+    <color name="learning_time_bg_color">#9ADEEF</color>
 
 
     <drawable name="pressed_color">#9ADAB9</drawable> <!--custom color for pressed state -->
     <drawable name="normal_color">#FFFFFFFF</drawable> <!--transperent color for normal state -->
+
+
 </resources>

@@ -104,7 +104,7 @@
                     android:paddingTop="@dimen/dp_4"
                     android:paddingBottom="@dimen/dp_4"
                     android:paddingRight="@dimen/dp_8"
-                    android:background="@drawable/text_bg" />
+                    android:background="?attr/selectableItemBackground" />
                 <com.firstacademy.piofx.fonts.roboto.RobotoMedium
                     android:id="@+id/adapter_home_quiz"
                     android:layout_width="wrap_content"
@@ -115,7 +115,7 @@
                     android:paddingTop="@dimen/dp_4"
                     android:paddingBottom="@dimen/dp_4"
                     android:paddingLeft="@dimen/dp_8"
-                    android:background="@drawable/text_bg" />
+                    android:background="?attr/selectableItemBackground" />
             </LinearLayout>
         </LinearLayout>
         </LinearLayout>
