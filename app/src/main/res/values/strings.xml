@@ -5,18 +5,35 @@
     <string name="action_profile">Profile</string>
     <string name="sign_up">Sign Up</string>
     <string name="sign_in">Sign In</string>
-    <string name="logn_info">Create a login. It is free and takes a minute. It allows you to save progress..! </string>
-    <string name="basic_vocab_card_title">Basic Vocabulary</string>
+    <string name="create_login">Create a login</string>
+    <string name="logn_info">It is free and takes a minute. It allows you to save progress..! </string>
+    <string name="thankyou_for_login">Thank you for logging in. </string>
+    <string name="like_app">Like the app?</string>
+    <string name="basic_1">Basic 1</string>
+    <string name="basic_2">Basic 2</string>
+    <string name="inter_1">Intermediate 1</string>
+    <string name="inter_2">Intermediate 2</string>
+    <string name="advanced_1">Advanced 1</string>
+    <string name="advanced_2">Advanced 2</string>
+    <string name="super_hero">Super Hero</string>
+    <string name="team">Team</string>
+
     <string name="basic_vocab_card1_content">Enough for you to walk around the bedroom, and to keep your feet warm, but not much else.</string>
     <string name="basic_vocab_card2_content">You can go out of the bedroom and take a walk.
             But you can go only as far as your feet can take you,and it is not too far!</string>
     <string name="inter_vocab_card1_content">Shoes and running are all good, but a bicycle will get you places faster and farther! But, you dont get to save the world</string>
     <string name="inter_vocab_card2_content">Mastered the bicycle. Proceed to the scooter. But whoever saved the world on scooter ? </string>
+    <string name="advanced_1_content">Scooters are all good, but if you want to get there faster,
+        and be seen as cooler (adjective) nothing walks the talk like a motorcycle does.</string>
+    <string name="advanced_2_content">If you really want to be Bruce Wayne, you need more than
+        just a bike to fit all those beauties into. A supercar is definitely de rigueur.</string>
+    <string name="super_hero_content">Superman, Batman, or James Bond, what\'s
+        a super hero without a proper suit? It is the ultimate mark of every superhero. Suit up!</string>
+    <string name="team_content">Wondering who made the app possible? Here is who</string>
 
-
-    <string name="inter_vocab_card_title">Intermediate Vocabulary</string>
     <string name="action_practice"> PRACTICE </string>
-    <string name="action_quiz"> TAKE QUIZ </string>
+    <string name="action_quiz">QUIZ</string>
+    <string name="action_meet_the_team"> MEET THE TEAM </string>
 
     <!--profile-->
     <string name="edit_profile">You can edit your profile here!</string>

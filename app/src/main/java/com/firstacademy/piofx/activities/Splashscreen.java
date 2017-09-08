@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatDelegate;
 import android.view.Window;
+import android.view.WindowManager;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
@@ -22,46 +23,6 @@ import uk.co.chrisjenx.calligraphy.CalligraphyConfig;
 import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
 
 public class Splashscreen extends AppCompatActivity {
-
-    /*Thread splashTread;
-    ImageView imageView;
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_splashscreen);
-        imageView = (ImageView)findViewById(R.id.splash);
-        imageView.setScaleType(ImageView.ScaleType.FIT_XY);
-        //int[] ids = new int[]{R.drawable.s_img,R.drawable.s_image_black, R.drawable.s_image_black2};
-        //Random randomGenerator = new Random();
-        //int r= randomGenerator.nextInt(ids.length);
-        //this.imageView.setImageDrawable(getResources().getDrawable(ids[r]));
-
-        splashTread = new Thread() {
-            @Override
-            public void run() {
-                try {
-                    int waited = 0;
-                    // Splash screen pause time
-                    while (waited < 3500) {
-                        sleep(100);
-                        waited += 100;
-                    }
-                    Intent intent = new Intent(Splashscreen.this,
-                            MainActivity.class);
-                    intent.setFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
-                    startActivity(intent);
-                    Splashscreen.this.finish();
-                } catch (InterruptedException e) {
-                    // do nothing
-                } finally {
-                    Splashscreen.this.finish();
-                }
-
-            }
-        };
-        splashTread.start();
-    }*/
-
     @Inject
     CalligraphyConfig calligraphyConfig;
 
@@ -78,6 +39,10 @@ public class Splashscreen extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splashscreen);
         AppCompatDelegate.setCompatVectorFromResourcesEnabled(true);
+
+         /*to make the screen as full screen*/
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
+                WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         CalligraphyConfig.initDefault(calligraphyConfig);
 
@@ -96,7 +61,7 @@ public class Splashscreen extends AppCompatActivity {
         linearLayout.clearAnimation();
         linearLayout.startAnimation(loadAnimation);
 
-        loadAnimation = AnimationUtils.loadAnimation(this, R.anim.translate);
+        loadAnimation = AnimationUtils.loadAnimation(this, R.anim.zoom_out);
         loadAnimation.reset();
         ImageView imageView = (ImageView) findViewById(R.id.splash);
         imageView.clearAnimation();

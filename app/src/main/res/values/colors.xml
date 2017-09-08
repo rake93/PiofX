@@ -6,17 +6,22 @@
     <color name="colorMediumTurquoise">#4AC9F2</color>
     <color name="login_info_bgcolor">#457</color>
     <color name="info_text_color">#e0e7e5</color>
+<!--
     <color name="progress_starting_color">#b0b1b4</color>
+-->
+    <color name="progress_starting_color">#939393</color>
     <color name="progress_middle_color">#fcd863</color>
     <color name="progress_ending_color">#3ac2ae</color>
     <color name="card1_text_bkg_color">#82806e</color>
     <color name="card2_text_bkg_color">#ff6b58</color>
     <color name="card3_text_bkg_color">#273b7a</color>
     <color name="card4_text_bkg_color">#324a5e</color>
+    <color name="card3_image_bg_color">#FFC91B</color>
     <color name="gold_color">#C09B49</color>
     <color name="dark_sky">#2E9BD6</color>
     <color name="black">#000000</color>
     <color name="white">#FFFFFF</color>
+    <color name="lightblue">	#87CEFA</color>
     <color name="sky_color">#32D5FF</color>
     <color name="personal_details_bgcolor">#CCEDFC</color>
     <color name="light_gray">#AEAEA8</color>
@@ -32,5 +37,11 @@
     <color name="green">#26BEA7</color>
     <color name="silver_activity_bg">#6A7785</color>
     <color name="lighter_gray">#60D3D3D3</color>
+    <color name="practice_color">#404E68 </color>
+    <color name="take_quiz_color">#32CDFF</color>
+    <color name="pressed_colorr">#9ADAB9</color> <!--custom color for pressed state -->
 
+
+    <drawable name="pressed_color">#9ADAB9</drawable> <!--custom color for pressed state -->
+    <drawable name="normal_color">#FFFFFFFF</drawable> <!--transperent color for normal state -->
 </resources>

@@ -16,7 +16,11 @@ import android.widget.TextView;
 import com.firstacademy.piofx.R;
 import com.firstacademy.piofx.adapters.HomeAdapter;
 import com.firstacademy.piofx.adapters.PracticeAdapter;
+import com.firstacademy.piofx.models.HomeModel;
+import com.firstacademy.piofx.models.PracticeModel;
 import com.firstacademy.piofx.utils.Constants;
+
+import java.util.ArrayList;
 
 
 public class Practice extends Fragment implements View.OnClickListener{
@@ -25,6 +29,10 @@ public class Practice extends Fragment implements View.OnClickListener{
     private ImageView ivImage;
     private RelativeLayout rlTopLayout;
     private RecyclerView practiceRecycler;
+
+    private static ArrayList<PracticeModel> data;
+    Integer[] idArray,texArray;
+
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -49,6 +57,10 @@ public class Practice extends Fragment implements View.OnClickListener{
 
         practiceRecycler=(RecyclerView)view.findViewById(R.id.practice_recyclerview);
 
+        data=new ArrayList<PracticeModel>();
+        idArray= new Integer[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14,15};
+        texArray= new Integer[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14,15};
+
     }
 
     private void initializeClickListeners() {
@@ -71,8 +83,11 @@ public class Practice extends Fragment implements View.OnClickListener{
     }
 
     private void setGridView() {
+        for (int i=0;i<idArray.length;i++){
+            data.add(new PracticeModel(idArray[i],texArray[i]));
+        }
         practiceRecycler.setHasFixedSize(true);
         practiceRecycler.setLayoutManager(new GridLayoutManager(getActivity(),3));
-        practiceRecycler.setAdapter(new PracticeAdapter(getActivity()));
+        practiceRecycler.setAdapter(new PracticeAdapter(getActivity(),data));
     }
 }

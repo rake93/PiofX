@@ -1,35 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_5"
+        android:layout_marginRight="@dimen/dp_5"
+        card_view:cardCornerRadius="2dp"
+        card_view:cardElevation="dimen/dp_5"
+        app:cardElevation="@dimen/dp_5"
+        app:cardCornerRadius="@dimen/dp_2">
 
     <RelativeLayout
         android:id="@+id/practice_quiz_top_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingTop="@dimen/dp_20"
-        android:paddingBottom="@dimen/dp_20">
+        android:paddingLeft="@dimen/dp_20"
+        android:paddingRight="@dimen/dp_10"
+        android:paddingTop="@dimen/dp_10"
+        android:paddingBottom="@dimen/dp_10">
+
         <ImageView
             android:id="@+id/practice_quiz_image"
-            android:layout_width="@dimen/dp_150"
-            android:layout_height="@dimen/dp_80"
-            app:srcCompat="@drawable/bv_shoess_hadow"
+            android:layout_width="@dimen/dp_100"
+            android:layout_height="@dimen/dp_50"
+            app:srcCompat="@drawable/sock"
             android:layout_alignParentRight="true"
             android:layout_centerVertical="true"/>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_toLeftOf="@+id/practice_quiz_image"
-            android:layout_marginLeft="@dimen/dp_15"
             android:orientation="vertical">
 
             <LinearLayout
                 android:id="@+id/practice_quiz_back_layout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:visibility="gone">
 
                 <ImageView
                     android:layout_width="@dimen/dp_15"
@@ -48,18 +62,17 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text=""
-                android:layout_marginTop="@dimen/dp_10"
                 android:textColor="@android:color/white"
-                android:textSize="@dimen/sp_16"/>
+                android:textSize="@dimen/sp_20"/>
 
-            <com.firstacademy.piofx.fonts.openSans.OpenSansLight
+            <com.firstacademy.piofx.fonts.openSans.OpenSansRegular
                 android:id="@+id/practice_quiz_vocabulary_desc"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Words that you absolutely must know, too!"
-                android:textSize="@dimen/sp_12"
+                android:text="Words that you absolutely must know!"
+                android:textSize="@dimen/sp_14"
                 android:textColor="@android:color/white"/>
         </LinearLayout>
     </RelativeLayout>
-
+    </android.support.v7.widget.CardView>
 </LinearLayout>

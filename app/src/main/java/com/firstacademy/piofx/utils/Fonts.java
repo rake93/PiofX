@@ -28,6 +28,8 @@ public class Fonts {
         }
         if (viewName.equalsIgnoreCase("Button") && type.equals(Fonts.opensansRegular)) {
             ((TextView) element).setTypeface(getFontFromAsset(context, type), getFontFromAsset(context, type).BOLD);
+        } else if (viewName.equalsIgnoreCase("Button") && type.equals(Fonts.robotoMedium)) {
+            ((TextView) element).setTypeface(getFontFromAsset(context, type), getFontFromAsset(context, type).BOLD);
         }
 
 
@@ -35,11 +37,14 @@ public class Fonts {
 
 
     public static String opensansRegular = "opensans_regular";
+    public static String robotoMedium = "roboto_medium";
 
     public static Typeface getFontFromAsset(Context context, String type) {
         Typeface typeface = null;
         if (type.equals(Fonts.opensansRegular)) {
             typeface = Typeface.createFromAsset(context.getAssets(), "fonts/Open_Sans/OpenSans-Regular.ttf");
+        }  else if (type.equals(Fonts.robotoMedium)) {
+            typeface = Typeface.createFromAsset(context.getAssets(), "fonts/Roboto/Roboto-Medium.ttf");
         }
         return typeface;
     }

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true">
+        <shape android:padding="10dp"
+            android:shape="rectangle">
+            <solid android:color="@color/lightblue" />
+            <!-- this one is ths color of the Rounded Button -->
+
+            <corners
+                android:bottomLeftRadius="2dp"
+                android:bottomRightRadius="2dp"
+                android:topLeftRadius="2dp"
+                android:topRightRadius="2dp" />
+        </shape></item>
+    <item>
+        <shape android:padding="10dp" android:shape="rectangle">
+            <solid android:color="@color/colorMediumTurquoise" />
+            <!-- this one is ths color of the Rounded Button -->
+
+            <corners
+                android:bottomLeftRadius="2dp"
+                android:bottomRightRadius="2dp"
+                android:topLeftRadius="2dp"
+                android:topRightRadius="2dp" />
+        </shape></item>
+
+</selector>

@@ -1,15 +1,132 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:card_view="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
-
+    
+    
     <android.support.v7.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/dp_5"
+        card_view:cardCornerRadius="2dp"
+        card_view:cardBackgroundColor="@android:color/white"
+        card_view:cardElevation="dimen/dp_5"
+        app:cardElevation="@dimen/dp_5"
+        app:cardCornerRadius="@dimen/dp_2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/adapter_home_image_bg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorMediumTurquoise">
+
+                <ImageView
+                    android:id="@+id/adapter_home_ivribbon"
+                    android:layout_width="@dimen/dp_20"
+                    android:layout_height="@dimen/dp_20"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/dp_5"
+                    android:src="@drawable/grey_ribbon"
+                    android:layout_marginTop="@dimen/dp_5" />
+
+                <ImageView
+                    android:id="@+id/adapter_home_image"
+                    android:layout_width="@dimen/dp_130"
+                    android:layout_height="@dimen/dp_130"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/sock"
+                    android:layout_marginTop="@dimen/dp_15"
+                    android:layout_marginBottom="@dimen/dp_15"/>
+          <!--  <ImageView
+                app:layout_widthPercent="100%"
+                app:layout_aspectRatio="178%"
+                android:src="@drawable/bike"
+                android:scaleType="centerCrop"
+                android:background="@color/agri_green" />
+-->
+            </RelativeLayout>
+
+            <ProgressBar
+                android:id="@+id/adapter_home_progressbar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_5"
+                android:background="@color/progress_starting_color" />
+
+        <LinearLayout
+            android:id="@+id/adapter_home_text_layout_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/dp_16"
+            android:paddingRight="@dimen/dp_16"
+            android:paddingTop="@dimen/dp_10"
+            android:paddingBottom="@dimen/dp_10">
+
+            <com.firstacademy.piofx.fonts.openSans.OpenSansBold
+                android:id="@+id/adapter_home_heading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/dp_10"
+                android:text="@string/basic_1"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/sp_16"/>
+            <com.firstacademy.piofx.fonts.openSans.OpenSansSemiBold
+                android:id="@+id/adapter_home_desc"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_110"
+                android:text="@string/basic_vocab_card1_content"
+                android:textColor="@color/darker_gray"
+                android:paddingBottom="@dimen/dp_10"
+                android:layout_gravity="center"
+                android:textSize="@dimen/sp_12"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <com.firstacademy.piofx.fonts.roboto.RobotoMedium
+                    android:id="@+id/adapter_home_practice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/action_practice"
+                    android:textSize="@dimen/sp_14"
+                    android:textColor="@color/practice_color"
+                    android:paddingTop="@dimen/dp_4"
+                    android:paddingBottom="@dimen/dp_4"
+                    android:paddingRight="@dimen/dp_8"
+                    android:background="@drawable/text_bg" />
+                <com.firstacademy.piofx.fonts.roboto.RobotoMedium
+                    android:id="@+id/adapter_home_quiz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/action_quiz"
+                    android:textColor="@color/take_quiz_color"
+                    android:textSize="@dimen/sp_14"
+                    android:paddingTop="@dimen/dp_4"
+                    android:paddingBottom="@dimen/dp_4"
+                    android:paddingLeft="@dimen/dp_8"
+                    android:background="@drawable/text_bg" />
+            </LinearLayout>
+        </LinearLayout>
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+  <!--  <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dp_5"
+        card_view:cardCornerRadius="4dp"
         app:cardBackgroundColor="@android:color/white"
         android:background="@android:color/white"
         card_view:cardUseCompatPadding="true">
@@ -19,17 +136,17 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-    <!--        <ImageView
+    &lt;!&ndash;        <ImageView
                 android:layout_width="@dimen/dp_30"
                 android:layout_height="@dimen/dp_30"
                 android:layout_gravity="right"
                 android:src="@mipmap/ic_launcher"
                 android:paddingTop="@dimen/dp_2"
-                android:paddingRight="@dimen/dp_15"/>-->
+                android:paddingRight="@dimen/dp_15"/>&ndash;&gt;
 
-          <!--  <RelativeLayout
+          &lt;!&ndash;  <RelativeLayout
                 android:layout_width="300dp"
-                android:layout_height="150dp">-->
+                android:layout_height="150dp">&ndash;&gt;
             
             <ImageView
                 android:id="@+id/adapter_home_image"
@@ -38,7 +155,7 @@
                 app:srcCompat="@drawable/bv_socks_shadow"
                 android:layout_gravity="center"
                 android:layout_marginTop="@dimen/dp_20" />
-            <!--</RelativeLayout>-->
+            &lt;!&ndash;</RelativeLayout>&ndash;&gt;
 
             <ProgressBar
                 android:id="@+id/adapter_home_progressbar"
@@ -98,6 +215,6 @@
 
         </LinearLayout>
 
-    </android.support.v7.widget.CardView>
+    </android.support.v7.widget.CardView>-->
 
 </RelativeLayout>

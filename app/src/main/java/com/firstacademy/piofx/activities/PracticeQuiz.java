@@ -1,11 +1,14 @@
 package com.firstacademy.piofx.activities;
 
+import android.app.ActionBar;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.ImageView;
 
 import com.firstacademy.piofx.R;
 import com.firstacademy.piofx.fragments.AboutUs;
@@ -14,22 +17,33 @@ import com.firstacademy.piofx.fragments.Practice;
 import com.firstacademy.piofx.fragments.Profile;
 import com.firstacademy.piofx.fragments.Quiz;
 
-public class PracticeQuiz extends AppCompatActivity {
+public class PracticeQuiz extends AppCompatActivity implements View.OnClickListener{
     private FragmentTransaction fragmentTransaction;
     private Toolbar toolbar;
+    private ImageView backButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_practice_quiz);
+    /*    ActionBar actionBar=getActionBar();
+        actionBar.setDisplayHomeAsUpEnabled(true);*/
 
         initializeViews();
+        initializeClickListeners();
 
     }
 
+
     private void initializeViews() {
         toolbar=(Toolbar)findViewById(R.id.practice_quiz_toolbar);
+        backButton=(ImageView) findViewById(R.id.practice_quiz_toolbar_back);
         loadDefaultFragment();
+    }
+
+
+    private void initializeClickListeners() {
+        backButton.setOnClickListener(this);
     }
 
     private void loadDefaultFragment() {
@@ -80,5 +94,14 @@ public class PracticeQuiz extends AppCompatActivity {
             fragmentTransaction.commit();
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    public void onClick(View view) {
+        switch (view.getId()){
+            case R.id.practice_quiz_toolbar_back:
+                this.finish();
+                break;
+        }
     }
 }
