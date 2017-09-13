@@ -55,4 +55,13 @@
         <item name="colorControlHighlight">@color/light_gray</item>
         <item name="colorButtonNormal">@color/light_gray</item>
     </style>
+
+    <style name="ThemeTextInputLayout" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textColorHint">@color/colorPrimary</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="android:textSize">16sp</item>
+    </style>
 </resources>

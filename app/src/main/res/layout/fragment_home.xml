@@ -4,7 +4,8 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:card_view="http://schemas.android.com/tools"
-    tools:context="com.firstacademy.piofx.fragments.HomeFragment">
+    tools:context="com.firstacademy.piofx.fragments.HomeFragment"
+    android:layout_marginTop="@dimen/dp_8">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -84,7 +85,7 @@
             android:layout_marginRight="@dimen/dp_5"
             card_view:cardCornerRadius="2dp"
             card_view:cardBackgroundColor="@android:color/white"
-            card_view:cardElevation="dimen/dp_5"
+            card_view:cardElevation="@dimen/dp_5"
             app:cardElevation="@dimen/dp_5"
             app:cardCornerRadius="@dimen/dp_2">
 

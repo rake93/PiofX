@@ -42,6 +42,10 @@
     <string name="personal_details">Personal Details</string>
     <string name="name">Name</string>
     <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="retype_pwd">retype password</string>
+    <string name="signin_with_google">Signin With Google</string>
+    <string name="signin_with_fb">Signin With Facebook</string>
     <string name="photo">Photo</string>
     <string name="change_photo">Change Photo</string>
     <string name="remove_photo">Remove Photo</string>
@@ -75,7 +79,17 @@
     <string name="goto_quiz">Go to the quiz</string>
     <string name="level_complete">Level Complete!</string>
 
+    <!--About us page-->
+    <string name="made_with_love"> &lt; made with love by team Pi of x &gt; </string>
+    <string name="meet_the_team">Meet the team</string>
 
+    <string name="aboutus_desc">As counting animals, vagueness and uncertainity in prime numbers
+                surprises us. The gravity of this strange unpredictability kept bringing down
+        scintistists and mathematicians.</string>
+
+    <string name="aboutus_desc2">The prime counting function was the tool     that allowed them to reach
+            escape velocity. To make sense of the infinite randomness of primes.At Pi of x,
+            we wish to help you do the same - make sense of the randomness that is exam prep</string>
 
 
 

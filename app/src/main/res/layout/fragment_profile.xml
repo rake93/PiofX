@@ -1,276 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.firstacademy.piofx.fragments.Profile">
-
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
+    android:layout_marginTop="@dimen/dp_8">
 
     <RelativeLayout
+        android:id="@+id/profile_welcome_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/login_bg_color"
-        android:orientation="vertical"
-        android:paddingLeft="@dimen/dp_20"
-        android:paddingRight="@dimen/dp_20"
-        android:paddingTop="@dimen/dp_20">
-
-        <com.firstacademy.piofx.fonts.openSans.OpenSansRegular
-            android:id="@+id/profile_tvName"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Welcome Pratyusha!"
-            android:textColor="@android:color/white"
-            android:textSize="@dimen/sp_16"/>
-
-        <com.firstacademy.piofx.fonts.openSans.OpenSansLight
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/edit_profile"
-            android:textColor="@android:color/white"
-            android:textSize="@dimen/sp_14"/>
-
-        <LinearLayout
+        <android.support.v7.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginTop="@dimen/dp_10"
-            android:layout_marginBottom="@dimen/dp_15">
-            <Button
-                android:id="@+id/profile_rateUs"
-                android:layout_width="@dimen/dp_80"
-                android:layout_height="@dimen/dp_25"
-                android:background="@color/button_bg_color"
-                android:text="@string/rate_us"
-                android:textAllCaps="false"
-                android:textColor="@android:color/white"
-                android:textSize="@dimen/sp_12"/>
-            <Button
-                android:id="@+id/profile_share_app"
-                android:layout_width="@dimen/dp_100"
-                android:layout_height="@dimen/dp_25"
-                android:background="@color/sky_color"
-                android:text="@string/share_app"
-                android:textAllCaps="false"
-                android:textColor="@android:color/white"
-                android:textSize="@dimen/sp_12"
-                android:layout_marginLeft="@dimen/dp_5"/>
-        </LinearLayout>
-    </LinearLayout>
-        <ImageView
-            android:layout_width="@dimen/dp_80"
-            android:layout_height="@dimen/dp_80"
-            android:src="@mipmap/profile"
-            android:layout_marginRight="@dimen/dp_20"
-            android:layout_alignParentRight="true"
-            android:layout_centerInParent="true"/>
-    </RelativeLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_marginLeft="@dimen/dp_20"
-            android:layout_marginRight="@dimen/dp_20"
-            android:layout_marginTop="@dimen/dp_20"
-            android:paddingTop="@dimen/dp_10"
-            android:paddingBottom="@dimen/dp_10"
-            android:paddingLeft="@dimen/dp_15"
-            android:background="@color/personal_details_bgcolor">
-
-            <com.firstacademy.piofx.fonts.openSans.OpenSansBold
-                android:id="@+id/profile_personal_details"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/personal_details"
-                android:textColor="@android:color/black"
-                android:textSize="@dimen/sp_20"
-                android:layout_marginBottom="@dimen/dp_10"/>
-
-            <LinearLayout
+            android:layout_marginLeft="@dimen/dp_5"
+            android:layout_marginRight="@dimen/dp_5"
+            app:cardCornerRadius="@dimen/dp_2"
+            app:cardBackgroundColor="@android:color/white"
+            app:cardElevation="@dimen/dp_5"
+            card_view:cardCornerRadius="2dp"
+            card_view:cardBackgroundColor="@android:color/white"
+            card_view:cardElevation="@dimen/dp_5">
+            <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <com.firstacademy.piofx.fonts.openSans.OpenSansBold
-                    android:layout_width="@dimen/dp_20"
-                    android:layout_height="@dimen/dp_20"
-                    android:text="a"
-                    android:gravity="center"
-                    android:textColor="@android:color/white"
-                    android:background="@drawable/circle_gray"/>
-
-                <com.firstacademy.piofx.fonts.openSans.OpenSansLightItalic
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/name"
-                    android:textSize="@dimen/sp_18"
-                    android:layout_marginLeft="@dimen/dp_20"
-                    android:textColor="@color/darker_gray"/>
-            </LinearLayout>
-            <com.firstacademy.piofx.fonts.openSans.OpenSansRegular
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Pratyusha Simharaju"
-                android:textColor="@color/black"
-                android:textSize="@dimen/sp_16"
-                android:layout_marginLeft="@dimen/dp_38"/>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_marginTop="@dimen/dp_10">
-                <com.firstacademy.piofx.fonts.openSans.OpenSansBold
-                    android:layout_width="@dimen/dp_20"
-                    android:layout_height="@dimen/dp_20"
-                    android:text="b"
-                    android:gravity="center"
-                    android:textColor="@android:color/white"
-                    android:background="@drawable/circle_gray"/>
-                <com.firstacademy.piofx.fonts.openSans.OpenSansLightItalic
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/email"
-                    android:textSize="@dimen/sp_18"
-                    android:layout_marginLeft="@dimen/dp_20"
-                    android:textColor="@color/darker_gray"/>
-            </LinearLayout>
-            <com.firstacademy.piofx.fonts.openSans.OpenSansRegular
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Pratyusha@gmail.com"
-                android:textColor="@color/black"
-                android:textSize="@dimen/sp_16"
-                android:layout_marginLeft="@dimen/dp_38"/>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_marginTop="@dimen/dp_10">
-                <com.firstacademy.piofx.fonts.openSans.OpenSansBold
-                    android:layout_width="@dimen/dp_20"
-                    android:layout_height="@dimen/dp_20"
-                    android:text="c"
-                    android:gravity="center"
-                    android:textColor="@android:color/white"
-                    android:background="@drawable/circle_gray"/>
-                <com.firstacademy.piofx.fonts.openSans.OpenSansLightItalic
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/photo"
-                    android:textSize="@dimen/sp_18"
-                    android:layout_marginLeft="@dimen/dp_20"
-                    android:textColor="@color/darker_gray"/>
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-                <ImageView
-                    android:layout_width="@dimen/dp_80"
-                    android:layout_height="@dimen/dp_80"
-                    android:src="@mipmap/profile"
-                    android:layout_gravity="center"
-                    android:layout_marginLeft="@dimen/dp_20"/>
+                android:layout_height="wrap_content">
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:background="@color/login_bg_color"
                     android:orientation="vertical"
-                    android:gravity="center_vertical"
-                    android:layout_gravity="center_vertical">
-                    <Button
-                        android:id="@+id/profile_change_photo"
-                        android:layout_width="@dimen/dp_100"
-                        android:layout_height="@dimen/dp_25"
-                        android:background="@color/agri_green"
-                        android:text="@string/change_photo"
-                        android:textAllCaps="false"
+                    android:paddingLeft="@dimen/dp_20"
+                    android:paddingRight="@dimen/dp_20"
+                    android:paddingTop="@dimen/dp_5"
+                    android:paddingBottom="@dimen/dp_5"
+                    android:layout_alignTop="@+id/linearLayout"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true">
+                    <com.firstacademy.piofx.fonts.openSans.OpenSansSemiBold
+                        android:id="@+id/profile_tvName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Welcome Pratyusha!"
                         android:textColor="@android:color/white"
-                        android:textSize="@dimen/sp_12"/>
-                    <Button
-                        android:id="@+id/profile_remove_photo"
-                        android:layout_width="@dimen/dp_100"
-                        android:layout_height="@dimen/dp_25"
-                        android:background="@color/dark_red"
-                        android:text="@string/remove_photo"
-                        android:textAllCaps="false"
+                        android:textSize="@dimen/sp_20"/>
+                    <com.firstacademy.piofx.fonts.openSans.OpenSansRegular
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/edit_profile"
                         android:textColor="@android:color/white"
-                        android:textSize="@dimen/sp_12"
-                        android:layout_marginTop="@dimen/dp_5"/>
+                        android:textSize="@dimen/sp_14"
+                        android:paddingTop="@dimen/dp_2"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="@dimen/dp_10"
+                        android:layout_marginBottom="@dimen/dp_10">
+                        <Button
+                            android:id="@+id/profile_rateUs"
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/dp_36"
+                            android:background="@drawable/button_shape"
+                            android:text="@string/rate_us"
+                            android:textAllCaps="true"
+                            android:textColor="@android:color/white"
+                            android:paddingLeft="@dimen/dp_16"
+                            android:paddingRight="@dimen/dp_16"
+                            android:textSize="@dimen/sp_14"
+                            android:elevation="@dimen/dp_8"
+                            android:theme="@style/Button" />
+                        <Button
+                            android:id="@+id/profile_share_app"
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/dp_36"
+                            android:background="@drawable/button_sky_colr_shape"
+                            android:text="@string/share_app"
+                            android:textAllCaps="true"
+                            android:textColor="@android:color/white"
+                            android:layout_marginLeft="@dimen/dp_10"
+                            android:paddingLeft="@dimen/dp_16"
+                            android:paddingRight="@dimen/dp_16"
+                            android:textSize="@dimen/sp_14"
+                            android:elevation="@dimen/dp_8"
+                            android:theme="@style/Button" />
+                    </LinearLayout>
                 </LinearLayout>
-             </LinearLayout>
-        </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:id="@+id/linearLayout">
+                <ImageView
+                    android:layout_width="@dimen/dp_80"
+                    android:layout_height="@dimen/dp_80"
+                    android:src="@drawable/user"
+                    android:layout_marginRight="@dimen/dp_10" />
+                    <ImageView
+                        android:layout_width="@dimen/dp_20"
+                        android:layout_height="@dimen/dp_20"
+                        android:src="@mipmap/ic_plus"
+                        android:layout_gravity="right"
+                        android:layout_marginTop="-12dp"
+                        android:layout_marginRight="@dimen/dp_5" />
+                </LinearLayout>
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profile_welcome_layout">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_marginLeft="@dimen/dp_20"
-            android:layout_marginRight="@dimen/dp_20"
-            android:layout_marginTop="@dimen/dp_20"
-            android:paddingTop="@dimen/dp_10"
-            android:paddingBottom="@dimen/dp_10"
-            android:paddingLeft="@dimen/dp_15"
-            android:background="@color/app_settings_bg_color">
-
-            <com.firstacademy.piofx.fonts.openSans.OpenSansBold
-                android:layout_width="wrap_content"
+            android:orientation="vertical">
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/app_settings"
-                android:textColor="@android:color/black"
-                android:textSize="@dimen/sp_20"
-                android:layout_marginBottom="@dimen/dp_5"/>
-
-            <Button
-                android:id="@+id/profile_reset_progress"
-                android:layout_width="@dimen/dp_100"
-                android:layout_height="@dimen/dp_25"
-                android:background="@color/dark_red"
-                android:text="@string/reset_progress"
-                android:textAllCaps="false"
-                android:layout_marginTop="@dimen/dp_5"
-                android:textColor="@android:color/white"
-                android:textSize="@dimen/sp_12" />
-
-            <com.firstacademy.piofx.fonts.openSans.OpenSansRegular
-                android:layout_width="wrap_content"
+                android:layout_marginLeft="@dimen/dp_5"
+                android:layout_marginRight="@dimen/dp_5"
+                android:layout_marginTop="@dimen/dp_15"
+                app:cardCornerRadius="@dimen/dp_2"
+                app:cardBackgroundColor="@android:color/white"
+                app:cardElevation="@dimen/dp_10"
+                card_view:cardCornerRadius="2dp"
+                card_view:cardBackgroundColor="@android:color/white"
+                card_view:cardElevation="@dimen/dp_10">
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/reset_desc"
-                android:textColor="@color/black"
-                android:textSize="@dimen/sp_12"
-                android:layout_marginTop="@dimen/dp_5"/>
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/dp_20"
+                android:paddingRight="@dimen/dp_20"
+                android:paddingTop="@dimen/dp_5"
+                android:paddingBottom="@dimen/dp_5"
+                android:background="@color/personal_details_bgcolor">
 
-            <Button
-                android:id="@+id/profile_sign_out"
-                android:layout_width="@dimen/dp_100"
-                android:layout_height="@dimen/dp_25"
-                android:background="@color/darker_gray"
-                android:text="@string/sign_out"
-                android:textAllCaps="false"
-                android:layout_marginTop="@dimen/dp_5"
-                android:textColor="@android:color/white"
-                android:textSize="@dimen/sp_12" />
+                <com.firstacademy.piofx.fonts.openSans.OpenSansSemiBold
+                    android:id="@+id/profile_personal_details"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/personal_details"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/sp_20"
+                    android:layout_marginBottom="@dimen/dp_10"/>
 
-            <com.firstacademy.piofx.fonts.openSans.OpenSansRegular
-                android:layout_width="wrap_content"
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <com.firstacademy.piofx.fonts.openSans.OpenSansBold
+                        android:layout_width="@dimen/dp_20"
+                        android:layout_height="@dimen/dp_20"
+                        android:text="a"
+                        android:gravity="center"
+                        android:textColor="@android:color/white"
+                        android:background="@drawable/circle_gray"/>
+
+                    <com.firstacademy.piofx.fonts.openSans.OpenSansLightItalic
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/name"
+                        android:textSize="@dimen/sp_18"
+                        android:layout_marginLeft="@dimen/dp_20"
+                        android:textColor="@color/darker_gray"/>
+                </LinearLayout>
+                <com.firstacademy.piofx.fonts.openSans.OpenSansRegular
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pratyusha Simharaju"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/sp_18"
+                    android:layout_marginLeft="@dimen/dp_38"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="@dimen/dp_10">
+                    <com.firstacademy.piofx.fonts.openSans.OpenSansBold
+                        android:layout_width="@dimen/dp_20"
+                        android:layout_height="@dimen/dp_20"
+                        android:text="b"
+                        android:gravity="center"
+                        android:textColor="@android:color/white"
+                        android:background="@drawable/circle_gray"/>
+                    <com.firstacademy.piofx.fonts.openSans.OpenSansLightItalic
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/email"
+                        android:textSize="@dimen/sp_18"
+                        android:layout_marginLeft="@dimen/dp_20"
+                        android:textColor="@color/darker_gray"/>
+                </LinearLayout>
+                <com.firstacademy.piofx.fonts.openSans.OpenSansRegular
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pratyusha@gmail.com"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/sp_18"
+                    android:layout_marginLeft="@dimen/dp_38"/>
+            </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/sign_out_desc"
-                android:textColor="@color/black"
-                android:textSize="@dimen/sp_12"
-                android:layout_marginTop="@dimen/dp_5"/>
+                android:layout_marginLeft="@dimen/dp_5"
+                android:layout_marginRight="@dimen/dp_5"
+                android:layout_marginTop="@dimen/dp_15"
+                app:cardCornerRadius="@dimen/dp_2"
+                app:cardBackgroundColor="@android:color/white"
+                app:cardElevation="@dimen/dp_10"
+                card_view:cardCornerRadius="2dp"
+                card_view:cardBackgroundColor="@android:color/white"
+                card_view:cardElevation="@dimen/dp_10">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/dp_20"
+                android:paddingRight="@dimen/dp_20"
+                android:paddingTop="@dimen/dp_5"
+                android:paddingBottom="@dimen/dp_5"
+                android:background="@color/app_settings_bg_color">
+
+                <com.firstacademy.piofx.fonts.openSans.OpenSansSemiBold
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/app_settings"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/sp_20"
+                    android:layout_marginBottom="@dimen/dp_5"/>
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@color/dark_red"
+                    android:layout_marginTop="@dimen/dp_5">
+                    <Button
+                        android:id="@+id/profile_reset_progress"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/dp_36"
+                        android:text="@string/reset_progress"
+                        android:textAllCaps="true"
+                        android:textColor="@android:color/white"
+                        android:paddingLeft="@dimen/dp_16"
+                        android:paddingRight="@dimen/dp_16"
+                        android:textSize="@dimen/sp_14"
+                        android:elevation="@dimen/dp_8"
+                        android:background="?attr/selectableItemBackground"/>
+                </RelativeLayout>
+                <com.firstacademy.piofx.fonts.openSans.OpenSansRegular
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/reset_desc"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/sp_12"
+                    android:layout_marginTop="@dimen/dp_5"/>
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@color/darker_gray"
+                    android:layout_marginTop="@dimen/dp_5">
+                    <Button
+                        android:id="@+id/profile_sign_out"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/dp_36"
+                        android:text="@string/sign_out"
+                        android:textAllCaps="true"
+                        android:textColor="@android:color/white"
+                        android:paddingLeft="@dimen/dp_16"
+                        android:paddingRight="@dimen/dp_16"
+                        android:textSize="@dimen/sp_14"
+                        android:elevation="@dimen/dp_8"
+                        android:background="?attr/selectableItemBackground"/>
+                </RelativeLayout>
+                <com.firstacademy.piofx.fonts.openSans.OpenSansRegular
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sign_out_desc"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/sp_12"
+                    android:layout_marginTop="@dimen/dp_5"/>
 
 
+            </LinearLayout>
+            </android.support.v7.widget.CardView>
         </LinearLayout>
-    </LinearLayout>
     </ScrollView>
+
 </RelativeLayout>

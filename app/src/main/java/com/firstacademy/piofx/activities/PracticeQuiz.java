@@ -33,6 +33,16 @@ public class PracticeQuiz extends AppCompatActivity implements View.OnClickListe
         initializeViews();
         initializeClickListeners();
 
+        if(getIntent().getStringExtra("intent").equals("aboutus")){
+            Constants.homeAdapterId=8;
+            fragmentTransaction.replace(R.id.practice_quiz_container_body, new Quiz());
+            setSupportActionBar(toolbar);
+            fragmentTransaction.commit();
+            Constants.vocabularyTitle= getResources().getString(R.string.team);
+            Constants.image=R.drawable.team;
+            Constants.backGroundColor=getResources().getColor(R.color.colorMediumTurquoise);;
+        }
+
     }
 
 

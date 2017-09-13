@@ -1,22 +1,19 @@
 package com.firstacademy.piofx.fragments;
 
-import android.content.Context;
 import android.graphics.Typeface;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.TextView;
 
 import com.firstacademy.piofx.R;
 import com.firstacademy.piofx.utils.Fonts;
 
 public class Profile extends Fragment {
     private Typeface openSansSemiBold,openSansRegular,openSansLight;
-    private Button bnRateUs,bnShareTheApp,bnChangePhoto,bnRemovePhoto,bnResetProgress,bnSignOut;
+    private Button bnRateUs,bnShareTheApp,bnResetProgress,bnSignOut;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -32,8 +29,6 @@ public class Profile extends Fragment {
     private void initializeViews(View view) {
         bnRateUs=(Button)view.findViewById(R.id.profile_rateUs);
         bnShareTheApp=(Button)view.findViewById(R.id.profile_share_app);
-        bnChangePhoto=(Button)view.findViewById(R.id.profile_change_photo);
-        bnRemovePhoto=(Button)view.findViewById(R.id.profile_remove_photo);
         bnResetProgress=(Button)view.findViewById(R.id.profile_reset_progress);
         bnSignOut=(Button)view.findViewById(R.id.profile_sign_out);
 
@@ -48,12 +43,10 @@ public class Profile extends Fragment {
                 "fonts/Open_Sans/OpenSans-Light.ttf");
 
 //        bnRateUs.setTypeface(openSansRegular);
-        Fonts.setFont(bnRateUs,Fonts.opensansRegular,"Button");
-        Fonts.setFont(bnShareTheApp,Fonts.opensansRegular,"Button");
-        Fonts.setFont(bnChangePhoto,Fonts.opensansRegular,"Button");
-        Fonts.setFont(bnRemovePhoto,Fonts.opensansRegular,"Button");
-        Fonts.setFont(bnResetProgress,Fonts.opensansRegular,"Button");
-        Fonts.setFont(bnSignOut,Fonts.opensansRegular,"Button");
+        Fonts.setFont(bnRateUs,Fonts.robotoMedium,"Button");
+        Fonts.setFont(bnShareTheApp,Fonts.robotoMedium,"Button");
+        Fonts.setFont(bnResetProgress,Fonts.robotoMedium,"Button");
+        Fonts.setFont(bnSignOut,Fonts.robotoMedium,"Button");
 
     }
 }
