@@ -100,7 +100,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/action_practice"
                     android:textSize="@dimen/sp_14"
-                    android:textColor="@color/practice_color"
+                    android:textColor="@color/red"
                     android:paddingTop="@dimen/dp_4"
                     android:paddingBottom="@dimen/dp_4"
                     android:paddingRight="@dimen/dp_8"

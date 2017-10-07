@@ -14,6 +14,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.firstacademy.piofx.R;
+import com.firstacademy.piofx.activities.SignIn;
 import com.firstacademy.piofx.activities.SignUp;
 import com.firstacademy.piofx.adapters.HomeAdapter;
 import com.firstacademy.piofx.models.HomeModel;
@@ -130,8 +131,9 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
                 startActivity(new Intent(getActivity(), SignUp.class));
                 break;
             case R.id.fhome_tvSingin:
-                loginLayout.setVisibility(View.GONE);
-                welcomeLayout.setVisibility(View.VISIBLE);
+                startActivity(new Intent(getActivity(), SignIn.class));
+//                loginLayout.setVisibility(View.GONE);
+//                welcomeLayout.setVisibility(View.VISIBLE);
                 break;
             case R.id.fhome_bnRateUs:
 

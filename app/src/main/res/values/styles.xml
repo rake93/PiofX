@@ -3,6 +3,13 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
+        <!--     <item name="colorPrimary">@color/colorMediumTurquoise</item>
+             <item name="colorPrimaryDark">@color/colorMediumTurquoise</item>
+             <item name="colorAccent">@color/colorMediumTurquoise</item>-->
+    </style>
+
+    <style name="AppTheme1" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--Customize your theme here. -->
         <item name="colorPrimary">@color/colorMediumTurquoise</item>
         <item name="colorPrimaryDark">@color/colorMediumTurquoise</item>
         <item name="colorAccent">@color/colorMediumTurquoise</item>
@@ -57,11 +64,17 @@
     </style>
 
     <style name="ThemeTextInputLayout" parent="Theme.AppCompat.Light.NoActionBar">
-        <item name="android:textColor">@color/colorPrimary</item>
-        <item name="android:textColorHint">@color/colorPrimary</item>
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimary</item>
-        <item name="colorAccent">@color/colorPrimary</item>
-        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textColorHint">@color/white</item>
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/white</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="android:textSize">25sp</item>
+    </style>
+
+    <!--<style name="TextAppearance.App.TextInputLayout" parent="@android:style/TextAppearance">-->
+    <style name="TextAppearance.App.TextInputLayout" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">25sp</item>
     </style>
 </resources>

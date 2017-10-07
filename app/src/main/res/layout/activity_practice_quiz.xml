@@ -27,7 +27,8 @@
                     android:layout_width="@dimen/dp_25"
                     android:layout_height="@dimen/dp_25"
                     android:src="@mipmap/ic_back_white"
-                    android:background="?android:attr/selectableItemBackground" />
+                    android:background="?attr/selectableItemBackground"/>
+                    <!--android:background="?android:attr/selectableItemBackground" />-->
                 <com.firstacademy.piofx.fonts.openSans.OpenSansBold
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -45,6 +46,6 @@
         android:id="@+id/practice_quiz_container_body"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="@dimen/dp_65"/>
+        android:layout_below="@+id/practice_quiz_appBarLayout"/>
 
 </RelativeLayout>

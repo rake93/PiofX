@@ -31,22 +31,24 @@
         </RelativeLayout>
     </RelativeLayout>
 
-    <ScrollView
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_above="@+id/faboutus_meet_team_layout">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
-            android:layout_gravity="center"
-            android:gravity="center"
-            android:layout_marginTop="@dimen/dp_60"
-            android:layout_marginBottom="@dimen/dp_30">
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal">
             <ImageView
                 android:layout_width="@dimen/dp_200"
                 android:layout_height="@dimen/dp_200"
-                android:src="@drawable/about" />
+                android:src="@drawable/about"
+                android:layout_marginTop="@dimen/dp_35"/>
 
             <com.firstacademy.piofx.fonts.patua.PatuaRegular
                 android:layout_width="wrap_content"
@@ -83,10 +85,9 @@
                 android:textSize="@dimen/sp_16"
                 android:paddingLeft="@dimen/dp_20"
                 android:paddingRight="@dimen/dp_20"
-                android:paddingBottom="@dimen/dp_30"
-                android:layout_marginBottom="@dimen/dp_30"/>
+                android:layout_marginBottom="@dimen/dp_35"/>
 
         </LinearLayout>
     </ScrollView>
-
+    </RelativeLayout>
 </RelativeLayout>

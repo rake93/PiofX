@@ -94,8 +94,8 @@
                     android:layout_centerVertical="true"
                     android:id="@+id/linearLayout">
                 <ImageView
-                    android:layout_width="@dimen/dp_80"
-                    android:layout_height="@dimen/dp_80"
+                    android:layout_width="@dimen/dp_60"
+                    android:layout_height="@dimen/dp_60"
                     android:src="@drawable/user"
                     android:layout_marginRight="@dimen/dp_10" />
                     <ImageView
@@ -103,7 +103,7 @@
                         android:layout_height="@dimen/dp_20"
                         android:src="@mipmap/ic_plus"
                         android:layout_gravity="right"
-                        android:layout_marginTop="-12dp"
+                        android:layout_marginTop="-10dp"
                         android:layout_marginRight="@dimen/dp_5" />
                 </LinearLayout>
             </RelativeLayout>
@@ -136,8 +136,6 @@
                 android:orientation="vertical"
                 android:paddingLeft="@dimen/dp_20"
                 android:paddingRight="@dimen/dp_20"
-                android:paddingTop="@dimen/dp_5"
-                android:paddingBottom="@dimen/dp_5"
                 android:background="@color/personal_details_bgcolor">
 
                 <com.firstacademy.piofx.fonts.openSans.OpenSansSemiBold
@@ -147,6 +145,7 @@
                     android:text="@string/personal_details"
                     android:textColor="@android:color/black"
                     android:textSize="@dimen/sp_20"
+                    android:paddingTop="@dimen/dp_10"
                     android:layout_marginBottom="@dimen/dp_10"/>
 
                 <LinearLayout
@@ -204,7 +203,8 @@
                     android:text="Pratyusha@gmail.com"
                     android:textColor="@color/black"
                     android:textSize="@dimen/sp_18"
-                    android:layout_marginLeft="@dimen/dp_38"/>
+                    android:layout_marginLeft="@dimen/dp_38"
+                    android:paddingBottom="@dimen/dp_12"/>
             </LinearLayout>
             </android.support.v7.widget.CardView>
             <android.support.v7.widget.CardView
@@ -225,8 +225,6 @@
                 android:orientation="vertical"
                 android:paddingLeft="@dimen/dp_20"
                 android:paddingRight="@dimen/dp_20"
-                android:paddingTop="@dimen/dp_5"
-                android:paddingBottom="@dimen/dp_5"
                 android:background="@color/app_settings_bg_color">
 
                 <com.firstacademy.piofx.fonts.openSans.OpenSansSemiBold
@@ -235,8 +233,22 @@
                     android:text="@string/app_settings"
                     android:textColor="@android:color/black"
                     android:textSize="@dimen/sp_20"
+                    android:paddingTop="@dimen/dp_10"
                     android:layout_marginBottom="@dimen/dp_5"/>
-                <RelativeLayout
+                <Button
+                    android:id="@+id/profile_reset_progress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/dp_36"
+                    android:background="@drawable/button_red_colr_shape"
+                    android:text="@string/reset_progress"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/white"
+                    android:paddingLeft="@dimen/dp_16"
+                    android:paddingRight="@dimen/dp_16"
+                    android:textSize="@dimen/sp_14"
+                    android:elevation="@dimen/dp_8"
+                    android:theme="@style/Button" />
+                <!--<RelativeLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
@@ -254,15 +266,29 @@
                         android:textSize="@dimen/sp_14"
                         android:elevation="@dimen/dp_8"
                         android:background="?attr/selectableItemBackground"/>
-                </RelativeLayout>
+                </RelativeLayout>-->
                 <com.firstacademy.piofx.fonts.openSans.OpenSansRegular
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/reset_desc"
                     android:textColor="@color/black"
                     android:textSize="@dimen/sp_12"
-                    android:layout_marginTop="@dimen/dp_5"/>
-                <RelativeLayout
+                    android:layout_marginTop="@dimen/dp_5"
+                    android:layout_marginBottom="@dimen/dp_5"/>
+                <Button
+                    android:id="@+id/profile_sign_out"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/dp_36"
+                    android:background="@drawable/button_gray_colr_shape"
+                    android:text="@string/sign_out"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/white"
+                    android:paddingLeft="@dimen/dp_16"
+                    android:paddingRight="@dimen/dp_16"
+                    android:textSize="@dimen/sp_14"
+                    android:elevation="@dimen/dp_8"
+                    android:theme="@style/Button" />
+               <!-- <RelativeLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
@@ -280,19 +306,17 @@
                         android:textSize="@dimen/sp_14"
                         android:elevation="@dimen/dp_8"
                         android:background="?attr/selectableItemBackground"/>
-                </RelativeLayout>
+                </RelativeLayout>-->
                 <com.firstacademy.piofx.fonts.openSans.OpenSansRegular
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/sign_out_desc"
                     android:textColor="@color/black"
                     android:textSize="@dimen/sp_12"
+                    android:paddingBottom="@dimen/dp_15"
                     android:layout_marginTop="@dimen/dp_5"/>
-
-
             </LinearLayout>
             </android.support.v7.widget.CardView>
         </LinearLayout>
     </ScrollView>
-
 </RelativeLayout>

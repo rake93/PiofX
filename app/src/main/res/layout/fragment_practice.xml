@@ -3,7 +3,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.firstacademy.piofx.fragments.Practice">
+    tools:context="com.firstacademy.piofx.fragments.Practice"
+    android:layout_marginTop="@dimen/dp_8">
 
     <include layout="@layout/practice_quiz_top_layout"/>
 

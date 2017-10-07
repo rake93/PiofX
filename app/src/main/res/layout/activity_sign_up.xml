@@ -7,12 +7,17 @@
     tools:context="com.firstacademy.piofx.activities.SignUp"
     android:background="@color/colorMediumTurquoise">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:orientation="vertical"
-        android:layout_centerInParent="true">
+        android:layout_margin="@dimen/dp_40">
         <RelativeLayout
+            android:id="@+id/signup_backLayout"
             android:layout_width="@dimen/dp_50"
             android:layout_height="@dimen/dp_50"
             android:background="@drawable/circle_white"
@@ -23,94 +28,196 @@
                 android:layout_height="@dimen/dp_25"
                 android:layout_centerInParent="true"
                 android:src="@mipmap/ic_back_arrow"/>
-
         </RelativeLayout>
+
+        <com.firstacademy.piofx.fonts.patua.PatuaRegular
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sign_up"
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/sp_40"
+            android:layout_marginTop="@dimen/dp_15"/>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:paddingLeft="@dimen/dp_20"
-            android:paddingRight="@dimen/dp_20">
+            android:orientation="vertical">
         <android.support.design.widget.TextInputLayout
-            android:id="@+id/namweWrapper"
+            android:id="@+id/signup_tlName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingTop="@dimen/dp_16"
-            android:paddingBottom="@dimen/dp_8"
+            android:textColorHint="@android:color/white"
             style="@style/ThemeTextInputLayout">
 
-            <android.support.design.widget.TextInputEditText
-                android:id="@+id/etName"
+            <EditText
+                android:id="@+id/signup_teName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textPersonName"
                 android:hint="@string/name"
+                android:textColor="@android:color/white"
+                android:backgroundTint="@android:color/white"
                 android:paddingBottom="@dimen/dp_8"
                 android:layout_marginBottom="@dimen/dp_8"
-                android:textSize="@dimen/sp_16"/>
+                android:textSize="@dimen/sp_18"/>
 
         </android.support.design.widget.TextInputLayout>
 
             <android.support.design.widget.TextInputLayout
-                android:id="@+id/emailWrapper"
+                android:id="@+id/signup_tlEmail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingTop="@dimen/dp_16"
-                android:paddingBottom="@dimen/dp_8"
+                android:textColorHint="@android:color/white"
                 style="@style/ThemeTextInputLayout">
 
-                <android.support.design.widget.TextInputEditText
-                    android:id="@+id/etEmail"
+                <EditText
+                    android:id="@+id/signup_teEmail"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="textEmailAddress"
                     android:hint="@string/email"
+                    android:textColor="@android:color/white"
+                    android:backgroundTint="@android:color/white"
                     android:paddingBottom="@dimen/dp_8"
                     android:layout_marginBottom="@dimen/dp_8"
-                    android:textSize="@dimen/sp_16"/>
+                    android:textSize="@dimen/sp_18"/>
 
             </android.support.design.widget.TextInputLayout>
 
             <android.support.design.widget.TextInputLayout
-                android:id="@+id/passwordWrapper"
+                android:id="@+id/signup_tlPassword"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingTop="@dimen/dp_16"
-                android:paddingBottom="@dimen/dp_8"
+                android:textColorHint="@android:color/white"
                 style="@style/ThemeTextInputLayout">
 
-                <android.support.design.widget.TextInputEditText
-                    android:id="@+id/etPassword"
+                <EditText
+                    android:id="@+id/signup_tePassword"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="textPassword"
                     android:hint="@string/password"
+                    android:textColor="@android:color/white"
+                    android:backgroundTint="@android:color/white"
                     android:paddingBottom="@dimen/dp_8"
                     android:layout_marginBottom="@dimen/dp_8"
-                    android:textSize="@dimen/sp_16"/>
+                    android:textSize="@dimen/sp_18"/>
 
             </android.support.design.widget.TextInputLayout>
 
             <android.support.design.widget.TextInputLayout
-                android:id="@+id/retypePasswordWrapper"
+                android:id="@+id/signup_tlRetypePassword"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingTop="@dimen/dp_16"
-                android:paddingBottom="@dimen/dp_8"
-                android:textColorHint="@color/dark_sky"
+                android:textColorHint="@android:color/white"
                 style="@style/ThemeTextInputLayout">
 
-                <android.support.design.widget.TextInputEditText
-                    android:id="@+id/etretypePassword"
+                <EditText
+                    android:id="@+id/signup_teRetypePassword"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="textPassword"
                     android:hint="@string/retype_pwd"
+                    android:textColor="@android:color/white"
+                    android:backgroundTint="@android:color/white"
                     android:paddingBottom="@dimen/dp_8"
                     android:layout_marginBottom="@dimen/dp_8"
-                    android:textSize="@dimen/sp_16"/>
+                    android:textSize="@dimen/sp_18"/>
 
             </android.support.design.widget.TextInputLayout>
     </LinearLayout>
+        <RelativeLayout
+            android:id="@+id/signup_bnLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="#A2ECFF"
+            android:layout_marginTop="@dimen/dp_25">
+        <Button
+            android:id="@+id/signup_bnSignup"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_36"
+            android:background="?attr/selectableItemBackground"
+            android:text="@string/sign_up"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/sp_14"
+            android:elevation="@dimen/dp_8"
+            android:theme="@style/PrimaryFlatButton" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/dp_30">
+            <LinearLayout
+                android:id="@+id/signup_GplusLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:layout_marginRight="@dimen/dp_5"
+                android:background="#A2ECFF">
+                <ImageView
+                    android:layout_width="@dimen/dp_30"
+                    android:layout_height="@dimen/dp_45"
+                    android:src="@mipmap/ic_gplus"
+                    android:layout_marginLeft="@dimen/dp_10"/>
+                <Button
+                    android:id="@+id/signup_bnGplus"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_36"
+                    android:background="?attr/selectableItemBackground"
+                    android:text="@string/signin_with_google"
+                    android:textAllCaps="true"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/sp_14"
+                    android:theme="@style/PrimaryFlatButton" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/signup_FBLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:layout_marginLeft="@dimen/dp_5"
+                android:background="#A2ECFF">
+                <ImageView
+                    android:layout_width="@dimen/dp_30"
+                    android:layout_height="@dimen/dp_45"
+                    android:src="@mipmap/ic_facebook"
+                    android:layout_marginLeft="@dimen/dp_10"/>
+                <Button
+                    android:id="@+id/signup_bnFB"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_36"
+                    android:background="?attr/selectableItemBackground"
+                    android:text="@string/signin_with_fb"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/sp_14"
+                    android:layout_gravity="center_vertical"
+                    android:theme="@style/PrimaryFlatButton" />
+            </LinearLayout>
+        </LinearLayout>
+        <com.firstacademy.piofx.fonts.openSans.OpenSansRegular
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/terms_conditions"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="@dimen/dp_50"
+            android:paddingBottom="@dimen/dp_50"
+            android:paddingLeft="@dimen/dp_15"
+            android:paddingRight="@dimen/dp_15"
+            android:gravity="center"
+            android:textSize="@dimen/sp_14"/>
     </LinearLayout>
+    </ScrollView>
 </RelativeLayout>

@@ -25,10 +25,14 @@ public class Fonts {
             ((AutoCompleteTextView) element).setTypeface(getFontFromAsset(context, type));
         } else if (viewName.equalsIgnoreCase("Menu")) {
             //((MenuItem) element).setTypeface(getFontFromAsset(context, type));
+        } else if (viewName.equalsIgnoreCase("EditText") && type.equals(Fonts.opensansRegular)) {
+            ((TextView) element).setTypeface(getFontFromAsset(context, type), getFontFromAsset(context, type).BOLD);
         }
         if (viewName.equalsIgnoreCase("Button") && type.equals(Fonts.opensansRegular)) {
             ((TextView) element).setTypeface(getFontFromAsset(context, type), getFontFromAsset(context, type).BOLD);
         } else if (viewName.equalsIgnoreCase("Button") && type.equals(Fonts.robotoMedium)) {
+            ((TextView) element).setTypeface(getFontFromAsset(context, type), getFontFromAsset(context, type).BOLD);
+        }  else if (viewName.equalsIgnoreCase("Button") && type.equals(Fonts.patua)) {
             ((TextView) element).setTypeface(getFontFromAsset(context, type), getFontFromAsset(context, type).BOLD);
         }
 
@@ -38,6 +42,7 @@ public class Fonts {
 
     public static String opensansRegular = "opensans_regular";
     public static String robotoMedium = "roboto_medium";
+    public static String patua = "patua";
 
     public static Typeface getFontFromAsset(Context context, String type) {
         Typeface typeface = null;
@@ -45,6 +50,8 @@ public class Fonts {
             typeface = Typeface.createFromAsset(context.getAssets(), "fonts/Open_Sans/OpenSans-Regular.ttf");
         }  else if (type.equals(Fonts.robotoMedium)) {
             typeface = Typeface.createFromAsset(context.getAssets(), "fonts/Roboto/Roboto-Medium.ttf");
+        } else if (type.equals(Fonts.patua)) {
+            typeface = Typeface.createFromAsset(context.getAssets(), "fonts/Patua_One/PatuaOne-Regular.ttf");
         }
         return typeface;
     }

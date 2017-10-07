@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.firstacademy.piofx.fragments.Quiz">
+    tools:context="com.firstacademy.piofx.fragments.Quiz"
+    android:layout_marginTop="@dimen/dp_8">
 
     <RelativeLayout
         android:id="@+id/fquiz_bottom_layout"
@@ -18,7 +19,7 @@
             android:layout_height="match_parent"
             android:background="?android:attr/selectableItemBackground">
 
-        <com.firstacademy.piofx.fonts.openSans.OpenSansBold
+        <com.firstacademy.piofx.fonts.patua.PatuaRegular
             android:id="@+id/fquiz_bottom_layout_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

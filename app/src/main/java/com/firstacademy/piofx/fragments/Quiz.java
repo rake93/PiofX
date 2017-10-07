@@ -157,7 +157,11 @@ public class Quiz extends Fragment implements View.OnClickListener {
     }
 
     private void getAnswer(String option) {
-        if(option.equals("influence")){
+        if(tvBottomText.getText().toString().equals(getResources().getString(R.string.who_next))) {
+            tvBottomText.setText(getResources().getString(R.string.who_next));
+            rlBottomLayout.setBackgroundColor(getResources().getColor(R.color.who_next_bg_color));
+            flipToQuestion();
+        } else if(option.equals("influence")){
             llBackCardLayout.setVisibility(View.VISIBLE);
             llFrontCardLayout.setVisibility(View.GONE);
             tvBingoOOpsie.setText("Bingo!");
