@@ -1,6 +1,7 @@
 package com.firstacademy.piofx.activities;
 
 import android.content.Intent;
+import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -16,6 +17,7 @@ public class SignIn extends AppCompatActivity implements View.OnClickListener{
     private Button signInLayout;
     private EditText etEmail,etPassword;
     private Button signIn,signInWithgoogle,signInWithFB;
+    private Boolean exit = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -59,5 +61,28 @@ public class SignIn extends AppCompatActivity implements View.OnClickListener{
                 startActivity(new Intent(SignIn.this,Home.class));
                 break;
         }
+    }
+
+    @Override
+    public void onBackPressed() {
+        Intent intent = new Intent(Intent.ACTION_MAIN);
+        intent.addCategory(Intent.CATEGORY_HOME);
+        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        startActivity(intent);
+      /*  if (exit) {
+            finish(); // finish activity
+        } else {
+            Toast.makeText(this, "Press Back again to Exit.",
+                    Toast.LENGTH_SHORT).show();
+            exit = true;
+            new Handler().postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    exit = false;
+                }
+            }, 3 * 1000);
+
+        }*/
+
     }
 }

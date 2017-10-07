@@ -13,7 +13,7 @@
 
     <ImageView
         android:id="@+id/splash"
-        android:layout_width="@dimen/dp_300"
+        android:layout_width="@dimen/dp_250"
         android:layout_height="@dimen/dp_300"
         app:srcCompat="@drawable/splash_img" />
 </LinearLayout>

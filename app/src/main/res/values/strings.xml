@@ -60,12 +60,12 @@
 
 
     <string name="back">Back</string>
-    <string name="skip">skip</string>
-    <string name="take_ahead">Take me Ahead!</string>
-    <string name="who_next">Who\'s next</string>
+    <string name="skip">Skip</string>
+    <string name="take_ahead">Take Me Ahead!</string>
+    <string name="who_next">Who\'s Next</string>
     <string name="learning_time">Learning time!</string>
     <string name="next">Next!</string>
-    <string name="got_it">got it!</string>
+    <string name="got_it">Got it!</string>
     <string name="silver_text">You\'ve just missed the gold medal and a full star!</string>
     <string name="bronze_text">You\'ve just missed the silver medal and a star!</string>
     <string name="retake_quiz">Retake the quiz</string>
