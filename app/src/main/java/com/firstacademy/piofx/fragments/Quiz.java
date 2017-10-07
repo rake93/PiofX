@@ -29,10 +29,10 @@ public class Quiz extends Fragment implements View.OnClickListener {
     private TextView tvVocabularyTitle,tvQuestion,tvPartsOfSpeech,tvOptionA,tvOptionB,tvOptionC,
             tvOptionD,tvBottomText,tvBingoOOpsie,tvBackQuestion,tvBackPartsOfSpeech,tvBackMeaning,
             tvBackExample1,tvBackExample2;
-    private ImageView ivImage;
+    private ImageView ivImage,teamPersonalImage;
     private LinearLayout llBackLayout,llALayout,llBLayout,llCLayout,llDLayout,llFrontCardLayout,
                 llBackCardLayout,llRootLayout,llBackTextLayout;
-    private RelativeLayout rlBottomLayout,rlTopLayout;
+    private RelativeLayout rlBottomLayout,rlTopLayout,teamPersonalImageLayout;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -62,6 +62,7 @@ public class Quiz extends Fragment implements View.OnClickListener {
         tvBackExample2=(TextView)view.findViewById(R.id.fquiz_back_example2);
 
         ivImage=(ImageView) view.findViewById(R.id.practice_quiz_image);
+        teamPersonalImage=(ImageView) view.findViewById(R.id.fquiz_team_image);
 
         llBackLayout=(LinearLayout) view.findViewById(R.id.practice_quiz_back_layout);
         llALayout=(LinearLayout) view.findViewById(R.id.fquiz_option_a_layout);
@@ -75,11 +76,21 @@ public class Quiz extends Fragment implements View.OnClickListener {
 
         rlBottomLayout=(RelativeLayout)view.findViewById(R.id.fquiz_bottom_layout);
         rlTopLayout=(RelativeLayout)view.findViewById(R.id.practice_quiz_top_layout);
+        teamPersonalImageLayout=(RelativeLayout) view.findViewById(R.id.fquiz_team_image_layout);
+
 
         llFrontCardLayout.setVisibility(View.VISIBLE);
         if(Constants.homeAdapterId==8){
             tvBottomText.setText(getResources().getString(R.string.who_next));
             rlBottomLayout.setBackgroundColor(getResources().getColor(R.color.who_next_bg_color));
+            tvQuestion.setText("Pratyusha");
+            tvPartsOfSpeech.setText("Captain");
+            tvOptionA.setText("Second Name: Simharaju");
+            tvOptionB.setText("Likes: Working out, Succeeding");
+            tvOptionC.setText("USP: Second name means lion king");
+            tvOptionD.setText("Work: Coding, Design");
+            teamPersonalImageLayout.setVisibility(View.VISIBLE);
+            teamPersonalImage.setImageResource(R.drawable.prathyusha);
         }
     }
 
@@ -138,7 +149,8 @@ public class Quiz extends Fragment implements View.OnClickListener {
                 }else if(tvBottomText.getText().toString().equals(getResources().getString(R.string.who_next))){
                     tvBottomText.setText(getResources().getString(R.string.who_next));
                     rlBottomLayout.setBackgroundColor(getResources().getColor(R.color.who_next_bg_color));
-                    flipToQuestion();
+//                    flipToQuestion();
+                    flipToNextPerson();
                 }
                 break;
             case R.id.fquiz_option_a_layout:
@@ -160,7 +172,7 @@ public class Quiz extends Fragment implements View.OnClickListener {
         if(tvBottomText.getText().toString().equals(getResources().getString(R.string.who_next))) {
             tvBottomText.setText(getResources().getString(R.string.who_next));
             rlBottomLayout.setBackgroundColor(getResources().getColor(R.color.who_next_bg_color));
-            flipToQuestion();
+            flipToNextPerson();
         } else if(option.equals("influence")){
             llBackCardLayout.setVisibility(View.VISIBLE);
             llFrontCardLayout.setVisibility(View.GONE);
@@ -209,6 +221,42 @@ public class Quiz extends Fragment implements View.OnClickListener {
             flipAnimation.reverse();
         }
         llRootLayout.startAnimation(flipAnimation);*/
+    }
+
+
+    private void flipToNextPerson() {
+        llBackCardLayout.setVisibility(View.GONE);
+        llFrontCardLayout.setVisibility(View.VISIBLE);
+        Animation zoomin = AnimationUtils.loadAnimation(getActivity(), R.anim.translate);
+        llFrontCardLayout.setAnimation(zoomin);
+        llFrontCardLayout.startAnimation(zoomin);
+
+        if(tvQuestion.getText().toString().equals("Pratyusha")) {
+            tvQuestion.setText("Sagarika");
+            tvPartsOfSpeech.setText("Captain");
+            tvOptionA.setText("Second Name: Nagunoori");
+            tvOptionB.setText("Likes: Working out, Succeeding");
+            tvOptionC.setText("USP: Second name means lion king");
+            tvOptionD.setText("Work: Design,Development");
+            teamPersonalImage.setImageResource(R.drawable.prathyusha);
+        }else if(tvQuestion.getText().toString().equals("Sagarika")) {
+            tvQuestion.setText("Rakesh");
+            tvPartsOfSpeech.setText("Captain");
+            tvOptionA.setText("Second Name: Muppa");
+            tvOptionB.setText("Likes: Working out, Succeeding");
+            tvOptionC.setText("USP: Second name means lion king");
+            tvOptionD.setText("Work: Development");
+            teamPersonalImage.setImageResource(R.drawable.prathyusha);
+        }else if(tvQuestion.getText().toString().equals("Rakesh")) {
+            tvQuestion.setText("Pratyusha");
+            tvPartsOfSpeech.setText("Captain");
+            tvOptionA.setText("Second Name: Simharaju");
+            tvOptionB.setText("Likes: Working out, Succeeding");
+            tvOptionC.setText("USP: Second name means lion king");
+            tvOptionD.setText("Work: Coding, Design");
+            teamPersonalImage.setImageResource(R.drawable.prathyusha);
+        }
+
     }
 
 
