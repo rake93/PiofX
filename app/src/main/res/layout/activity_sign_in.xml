@@ -12,152 +12,152 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:layout_marginTop="@dimen/dp_80"
-        android:layout_marginLeft="@dimen/dp_40"
-        android:layout_marginRight="@dimen/dp_40">
-
-        <com.firstacademy.piofx.fonts.patua.PatuaRegular
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/sign_in"
-            android:layout_gravity="center"
-            android:textColor="@android:color/white"
-            android:textSize="@dimen/sp_40"
-            android:layout_marginTop="@dimen/dp_15"/>
-
-
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/dp_80"
+            android:layout_marginLeft="@dimen/dp_40"
+            android:layout_marginRight="@dimen/dp_40">
 
-            <android.support.design.widget.TextInputLayout
-                android:id="@+id/signin_tlEmail"
-                android:layout_width="match_parent"
+            <com.firstacademy.piofx.fonts.patua.PatuaRegular
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fitsSystemWindows="true"
-                android:focusableInTouchMode="true"
-                android:paddingTop="@dimen/dp_16"
-                android:textColorHint="@android:color/white"
-                style="@style/ThemeTextInputLayout">
-
-                <EditText
-                    android:id="@+id/signin_teEmail"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:inputType="textEmailAddress"
-                    android:hint="@string/email"
-                    android:textColor="@android:color/white"
-                    android:backgroundTint="@android:color/white"
-                    android:paddingBottom="@dimen/dp_8"
-                    android:layout_marginBottom="@dimen/dp_8"
-                    android:textSize="@dimen/sp_18"/>
-
-            </android.support.design.widget.TextInputLayout>
-
-            <android.support.design.widget.TextInputLayout
-                android:id="@+id/signin_tlPassword"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:paddingTop="@dimen/dp_16"
-                android:textColorHint="@android:color/white"
-                style="@style/ThemeTextInputLayout">
-
-                <EditText
-                    android:id="@+id/signin_etPassword"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:inputType="textPassword"
-                    android:hint="@string/password"
-                    android:textColor="@android:color/white"
-                    android:backgroundTint="@android:color/white"
-                    android:paddingBottom="@dimen/dp_8"
-                    android:layout_marginBottom="@dimen/dp_8"
-                    android:textSize="@dimen/sp_18"/>
-
-            </android.support.design.widget.TextInputLayout>
-
-        </LinearLayout>
-        <RelativeLayout
-            android:id="@+id/signin_bnLayout"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:background="#A2ECFF"
-            android:layout_marginTop="@dimen/dp_25">
-            <Button
-                android:id="@+id/signin_bnSignin"
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/dp_36"
-                android:background="?attr/selectableItemBackground"
                 android:text="@string/sign_in"
-                android:textAllCaps="true"
+                android:layout_gravity="center"
                 android:textColor="@android:color/white"
-                android:textSize="@dimen/sp_14"
-                android:elevation="@dimen/dp_8"
-                android:theme="@style/PrimaryFlatButton" />
-        </RelativeLayout>
+                android:textSize="@dimen/sp_40"
+                android:layout_marginTop="@dimen/dp_15"/>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginTop="@dimen/dp_30">
+
             <LinearLayout
-                android:id="@+id/signin_GplusLayout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_weight="1"
-                android:layout_marginRight="@dimen/dp_5"
-                android:background="#A2ECFF">
-                <ImageView
-                    android:layout_width="@dimen/dp_30"
-                    android:layout_height="@dimen/dp_45"
-                    android:src="@mipmap/ic_gplus"
-                    android:layout_marginLeft="@dimen/dp_10"/>
-                <Button
-                    android:id="@+id/signin_bnGplus"
+                android:orientation="vertical">
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/signin_tlEmail"
                     android:layout_width="match_parent"
-                    android:layout_height="@dimen/dp_36"
-                    android:background="?attr/selectableItemBackground"
-                    android:text="@string/signin_with_google"
-                    android:textAllCaps="true"
-                    android:layout_gravity="center_vertical"
-                    android:textColor="@android:color/white"
-                    android:textSize="@dimen/sp_14"
-                    android:theme="@style/PrimaryFlatButton" />
+                    android:layout_height="wrap_content"
+                    android:fitsSystemWindows="true"
+                    android:focusableInTouchMode="true"
+                    android:paddingTop="@dimen/dp_16"
+                    android:textColorHint="@android:color/white"
+                    style="@style/ThemeTextInputLayout">
+
+                    <EditText
+                        android:id="@+id/signin_teEmail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textEmailAddress"
+                        android:hint="@string/email"
+                        android:textColor="@android:color/white"
+                        android:backgroundTint="@android:color/white"
+                        android:paddingBottom="@dimen/dp_8"
+                        android:layout_marginBottom="@dimen/dp_8"
+                        android:textSize="@dimen/sp_18"/>
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/signin_tlPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/dp_16"
+                    android:textColorHint="@android:color/white"
+                    style="@style/ThemeTextInputLayout">
+
+                    <EditText
+                        android:id="@+id/signin_etPassword"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPassword"
+                        android:hint="@string/password"
+                        android:textColor="@android:color/white"
+                        android:backgroundTint="@android:color/white"
+                        android:paddingBottom="@dimen/dp_8"
+                        android:layout_marginBottom="@dimen/dp_8"
+                        android:textSize="@dimen/sp_18"/>
+
+                </android.support.design.widget.TextInputLayout>
+
             </LinearLayout>
-            <LinearLayout
-                android:id="@+id/signin_FBLayout"
-                android:layout_width="match_parent"
+            <RelativeLayout
+                android:id="@+id/signin_bnLayout"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_weight="1"
-                android:layout_marginLeft="@dimen/dp_5"
-                android:background="#A2ECFF">
-                <ImageView
-                    android:layout_width="@dimen/dp_30"
-                    android:layout_height="@dimen/dp_45"
-                    android:src="@mipmap/ic_facebook"
-                    android:layout_marginLeft="@dimen/dp_10"/>
+                android:gravity="center"
+                android:background="#A2ECFF"
+                android:layout_marginTop="@dimen/dp_25">
                 <Button
-                    android:id="@+id/signin_bnFB"
+                    android:id="@+id/signin_bnSignin"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/dp_36"
                     android:background="?attr/selectableItemBackground"
-                    android:text="@string/signin_with_fb"
+                    android:text="@string/sign_in"
                     android:textAllCaps="true"
                     android:textColor="@android:color/white"
                     android:textSize="@dimen/sp_14"
-                    android:layout_gravity="center_vertical"
+                    android:elevation="@dimen/dp_8"
                     android:theme="@style/PrimaryFlatButton" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/dp_30">
+                <LinearLayout
+                    android:id="@+id/signin_GplusLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    android:layout_marginRight="@dimen/dp_5"
+                    android:background="#A2ECFF">
+                    <ImageView
+                        android:layout_width="@dimen/dp_30"
+                        android:layout_height="@dimen/dp_45"
+                        android:src="@mipmap/ic_gplus"
+                        android:layout_marginLeft="@dimen/dp_10"/>
+                    <Button
+                        android:id="@+id/signin_bnGplus"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dp_36"
+                        android:background="?attr/selectableItemBackground"
+                        android:text="@string/signin_with_google"
+                        android:textAllCaps="true"
+                        android:layout_gravity="center_vertical"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/sp_14"
+                        android:theme="@style/PrimaryFlatButton" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/signin_FBLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="@dimen/dp_5"
+                    android:background="#A2ECFF">
+                    <ImageView
+                        android:layout_width="@dimen/dp_30"
+                        android:layout_height="@dimen/dp_45"
+                        android:src="@mipmap/ic_facebook"
+                        android:layout_marginLeft="@dimen/dp_10"/>
+                    <Button
+                        android:id="@+id/signin_bnFB"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dp_36"
+                        android:background="?attr/selectableItemBackground"
+                        android:text="@string/signin_with_fb"
+                        android:textAllCaps="true"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/sp_14"
+                        android:layout_gravity="center_vertical"
+                        android:theme="@style/PrimaryFlatButton" />
+                </LinearLayout>
             </LinearLayout>
         </LinearLayout>
-    </LinearLayout>
     </ScrollView>
 </RelativeLayout>

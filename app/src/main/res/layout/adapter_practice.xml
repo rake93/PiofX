@@ -54,20 +54,20 @@
                 android:layout_marginBottom="@dimen/dp_10"
                 android:progressDrawable="@drawable/progress_bar_style" />
 
-       <!--     <ProgressBar
-                android:id="@+id/adapter_practice_progressbar"
-                style="?android:attr/progressBarStyleHorizontal"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/dp_25"
-                android:layout_marginRight="@dimen/dp_25"
-                android:layout_marginTop="@dimen/dp_5"
-                android:layout_marginBottom="@dimen/dp_10"
-                android:background="@color/progress_starting_color"
-                android:progressDrawable="@drawable/progress_bar_style"
-                android:maxHeight="@dimen/dp_8"
-                android:minHeight="@dimen/dp_8"
-                android:max="100" />-->
+            <!--     <ProgressBar
+                     android:id="@+id/adapter_practice_progressbar"
+                     style="?android:attr/progressBarStyleHorizontal"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_marginLeft="@dimen/dp_25"
+                     android:layout_marginRight="@dimen/dp_25"
+                     android:layout_marginTop="@dimen/dp_5"
+                     android:layout_marginBottom="@dimen/dp_10"
+                     android:background="@color/progress_starting_color"
+                     android:progressDrawable="@drawable/progress_bar_style"
+                     android:maxHeight="@dimen/dp_8"
+                     android:minHeight="@dimen/dp_8"
+                     android:max="100" />-->
 
 
 
