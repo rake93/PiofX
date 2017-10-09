@@ -235,10 +235,10 @@ public class Quiz extends Fragment implements View.OnClickListener {
             tvQuestion.setText("Sagarika");
             tvPartsOfSpeech.setText("Captain");
             tvOptionA.setText("Second Name: Nagunoori");
-            tvOptionB.setText("Likes: Working out, Succeeding");
+            tvOptionB.setText("Likes: Working out, Succeeding, Meditation");
             tvOptionC.setText("USP: Second name means lion king");
             tvOptionD.setText("Work: Design,Development");
-            teamPersonalImage.setImageResource(R.drawable.prathyusha);
+            teamPersonalImage.setImageResource(R.drawable.sagarika);
         }else if(tvQuestion.getText().toString().equals("Sagarika")) {
             tvQuestion.setText("Rakesh");
             tvPartsOfSpeech.setText("Captain");
@@ -246,8 +246,16 @@ public class Quiz extends Fragment implements View.OnClickListener {
             tvOptionB.setText("Likes: Working out, Succeeding");
             tvOptionC.setText("USP: Second name means lion king");
             tvOptionD.setText("Work: Development");
-            teamPersonalImage.setImageResource(R.drawable.prathyusha);
+            teamPersonalImage.setImageResource(R.drawable.rakesh);
         }else if(tvQuestion.getText().toString().equals("Rakesh")) {
+            tvQuestion.setText("Teju");
+            tvPartsOfSpeech.setText("Captain");
+            tvOptionA.setText("Second Name: xxx");
+            tvOptionB.setText("Likes: Working out, Succeeding");
+            tvOptionC.setText("USP: Second name means lion king");
+            tvOptionD.setText("Work: Development");
+            teamPersonalImage.setImageResource(R.drawable.teju);
+        }else if(tvQuestion.getText().toString().equals("Teju")) {
             tvQuestion.setText("Pratyusha");
             tvPartsOfSpeech.setText("Captain");
             tvOptionA.setText("Second Name: Simharaju");
