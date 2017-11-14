@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@android:id/background">
+        <shape>
+            <!-- radius background of progressbar -->
+            <corners android:radius="20dip" />
+            <gradient
+                android:startColor="@color/darker_gray"
+                android:centerColor="@color/darker_gray"
+                android:endColor="@color/darker_gray"
+                />
+        </shape>
+    </item>
+
+    <!--<item android:id="@android:id/secondaryProgress">
+        <clip>
+            <shape>
+                <corners android:radius="10dip" />
+                <gradient
+                    android:startColor="#00ff00"
+                    android:centerColor="#00bb00"
+                    android:centerY="0.5"
+                    android:endColor="#008800"
+                    android:angle="270"
+                    />
+            </shape>
+        </clip>
+    </item>-->
+    <item
+        android:id="@android:id/progress"
+        >
+        <clip>
+            <shape>
+                <!-- radius of secundary progress -->
+                <corners
+                    android:radius="20dip" />
+                <gradient
+                    android:startColor="#91DEF7"
+                    android:centerColor="#4AC9F2"
+                    android:endColor="#10addf"
+                    />
+            </shape>
+        </clip>
+    </item>
+
+</layer-list>
+<!--<?xml version="1.0" encoding="utf-8"?>
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape>
+            <corners android:radius="20dp" />
+            <gradient android:width="2dp"
+                android:centerY="0.75"
+                android:angle="270"
+                android:color="@color/darker_gray"/>
+            <solid android:color="@color/darker_gray"/>
+        </shape>
+    </item>
+    <item android:id="@android:id/progress">
+        <shape>
+            <corners android:radius="20dp" />
+            <gradient android:width="2dp"
+                android:centerY="0.75"
+                android:startColor="#00ff00"
+                android:centerColor="#00dd00"
+                android:endColor="#00bb00"
+                android:angle="270"
+                />
+        </shape>
+    </item>
+</layer-list>-->

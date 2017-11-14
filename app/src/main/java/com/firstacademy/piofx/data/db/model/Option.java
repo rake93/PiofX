@@ -22,6 +22,8 @@ import org.greenrobot.greendao.annotation.Entity;
 import org.greenrobot.greendao.annotation.Generated;
 import org.greenrobot.greendao.annotation.Id;
 import org.greenrobot.greendao.annotation.Property;
+import org.greenrobot.greendao.annotation.ToOne;
+import org.greenrobot.greendao.DaoException;
 
 /**
  * Created by Rakesh Muppa on 08-08-2017.
@@ -35,29 +37,34 @@ public class Option {
     private Long id;
 
     @Expose
-    @SerializedName("option_text")
-    @Property(nameInDb = "option_text")
-    private String optionText;
-
-    @Expose
     @SerializedName("question_id")
     @Property(nameInDb = "question_id")
     private Long questionId;
 
     @Expose
-    @SerializedName("is_correct")
-    @Property(nameInDb = "is_correct")
-    private boolean isCorrect;
+    @SerializedName("option_textA")
+    @Property(nameInDb = "option_textA")
+    private String optionTextA;
 
     @Expose
-    @SerializedName("word_description")
-    @Property(nameInDb = "word_description")
-    private String wordDescription;
+    @SerializedName("option_textB")
+    @Property(nameInDb = "option_textB")
+    private String optionTextB;
 
     @Expose
-    @SerializedName("word_definition")
-    @Property(nameInDb = "word_definition")
-    private String wordDefinition;
+    @SerializedName("option_textC")
+    @Property(nameInDb = "option_textC")
+    private String optionTextC;
+
+    @Expose
+    @SerializedName("option_textD")
+    @Property(nameInDb = "option_textD")
+    private String optionTextD;
+
+    @Expose
+    @SerializedName("answer_text")
+    @Property(nameInDb = "answer_text")
+    private String answerText;
 
     @Expose
     @SerializedName("created_at")
@@ -69,16 +76,28 @@ public class Option {
     @Property(nameInDb = "updated_at")
     private String updatedAt;
 
-    @Generated(hash = 1418730773)
-    public Option(Long id, String optionText, Long questionId, boolean isCorrect,
-            String wordDescription, String wordDefinition, String createdAt,
-            String updatedAt) {
+    @ToOne(joinProperty = "questionId")
+    private Question question;
+
+    /** Used to resolve relations */
+    @Generated(hash = 2040040024)
+    private transient DaoSession daoSession;
+
+    /** Used for active entity operations. */
+    @Generated(hash = 1708785938)
+    private transient OptionDao myDao;
+
+    @Generated(hash = 1116796311)
+    public Option(Long id, Long questionId, String optionTextA, String optionTextB,
+            String optionTextC, String optionTextD, String answerText,
+            String createdAt, String updatedAt) {
         this.id = id;
-        this.optionText = optionText;
         this.questionId = questionId;
-        this.isCorrect = isCorrect;
-        this.wordDescription = wordDescription;
-        this.wordDefinition = wordDefinition;
+        this.optionTextA = optionTextA;
+        this.optionTextB = optionTextB;
+        this.optionTextC = optionTextC;
+        this.optionTextD = optionTextD;
+        this.answerText = answerText;
         this.createdAt = createdAt;
         this.updatedAt = updatedAt;
     }
@@ -95,14 +114,6 @@ public class Option {
         this.id = id;
     }
 
-    public String getOptionText() {
-        return this.optionText;
-    }
-
-    public void setOptionText(String optionText) {
-        this.optionText = optionText;
-    }
-
     public Long getQuestionId() {
         return this.questionId;
     }
@@ -111,28 +122,44 @@ public class Option {
         this.questionId = questionId;
     }
 
-    public boolean getIsCorrect() {
-        return this.isCorrect;
+    public String getOptionTextA() {
+        return this.optionTextA;
     }
 
-    public void setIsCorrect(boolean isCorrect) {
-        this.isCorrect = isCorrect;
+    public void setOptionTextA(String optionTextA) {
+        this.optionTextA = optionTextA;
     }
 
-    public String getWordDescription() {
-        return this.wordDescription;
+    public String getOptionTextB() {
+        return this.optionTextB;
     }
 
-    public void setWordDescription(String wordDescription) {
-        this.wordDescription = wordDescription;
+    public void setOptionTextB(String optionTextB) {
+        this.optionTextB = optionTextB;
     }
 
-    public String getWordDefinition() {
-        return this.wordDefinition;
+    public String getOptionTextC() {
+        return this.optionTextC;
     }
 
-    public void setWordDefinition(String wordDefinition) {
-        this.wordDefinition = wordDefinition;
+    public void setOptionTextC(String optionTextC) {
+        this.optionTextC = optionTextC;
+    }
+
+    public String getOptionTextD() {
+        return this.optionTextD;
+    }
+
+    public void setOptionTextD(String optionTextD) {
+        this.optionTextD = optionTextD;
+    }
+
+    public String getAnswerText() {
+        return this.answerText;
+    }
+
+    public void setAnswerText(String answerText) {
+        this.answerText = answerText;
     }
 
     public String getCreatedAt() {
@@ -150,4 +177,81 @@ public class Option {
     public void setUpdatedAt(String updatedAt) {
         this.updatedAt = updatedAt;
     }
+
+    @Generated(hash = 527827701)
+    private transient Long question__resolvedKey;
+
+    /** To-one relationship, resolved on first access. */
+    @Generated(hash = 1402978864)
+    public Question getQuestion() {
+        Long __key = this.questionId;
+        if (question__resolvedKey == null || !question__resolvedKey.equals(__key)) {
+            final DaoSession daoSession = this.daoSession;
+            if (daoSession == null) {
+                throw new DaoException("Entity is detached from DAO context");
+            }
+            QuestionDao targetDao = daoSession.getQuestionDao();
+            Question questionNew = targetDao.load(__key);
+            synchronized (this) {
+                question = questionNew;
+                question__resolvedKey = __key;
+            }
+        }
+        return question;
+    }
+
+    /** called by internal mechanisms, do not call yourself. */
+    @Generated(hash = 38462263)
+    public void setQuestion(Question question) {
+        synchronized (this) {
+            this.question = question;
+            questionId = question == null ? null : question.getId();
+            question__resolvedKey = questionId;
+        }
+    }
+
+    /**
+     * Convenient call for {@link org.greenrobot.greendao.AbstractDao#delete(Object)}.
+     * Entity must attached to an entity context.
+     */
+    @Generated(hash = 128553479)
+    public void delete() {
+        if (myDao == null) {
+            throw new DaoException("Entity is detached from DAO context");
+        }
+        myDao.delete(this);
+    }
+
+    /**
+     * Convenient call for {@link org.greenrobot.greendao.AbstractDao#refresh(Object)}.
+     * Entity must attached to an entity context.
+     */
+    @Generated(hash = 1942392019)
+    public void refresh() {
+        if (myDao == null) {
+            throw new DaoException("Entity is detached from DAO context");
+        }
+        myDao.refresh(this);
+    }
+
+    /**
+     * Convenient call for {@link org.greenrobot.greendao.AbstractDao#update(Object)}.
+     * Entity must attached to an entity context.
+     */
+    @Generated(hash = 713229351)
+    public void update() {
+        if (myDao == null) {
+            throw new DaoException("Entity is detached from DAO context");
+        }
+        myDao.update(this);
+    }
+
+    /** called by internal mechanisms, do not call yourself. */
+    @Generated(hash = 1972897771)
+    public void __setDaoSession(DaoSession daoSession) {
+        this.daoSession = daoSession;
+        myDao = daoSession != null ? daoSession.getOptionDao() : null;
+    }
+
+
 }

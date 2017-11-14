@@ -3,17 +3,59 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
-    <color name="black_effective">#2a2a2a</color>
-    <color name="white">#ffffff</color>
-    <color name="black">#000000</color>
     <color name="colorMediumTurquoise">#4AC9F2</color>
     <color name="login_info_bgcolor">#457</color>
     <color name="info_text_color">#e0e7e5</color>
-    <color name="progress_starting_color">#b0b1b4</color>
-    <color name="progress_middle_color">#fcd863</color>
-    <color name="progress_ending_color">#3ac2ae</color>
+    <!--
+        <color name="progress_starting_color">#b0b1b4</color>
+    -->
+    <color name="progress_starting_color">#91DEF7</color> <!--91DEF7-->
+    <color name="progress_middle_color">#4AC9F2</color> <!--4AC9F2-->
+    <color name="progress_ending_color">#10addf</color> <!--10addf-->
+
+    <color name="home_progress_default_color">#9E9E9E</color> <!--91DEF7-->
+    <color name="home_progress_starting_color">#69F0AE</color> <!--91DEF7-->
+    <color name="home_progress_middle_color">#00E676</color> <!--4AC9F2-->
+    <color name="home_progress_ending_color">#00C853</color> <!--10addf-->
+
     <color name="card1_text_bkg_color">#82806e</color>
     <color name="card2_text_bkg_color">#ff6b58</color>
     <color name="card3_text_bkg_color">#273b7a</color>
     <color name="card4_text_bkg_color">#324a5e</color>
+    <color name="card3_image_bg_color">#FFC91B</color>
+    <color name="gold_color">#C09B49</color>
+    <color name="dark_sky">#2E9BD6</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="lightblue">	#87CEFA</color>
+    <color name="sky_color">#32D5FF</color>
+    <color name="personal_details_bgcolor">#CCEDFC</color>
+    <color name="light_gray">#AEAEA8</color>
+    <color name="agri_green">#13A953</color>
+    <color name="dark_red">#C83A32</color>
+    <color name="app_settings_bg_color">#92D8B3</color>
+    <color name="login_bg_color">#424E69</color>
+    <color name="button_bg_color">#90DFAA</color>
+    <color name="darker_gray">#6e6e6e</color>
+    <color name="answer_right_bg_color">#9ADAB9</color>
+    <color name="answer_wrong_bg_color">#F8AEB0</color>
+    <color name="oopsie_color">#EE1D23</color>
+    <color name="green">#26BEA7</color>
+    <color name="who_next_bg_color">#D7CB6E</color>
+    <color name="silver_activity_bg">#6A7785</color>
+    <color name="lighter_gray">#60D3D3D3</color>
+    <color name="practice_color">#404E68 </color>
+    <color name="take_quiz_color">#32CDFF</color>
+    <color name="pressed_colorr">#9ADAB9</color> <!--custom color for pressed state -->
+    <color name="light_orange">#EA643D</color>
+    <color name="learning_time_bg_color">#9ADEEF</color>
+    <color name="red">#F80036</color>
+
+
+    <drawable name="pressed_color">#9ADAB9</drawable> <!--custom color for pressed state -->
+    <drawable name="normal_color">#FFFFFFFF</drawable> <!--transperent color for normal state -->
+
+
+
+
 </resources>

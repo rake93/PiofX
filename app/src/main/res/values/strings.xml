@@ -5,27 +5,99 @@
     <string name="action_profile">Profile</string>
     <string name="sign_up">Sign Up</string>
     <string name="sign_in">Sign In</string>
-    <string name="logn_info">Create a login. It is free and takes a minute. It allows you to save progress..! </string>
-    <string name="basic_vocab_card_title">Basic Vocabulary</string>
+    <string name="create_login">Create a login</string>
+    <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+    <string name="logn_info">It is free and takes a minute. It allows you to save progress..! </string>
+    <string name="thankyou_for_login">Thank you for logging in. </string>
+    <string name="like_app">Like the app?</string>
+    <string name="basic_1">Basic 1</string>
+    <string name="basic_2">Basic 2</string>
+    <string name="inter_1">Intermediate 1</string>
+    <string name="inter_2">Intermediate 2</string>
+    <string name="advanced_1">Advanced 1</string>
+    <string name="advanced_2">Advanced 2</string>
+    <string name="super_hero">Super Hero</string>
+    <string name="team">Team</string>
+
     <string name="basic_vocab_card1_content">Enough for you to walk around the bedroom, and to keep your feet warm, but not much else.</string>
-    <string name="basic_vocab_card2_content">Enough for you to travel the world faster than earlier, but still not enough to save it.</string>
+    <string name="basic_vocab_card2_content">You can go out of the bedroom and take a walk.
+            But you can go only as far as your feet can take you,and it is not too far!</string>
     <string name="inter_vocab_card1_content">Shoes and running are all good, but a bicycle will get you places faster and farther! But, you dont get to save the world</string>
     <string name="inter_vocab_card2_content">Mastered the bicycle. Proceed to the scooter. But whoever saved the world on scooter ? </string>
-    <string name="inter_vocab_card_title">Intermediate Vocabulary</string>
+    <string name="advanced_1_content">Scooters are all good, but if you want to get there faster,
+        and be seen as cooler (adjective) nothing walks the talk like a motorcycle does.</string>
+    <string name="advanced_2_content">If you really want to be Bruce Wayne, you need more than
+        just a bike to fit all those beauties into. A supercar is definitely de rigueur.</string>
+    <string name="super_hero_content">Superman, Batman, or James Bond, what\'s
+        a super hero without a proper suit? It is the ultimate mark of every superhero. Suit up!</string>
+    <string name="team_content">Wondering who made the app possible? Here is who</string>
+
     <string name="action_practice"> PRACTICE </string>
-    <string name="action_quiz"> TAKE QUIZ </string>
+    <string name="action_quiz">QUIZ</string>
+    <string name="action_meet_the_team"> MEET THE TEAM </string>
 
+    <!--profile-->
+    <string name="edit_profile">You can edit your profile here!</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="share_app">Share the App</string>
+    <string name="personal_details">Personal Details</string>
+    <string name="name">Enter full name</string>
+    <string name="mobile">Enter mobile number</string>
+    <string name="email">Enter email</string>
+    <string name="password">Enter password</string>
+    <string name="retype_pwd">Retype password</string>
+    <string name="signin_with_google">Signin With Google</string>
+    <string name="signin_with_fb">Signin With Facebook</string>
+    <string name="terms_conditions">Psst.. By clicking signup, you are agreeing to our privacy policy</string>
+    <string name="photo">Photo</string>
+    <string name="change_photo">Change Photo</string>
+    <string name="remove_photo">Remove Photo</string>
+    <string name="app_settings">App Settings</string>
+    <string name="reset_progress">Reset Progress</string>
+    <string name="reset_desc">This will reset all the settings to zero.All your progress will be
+            lost.Use this only if you are certain about what you are doing!</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="sign_out_desc">We will be said to see you leave.Are you sure you can\'t stay
+            a while longer?</string>
 
-    <!--App Message-->
-    <string name="api_retry_error">Please retry!</string>
-    <string name="api_default_error">Something wrong happened!</string>
-    <string name="some_error">Some Error Occurred!</string>
-    <string name="connection_error">Internet connection lost!</string>
+    <string name="facebook_app_id">2028853007345845</string>
+    <string name="fb_login_protocol_scheme">fb2028853007345845</string>
 
-    <!--Login-->
-    <string name="login_dummy">Login Dummy</string>
-    <string name="login">Login</string>
-    <string name="email">Email</string>
-    <string name="password">Password</string>
+    <string name="back">Back</string>
+    <string name="skip">Skip</string>
+    <string name="take_ahead">Take Me Ahead!</string>
+    <string name="who_next">Who\'s Next</string>
+    <string name="learning_time">Learning time!</string>
+    <string name="next">Next!</string>
+    <string name="got_it">Got it!</string>
+    <string name="done">Done..!</string>
+    <string name="silver_text">You\'ve just missed the gold medal and a full star!</string>
+    <string name="bronze_text">You\'ve just missed the silver medal and a star!</string>
+    <!--<string name="retake_quiz">Retake the quiz</string>-->
+    <string name="review_quiz">Review Answers</string>
+    <string name="may_be_later">May be later</string>
+    <string name="gold_medal">Gold Medal!</string>
+    <string name="You_are_star">You are a star! and You\'ve got one!</string>
+    <string name="share_the_news">Share the news!</string>
+    <string name="learn_more">Learn more</string>
+    <string name="bronze_medal">Bronze Medal!</string>
+    <string name="section_complete">Section Complete!</string>
+    <string name="take_a_quiz_earn_star">Take a quiz and earn a star!</string>
+    <string name="goto_quiz">Go to the quiz</string>
+    <string name="level_complete">Level Complete!</string>
+
+    <!--About us page-->
+    <string name="made_with_love"> &lt; made with love by team Pi of x &gt; </string>
+    <string name="meet_the_team">Meet the team</string>
+
+    <string name="aboutus_desc">As counting animals, vagueness and uncertainity in prime numbers
+                surprises us. The gravity of this strange unpredictability kept bringing down
+        scintistists and mathematicians.</string>
+
+    <string name="aboutus_desc2">The prime counting function was the tool     that allowed them to reach
+            escape velocity. To make sense of the infinite randomness of primes.At Pi of x,
+            we wish to help you do the same - make sense of the randomness that is exam prep</string>
+
 
 </resources>

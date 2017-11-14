@@ -23,3 +23,31 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+
+# Basic proguard rules
+-optimizations !code/simplification/arithmetic
+-keepattributes <em>Annotation</em>
+-keepattributes InnerClasses
+-keepattributes EnclosingMethod
+-keep class *<em>.R$</em>
+
+-dontskipnonpubliclibraryclasses
+-forceprocessing
+-optimizationpasses 5
+-overloadaggressively
+
+# Removing logging code
+-assumenosideeffects class android.util.Log {
+public static *** d(...);
+public static *** v(...);
+public static *** i(...);
+public static *** w(...);
+public static *** e(...);
+}
+
+# The -dontwarn option tells ProGuard not to complain about some artefacts in the Scala runtime
+
+-dontwarn android.support.**
+-dontwarn android.app.Notification
+-dontwarn org.apache.log4j.**
+-dontwarn com.google.common.**

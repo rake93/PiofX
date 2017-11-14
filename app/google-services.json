@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "427353590937",
+    "firebase_url": "https://piofx-88867.firebaseio.com",
+    "project_id": "piofx-88867",
+    "storage_bucket": "piofx-88867.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:427353590937:android:fd0c0573fe7eed05",
+        "android_client_info": {
+          "package_name": "com.firstacademy.piofx"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "427353590937-s9l6n90e0h8a372ohnsrafs072367qfd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.firstacademy.piofx",
+            "certificate_hash": "49f28b2a3decd13bd7dfe2a2770e2897bf107746"
+          }
+        },
+        {
+          "client_id": "427353590937-fl7v1uqppk0cqlb37cmqfoc6ip0f3bl8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlknxiNw2NekCHiKUhTZzGQr4dc_UyQdc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "427353590937-fl7v1uqppk0cqlb37cmqfoc6ip0f3bl8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

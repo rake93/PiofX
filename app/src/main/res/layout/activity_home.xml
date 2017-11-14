@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.firstacademy.piofx.activities.Home">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/home_appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/home_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <com.firstacademy.piofx.fonts.openSans.OpenSansBold
+                    android:id="@+id/home_toolbar_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/app_name"
+                    android:textAllCaps="true"
+                    android:textSize="@dimen/sp_18"
+                    android:textColor="@android:color/white"
+                    android:layout_marginLeft="@dimen/dp_10"/>
+            </RelativeLayout>
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+
+    <FrameLayout
+        android:id="@+id/home_container_body"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/home_appBarLayout" />
+
+    <!-- <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="vertical"
+         android:layout_below="@+id/home_appBarLayout"
+         android:layout_marginTop="@dimen/dp_10">
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:background="@color/login_bg_color"
+             android:orientation="vertical"
+             android:paddingLeft="@dimen/dp_20"
+             android:paddingRight="@dimen/dp_20"
+             android:paddingTop="@dimen/dp_20">
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="@string/logn_info"
+                 android:textColor="@android:color/white"/>
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:orientation="horizontal"
+                 android:paddingTop="@dimen/dp_10"
+                 android:paddingBottom="@dimen/dp_10">
+                 <Button
+                     android:layout_width="100dp"
+                     android:layout_height="30dp"
+                     android:background="@color/button_bg_color"/>
+             </LinearLayout>
+         </LinearLayout>
+     </LinearLayout>-->
+
+</RelativeLayout>

@@ -24,6 +24,8 @@ import org.greenrobot.greendao.annotation.Generated;
 import org.greenrobot.greendao.annotation.Id;
 import org.greenrobot.greendao.annotation.Property;
 import org.greenrobot.greendao.annotation.ToMany;
+import org.greenrobot.greendao.annotation.ToOne;
+import org.greenrobot.greendao.annotation.Transient;
 
 import java.util.List;
 
@@ -54,6 +56,36 @@ public class Question {
     private String questionCategory;
 
     @Expose
+    @SerializedName("question_set")
+    @Property(nameInDb = "question_set")
+    private String questionSet;
+
+    @Expose
+    @SerializedName("word_definition")
+    @Property(nameInDb = "word_definition")
+    private String word_definition;
+
+    @Expose
+    @SerializedName("word_description1")
+    @Property(nameInDb = "word_description1")
+    private String word_description1;
+
+    @Expose
+    @SerializedName("word_description2")
+    @Property(nameInDb = "word_description2")
+    private String word_description2;
+
+    @Expose
+    @SerializedName("is_answered")
+    @Property(nameInDb = "is_answered")
+    private boolean isAnswered;
+
+    @Expose
+    @SerializedName("is_practiced")
+    @Property(nameInDb = "is_practiced")
+    private boolean isPracticed;
+
+    @Expose
     @SerializedName("created_at")
     @Property(nameInDb = "created_at")
     private String createdAt;
@@ -63,24 +95,27 @@ public class Question {
     @Property(nameInDb = "updated_at")
     private String updatedAt;
 
-    @ToMany(referencedJoinProperty = "questionId")
-    private List<Option> optionList;
+    @Transient
+    private boolean isQuizAnswered;
 
-    /** Used to resolve relations */
-    @Generated(hash = 2040040024)
-    private transient DaoSession daoSession;
+    @Transient
+    private String selectedOption;
 
-    /** Used for active entity operations. */
-    @Generated(hash = 891254763)
-    private transient QuestionDao myDao;
-
-    @Generated(hash = 1240195603)
+    @Generated(hash = 972434178)
     public Question(Long id, String questionText, String questionClause,
-            String questionCategory, String createdAt, String updatedAt) {
+            String questionCategory, String questionSet, String word_definition,
+            String word_description1, String word_description2, boolean isAnswered,
+            boolean isPracticed, String createdAt, String updatedAt) {
         this.id = id;
         this.questionText = questionText;
         this.questionClause = questionClause;
         this.questionCategory = questionCategory;
+        this.questionSet = questionSet;
+        this.word_definition = word_definition;
+        this.word_description1 = word_description1;
+        this.word_description2 = word_description2;
+        this.isAnswered = isAnswered;
+        this.isPracticed = isPracticed;
         this.createdAt = createdAt;
         this.updatedAt = updatedAt;
     }
@@ -121,6 +156,30 @@ public class Question {
         this.questionCategory = questionCategory;
     }
 
+    public String getWord_definition() {
+        return this.word_definition;
+    }
+
+    public void setWord_definition(String word_definition) {
+        this.word_definition = word_definition;
+    }
+
+    public String getWord_description1() {
+        return this.word_description1;
+    }
+
+    public void setWord_description1(String word_description1) {
+        this.word_description1 = word_description1;
+    }
+
+    public String getWord_description2() {
+        return this.word_description2;
+    }
+
+    public void setWord_description2(String word_description2) {
+        this.word_description2 = word_description2;
+    }
+
     public String getCreatedAt() {
         return this.createdAt;
     }
@@ -137,74 +196,43 @@ public class Question {
         this.updatedAt = updatedAt;
     }
 
-    /**
-     * To-many relationship, resolved on first access (and after reset).
-     * Changes to to-many relations are not persisted, make changes to the target entity.
-     */
-    @Generated(hash = 1773152342)
-    public List<Option> getOptionList() {
-        if (optionList == null) {
-            final DaoSession daoSession = this.daoSession;
-            if (daoSession == null) {
-                throw new DaoException("Entity is detached from DAO context");
-            }
-            OptionDao targetDao = daoSession.getOptionDao();
-            List<Option> optionListNew = targetDao._queryQuestion_OptionList(id);
-            synchronized (this) {
-                if (optionList == null) {
-                    optionList = optionListNew;
-                }
-            }
-        }
-        return optionList;
+    public String getQuestionSet() {
+        return this.questionSet;
     }
 
-    /** Resets a to-many relationship, making the next get call to query for a fresh result. */
-    @Generated(hash = 1801972530)
-    public synchronized void resetOptionList() {
-        optionList = null;
+    public void setQuestionSet(String questionSet) {
+        this.questionSet = questionSet;
     }
 
-    /**
-     * Convenient call for {@link org.greenrobot.greendao.AbstractDao#delete(Object)}.
-     * Entity must attached to an entity context.
-     */
-    @Generated(hash = 128553479)
-    public void delete() {
-        if (myDao == null) {
-            throw new DaoException("Entity is detached from DAO context");
-        }
-        myDao.delete(this);
+    public boolean getIsAnswered() {
+        return this.isAnswered;
     }
 
-    /**
-     * Convenient call for {@link org.greenrobot.greendao.AbstractDao#refresh(Object)}.
-     * Entity must attached to an entity context.
-     */
-    @Generated(hash = 1942392019)
-    public void refresh() {
-        if (myDao == null) {
-            throw new DaoException("Entity is detached from DAO context");
-        }
-        myDao.refresh(this);
+    public void setIsAnswered(boolean isAnswered) {
+        this.isAnswered = isAnswered;
     }
 
-    /**
-     * Convenient call for {@link org.greenrobot.greendao.AbstractDao#update(Object)}.
-     * Entity must attached to an entity context.
-     */
-    @Generated(hash = 713229351)
-    public void update() {
-        if (myDao == null) {
-            throw new DaoException("Entity is detached from DAO context");
-        }
-        myDao.update(this);
+    public boolean getIsPracticed() {
+        return this.isPracticed;
     }
 
-    /** called by internal mechanisms, do not call yourself. */
-    @Generated(hash = 754833738)
-    public void __setDaoSession(DaoSession daoSession) {
-        this.daoSession = daoSession;
-        myDao = daoSession != null ? daoSession.getQuestionDao() : null;
+    public void setIsPracticed(boolean isPracticed) {
+        this.isPracticed = isPracticed;
+    }
+
+    public boolean isQuizAnswered() {
+        return isQuizAnswered;
+    }
+
+    public void setQuizAnswered(boolean quizAnswered) {
+        isQuizAnswered = quizAnswered;
+    }
+
+    public String getSelectedOption() {
+        return selectedOption;
+    }
+
+    public void setSelectedOption(String selectedOption) {
+        this.selectedOption = selectedOption;
     }
 }

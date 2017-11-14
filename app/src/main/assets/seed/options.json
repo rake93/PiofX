@@ -1,58 +1,5602 @@
 [
   {
-    "option_text": "wrong_option1",
-    "question_id": 1,
-    "is_correct": false,
-	"word_definition": null,
-	"word_description": null
+    "question_id": "1",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "commensurate",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "to be in proportion or corresponding in degree or amount"
   },
   {
-    "option_text": "commensurate",
-    "question_id": 1,
-    "is_correct": true,
-	"word_definition": "to be in proportion or corresponding in degree or amount",
-	"word_description": "The convicted felon's life sentence was commensurate with the heinousness of his crime."
+    "question_id": "2",
+    "option_textA": "ask",
+    "option_textB": "influence",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "to have an influence on"
   },
   {
-    "option_text": "wrong_option3",
-    "question_id": 1,
-    "is_correct": false,
-	"word_definition": null,
-	"word_description": null
+    "question_id": "3",
+    "option_textA": "ambiguous",
+    "option_textB": "(of a person) using ambiguous or evasive language.",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "(of a person) using ambiguous or evasive language."
   },
   {
-    "option_text": "wrong_option4",
-    "question_id": 1,
-    "is_correct": false,
-	"word_definition": null,
-	"word_description": null
+    "question_id": "4",
+    "option_textA": "wrong_option1",
+    "option_textB": "wrong_option1",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "thinking or communicating in an unfocused or imprecise way"
   },
   {
-    "option_text": "ask",
-    "question_id": 2,
-    "is_correct": false,
-	"word_definition": null,
-	"word_description": null
+    "question_id": "5",
+    "option_textA": "wrong_option1",
+    "option_textB": "the act of granting",
+    "option_textC": "wrong_option3",
+    "option_textD": "agreement",
+    "answer_text": "the act of granting"
   },
   {
-    "option_text": "influence",
-    "question_id": 2,
-    "is_correct": true,
-	"word_definition": "to have an influence on",
-	"word_description": "Einstein's ideas have informed many generations of physicists.\n Religion informs many aspects of people's lives."
+    "question_id": "6",
+    "option_textA": "frame with balls for calculating       ",
+    "option_textB": "commensurate",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "frame with balls for calculating       "
   },
   {
-    "option_text": "tell a secret",
-    "question_id": 2,
-    "is_correct": false,
-	"word_definition": null,
-	"word_description": null
+    "question_id": "7",
+    "option_textA": "ask",
+    "option_textB": "influence",
+    "option_textC": "to have an influence on",
+    "option_textD": "to lessen to subside        ",
+    "answer_text": "to lessen to subside        "
   },
   {
-    "option_text": "refer to back",
-    "question_id": 2,
-    "is_correct": false,
-	"word_definition": null,
-	"word_description": null
+    "question_id": "8",
+    "option_textA": "ambiguous",
+    "option_textB": "giving up control authority        ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "giving up control authority        "
+  },
+  {
+    "question_id": "9",
+    "option_textA": "wrong_option1",
+    "option_textB": "wrong_option1",
+    "option_textC": "straying away from what is normal      ",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "straying away from what is normal      "
+  },
+  {
+    "question_id": "10",
+    "option_textA": "wrong_option1",
+    "option_textB": "help/encourage smb (in doing wrong)     ",
+    "option_textC": "wrong_option4",
+    "option_textD": "agreement",
+    "answer_text": "help/encourage smb (in doing wrong)     "
+  },
+  {
+    "question_id": "11",
+    "option_textA": "suspended action          ",
+    "option_textB": "commensurate",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "suspended action          "
+  },
+  {
+    "question_id": "12",
+    "option_textA": "ask",
+    "option_textB": "influence",
+    "option_textC": "to hate to detest        ",
+    "option_textD": "refer to back",
+    "answer_text": "to hate to detest        "
+  },
+  {
+    "question_id": "13",
+    "option_textA": "ambiguous",
+    "option_textB": "(of a person) using ambiguous or evasive language.",
+    "option_textC": "be faithful to endure        ",
+    "option_textD": "wrong_option4",
+    "answer_text": "be faithful to endure        "
+  },
+  {
+    "question_id": "14",
+    "option_textA": "wrong_option1",
+    "option_textB": "promise or swear to give up      ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "promise or swear to give up      "
+  },
+  {
+    "question_id": "15",
+    "option_textA": "wrong_option1",
+    "option_textB": "the act of granting",
+    "option_textC": "rubbed off worn away by friction      ",
+    "option_textD": "agreement",
+    "answer_text": "rubbed off worn away by friction      "
+  },
+  {
+    "question_id": "16",
+    "option_textA": "repeal or annul by authority       ",
+    "option_textB": "commensurate",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "repeal or annul by authority       "
+  },
+  {
+    "question_id": "17",
+    "option_textA": "ask",
+    "option_textB": "influence",
+    "option_textC": "to have an influence on",
+    "option_textD": "to go away suddenly (to avoid arrest)     ",
+    "answer_text": "to go away suddenly (to avoid arrest)     "
+  },
+  {
+    "question_id": "18",
+    "option_textA": "ambiguous",
+    "option_textB": "difficult to comprehend obscure        ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "difficult to comprehend obscure        "
+  },
+  {
+    "question_id": "19",
+    "option_textA": "wrong_option1",
+    "option_textB": "wrong_option1",
+    "option_textC": "indefinite",
+    "option_textD": "border on          ",
+    "answer_text": "border on          "
+  },
+  {
+    "question_id": "20",
+    "option_textA": "bottomless extreme          ",
+    "option_textB": "the act of granting",
+    "option_textC": "wrong_option6",
+    "option_textD": "agreement",
+    "answer_text": "bottomless extreme          "
+  },
+  {
+    "question_id": "21",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "commensurate",
+    "option_textC": "wrong_option3",
+    "option_textD": "effete no longer fertile worn out      ",
+    "answer_text": "effete no longer fertile worn out      "
+  },
+  {
+    "question_id": "22",
+    "option_textA": "ask",
+    "option_textB": "welcomed with shouts and approval       ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "welcomed with shouts and approval       "
+  },
+  {
+    "question_id": "23",
+    "option_textA": "praise approval          ",
+    "option_textB": "(of a person) using ambiguous or evasive language.",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "praise approval          "
+  },
+  {
+    "question_id": "24",
+    "option_textA": "wrong_option1",
+    "option_textB": "wrong_option1",
+    "option_textC": "the growing of separate things into one     ",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "the growing of separate things into one     "
+  },
+  {
+    "question_id": "25",
+    "option_textA": "wrong_option1",
+    "option_textB": "kind of stone inflexible        ",
+    "option_textC": "wrong_option7",
+    "option_textD": "agreement",
+    "answer_text": "kind of stone inflexible        "
+  },
+  {
+    "question_id": "26",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "commensurate",
+    "option_textC": "wrong_option3",
+    "option_textD": "containing warning          ",
+    "answer_text": "containing warning          "
+  },
+  {
+    "question_id": "27",
+    "option_textA": "add beauty decorate         ",
+    "option_textB": "influence",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "add beauty decorate         "
+  },
+  {
+    "question_id": "28",
+    "option_textA": "ambiguous",
+    "option_textB": "(of a person) using ambiguous or evasive language.",
+    "option_textC": "making unpure poorer in quality       ",
+    "option_textD": "wrong_option4",
+    "answer_text": "making unpure poorer in quality       "
+  },
+  {
+    "question_id": "29",
+    "option_textA": "wrong_option1",
+    "option_textB": "polite and friendly       ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "polite and friendly       "
+  },
+  {
+    "question_id": "30",
+    "option_textA": "wrong_option1",
+    "option_textB": "the act of granting",
+    "option_textC": "close connection relationship         ",
+    "option_textD": "agreement",
+    "answer_text": "close connection relationship         "
+  },
+  {
+    "question_id": "31",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "commensurate",
+    "option_textC": "wrong_option3",
+    "option_textD": "make worse irritate         ",
+    "answer_text": "make worse irritate         "
+  },
+  {
+    "question_id": "32",
+    "option_textA": "active quick-moving          ",
+    "option_textB": "influence",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "active quick-moving          "
+  },
+  {
+    "question_id": "33",
+    "option_textA": "eager/excited         ",
+    "option_textB": "(of a person) using ambiguous or evasive language.",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "eager/excited         "
+  },
+  {
+    "question_id": "34",
+    "option_textA": "wrong_option1",
+    "option_textB": "wrong_option1",
+    "option_textC": "trouble be ill         ",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "trouble be ill         "
+  },
+  {
+    "question_id": "35",
+    "option_textA": "wrong_option1",
+    "option_textB": "eager and cheerful readiness        ",
+    "option_textC": "wrong_option9",
+    "option_textD": "agreement",
+    "answer_text": "eager and cheerful readiness        "
+  },
+  {
+    "question_id": "36",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "commensurate",
+    "option_textC": "wrong_option3",
+    "option_textD": "recess/partially enclosed place       ",
+    "answer_text": "recess/partially enclosed place       "
+  },
+  {
+    "question_id": "37",
+    "option_textA": "ask",
+    "option_textB": "duty support loyalty         ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "duty support loyalty         "
+  },
+  {
+    "question_id": "38",
+    "option_textA": "make (pain) easier to bear       ",
+    "option_textB": "(of a person) using ambiguous or evasive language.",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "make (pain) easier to bear       "
+  },
+  {
+    "question_id": "39",
+    "option_textA": "wrong_option1",
+    "option_textB": "wrong_option1",
+    "option_textC": "to debase by mixing with something inferior     ",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "to debase by mixing with something inferior     "
+  },
+  {
+    "question_id": "40",
+    "option_textA": "wrong_option1",
+    "option_textB": "reserved indifferent          ",
+    "option_textC": "wrong_option10",
+    "option_textD": "agreement",
+    "answer_text": "reserved indifferent          "
+  },
+  {
+    "question_id": "41",
+    "option_textA": "mix combine unite societies        ",
+    "option_textB": "commensurate",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "mix combine unite societies        "
+  },
+  {
+    "question_id": "42",
+    "option_textA": "ask",
+    "option_textB": "influence",
+    "option_textC": "able to use the left hand or the right equally well ",
+    "option_textD": "refer to back",
+    "answer_text": "able to use the left hand or the right equally well "
+  },
+  {
+    "question_id": "43",
+    "option_textA": "doubtful uncertain          ",
+    "option_textB": "(of a person) using ambiguous or evasive language.",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "doubtful uncertain          "
+  },
+  {
+    "question_id": "44",
+    "option_textA": "wrong_option1",
+    "option_textB": "wrong_option1",
+    "option_textC": "indefinite",
+    "option_textD": "having both of two contrary meanings      ",
+    "answer_text": "having both of two contrary meanings      "
+  },
+  {
+    "question_id": "45",
+    "option_textA": "wrong_option1",
+    "option_textB": "improve make better         ",
+    "option_textC": "wrong_option11",
+    "option_textD": "agreement",
+    "answer_text": "improve make better         "
+  },
+  {
+    "question_id": "46",
+    "option_textA": "end (a debt) by setting aside money     ",
+    "option_textB": "commensurate",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "end (a debt) by setting aside money     "
+  },
+  {
+    "question_id": "47",
+    "option_textA": "ask",
+    "option_textB": "influence",
+    "option_textC": "severe suffering        ",
+    "option_textD": "refer to back",
+    "answer_text": "severe suffering        "
+  },
+  {
+    "question_id": "48",
+    "option_textA": "ambiguous",
+    "option_textB": "strong dislike          ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "strong dislike          "
+  },
+  {
+    "question_id": "49",
+    "option_textA": "wrong_option1",
+    "option_textB": "wrong_option1",
+    "option_textC": "indefinite",
+    "option_textD": "medicine used against a poison or a disease    ",
+    "answer_text": "medicine used against a poison or a disease    "
+  },
+  {
+    "question_id": "50",
+    "option_textA": "wrong_option1",
+    "option_textB": "direct opposing          ",
+    "option_textC": "wrong_option12",
+    "option_textD": "agreement",
+    "answer_text": "direct opposing          "
+  },
+  {
+    "question_id": "51",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "commensurate",
+    "option_textC": "wrong_option3",
+    "option_textD": "brutal racial discrimination         ",
+    "answer_text": "brutal racial discrimination         "
+  },
+  {
+    "question_id": "52",
+    "option_textA": "ask",
+    "option_textB": "influence",
+    "option_textC": "self-confidence           ",
+    "option_textD": "refer to back",
+    "answer_text": "self-confidence           "
+  },
+  {
+    "question_id": "53",
+    "option_textA": "ambiguous",
+    "option_textB": "one who abandons long-held religious or political convictions    ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "one who abandons long-held religious or political convictions    "
+  },
+  {
+    "question_id": "54",
+    "option_textA": "wrong_option1",
+    "option_textB": "wrong_option1",
+    "option_textC": "deification glorification to godliness        ",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "deification glorification to godliness        "
+  },
+  {
+    "question_id": "55",
+    "option_textA": "wrong_option1",
+    "option_textB": "make quiet or calm        ",
+    "option_textC": "wrong_option13",
+    "option_textD": "agreement",
+    "answer_text": "make quiet or calm        "
+  },
+  {
+    "question_id": "56",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "commensurate",
+    "option_textC": "grasping understanding fear unhappy feeling about future     ",
+    "option_textD": "wrong_option4",
+    "answer_text": "grasping understanding fear unhappy feeling about future     "
+  },
+  {
+    "question_id": "57",
+    "option_textA": "ask",
+    "option_textB": "give notice to inform        ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "give notice to inform        "
+  },
+  {
+    "question_id": "58",
+    "option_textA": "ambiguous",
+    "option_textB": "(of a person) using ambiguous or evasive language.",
+    "option_textC": "approval           ",
+    "option_textD": "wrong_option4",
+    "answer_text": "approval           "
+  },
+  {
+    "question_id": "59",
+    "option_textA": "appropriate to the situation apt       ",
+    "option_textB": "wrong_option1",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "appropriate to the situation apt       "
+  },
+  {
+    "question_id": "60",
+    "option_textA": "wrong_option1",
+    "option_textB": "well-suited quick-witted          ",
+    "option_textC": "wrong_option14",
+    "option_textD": "agreement",
+    "answer_text": "well-suited quick-witted          "
+  },
+  {
+    "question_id": "61",
+    "option_textA": "a complex ornate design        ",
+    "option_textB": "commensurate",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "a complex ornate design        "
+  },
+  {
+    "question_id": "62",
+    "option_textA": "ask",
+    "option_textB": "influence",
+    "option_textC": "of connected with trees        ",
+    "option_textD": "refer to back",
+    "answer_text": "of connected with trees        "
+  },
+  {
+    "question_id": "63",
+    "option_textA": "ambiguous",
+    "option_textB": "enthusiasm           ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "enthusiasm           "
+  },
+  {
+    "question_id": "64",
+    "option_textA": "wrong_option1",
+    "option_textB": "wrong_option1",
+    "option_textC": "indefinite",
+    "option_textD": "steep difficult ascent laborious        ",
+    "answer_text": "steep difficult ascent laborious        "
+  },
+  {
+    "question_id": "65",
+    "option_textA": "wrong_option1",
+    "option_textB": "jargon slang          ",
+    "option_textC": "wrong_option15",
+    "option_textD": "agreement",
+    "answer_text": "jargon slang          "
+  },
+  {
+    "question_id": "66",
+    "option_textA": "in the highest degree        ",
+    "option_textB": "commensurate",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "in the highest degree        "
+  },
+  {
+    "question_id": "67",
+    "option_textA": "ask",
+    "option_textB": "influence",
+    "option_textC": "to have an influence on",
+    "option_textD": "proud superior manner of behaviour       ",
+    "answer_text": "proud superior manner of behaviour       "
+  },
+  {
+    "question_id": "68",
+    "option_textA": "ambiguous",
+    "option_textB": "speak distinctly connect by joints       ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "speak distinctly connect by joints       "
+  },
+  {
+    "question_id": "69",
+    "option_textA": "wrong_option1",
+    "option_textB": "wrong_option1",
+    "option_textC": "indefinite",
+    "option_textD": "go or come up        ",
+    "answer_text": "go or come up        "
+  },
+  {
+    "question_id": "70",
+    "option_textA": "wrong_option1",
+    "option_textB": "get to know         ",
+    "option_textC": "wrong_option16",
+    "option_textD": "agreement",
+    "answer_text": "get to know         "
+  },
+  {
+    "question_id": "71",
+    "option_textA": "practicing self-denial austere stark        ",
+    "option_textB": "commensurate",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "practicing self-denial austere stark        "
+  },
+  {
+    "question_id": "72",
+    "option_textA": "ask",
+    "option_textB": "influence",
+    "option_textC": "consider to be the origin of or belonging to   ",
+    "option_textD": "refer to back",
+    "answer_text": "consider to be the origin of or belonging to   "
+  },
+  {
+    "question_id": "73",
+    "option_textA": "ambiguous",
+    "option_textB": "surgically clean        ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "surgically clean        "
+  },
+  {
+    "question_id": "74",
+    "option_textA": "wrong_option1",
+    "option_textB": "wrong_option1",
+    "option_textC": "indefinite",
+    "option_textD": "roughness harshness ill temper irritability       ",
+    "answer_text": "roughness harshness ill temper irritability       "
+  },
+  {
+    "question_id": "75",
+    "option_textA": "wrong_option1",
+    "option_textB": "slander           ",
+    "option_textC": "wrong_option17",
+    "option_textD": "agreement",
+    "answer_text": "slander           "
+  },
+  {
+    "question_id": "76",
+    "option_textA": "with attack violently         ",
+    "option_textB": "commensurate",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "with attack violently         "
+  },
+  {
+    "question_id": "77",
+    "option_textA": "ask",
+    "option_textB": "influence",
+    "option_textC": "diligent hard-working sedulous         ",
+    "option_textD": "refer to back",
+    "answer_text": "diligent hard-working sedulous         "
+  },
+  {
+    "question_id": "78",
+    "option_textA": "ambiguous",
+    "option_textB": "make smth (pain desire) less       ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "make smth (pain desire) less       "
+  },
+  {
+    "question_id": "79",
+    "option_textA": "wrong_option1",
+    "option_textB": "wrong_option1",
+    "option_textC": "indefinite",
+    "option_textD": "the mark * (e.g.. omitted letters)      ",
+    "answer_text": "the mark * (e.g.. omitted letters)      "
+  },
+  {
+    "question_id": "80",
+    "option_textA": "wrong_option1",
+    "option_textB": "substance that shrinks         ",
+    "option_textC": "wrong_option18",
+    "option_textD": "agreement",
+    "answer_text": "substance that shrinks         "
+  },
+  {
+    "question_id": "81",
+    "option_textA": "clever quick at seeing to get an advantage    ",
+    "option_textB": "commensurate",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "clever quick at seeing to get an advantage    "
+  },
+  {
+    "question_id": "82",
+    "option_textA": "ask",
+    "option_textB": "influence",
+    "option_textC": "repayment death of Jesus        ",
+    "option_textD": "refer to back",
+    "answer_text": "repayment death of Jesus        "
+  },
+  {
+    "question_id": "83",
+    "option_textA": "ambiguous",
+    "option_textB": "make thin. weaken enervate        ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "make thin. weaken enervate        "
+  },
+  {
+    "question_id": "84",
+    "option_textA": "wrong_option1",
+    "option_textB": "wrong_option1",
+    "option_textC": "indefinite",
+    "option_textD": "bring into harmony       ",
+    "answer_text": "bring into harmony       "
+  },
+  {
+    "question_id": "85",
+    "option_textA": "wrong_option1",
+    "option_textB": "daring foolishly bold impudent        ",
+    "option_textC": "wrong_option19",
+    "option_textD": "agreement",
+    "answer_text": "daring foolishly bold impudent        "
+  },
+  {
+    "question_id": "86",
+    "option_textA": "omen sign          ",
+    "option_textB": "commensurate",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "omen sign          "
+  },
+  {
+    "question_id": "87",
+    "option_textA": "ask",
+    "option_textB": "influence",
+    "option_textC": "majestic venerable          ",
+    "option_textD": "refer to back",
+    "answer_text": "majestic venerable          "
+  },
+  {
+    "question_id": "88",
+    "option_textA": "ambiguous",
+    "option_textB": "favorable successful prosperous         ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "favorable successful prosperous         "
+  },
+  {
+    "question_id": "89",
+    "option_textA": "wrong_option1",
+    "option_textB": "wrong_option1",
+    "option_textC": "indefinite",
+    "option_textD": "severely moral and strict simple and plain     ",
+    "answer_text": "severely moral and strict simple and plain     "
+  },
+  {
+    "question_id": "90",
+    "option_textA": "wrong_option1",
+    "option_textB": "helping supporting          ",
+    "option_textC": "wrong_option20",
+    "option_textD": "agreement",
+    "answer_text": "helping supporting          "
+  },
+  {
+    "question_id": "91",
+    "option_textA": "affirm assert prove justify        ",
+    "option_textB": "commensurate",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "affirm assert prove justify        "
+  },
+  {
+    "question_id": "92",
+    "option_textA": "ask",
+    "option_textB": "influence",
+    "option_textC": "strong dislike          ",
+    "option_textD": "refer to back",
+    "answer_text": "strong dislike          "
+  },
+  {
+    "question_id": "93",
+    "option_textA": "ambiguous",
+    "option_textB": "eager greedy          ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "eager greedy          "
+  },
+  {
+    "question_id": "94",
+    "option_textA": "wrong_option1",
+    "option_textB": "wrong_option1",
+    "option_textC": "indefinite",
+    "option_textD": "admit. Declare openly         ",
+    "answer_text": "admit. Declare openly         "
+  },
+  {
+    "question_id": "95",
+    "option_textA": "wrong_option1",
+    "option_textB": "harmful ominous causing evil        ",
+    "option_textC": "wrong_option21",
+    "option_textD": "agreement",
+    "answer_text": "harmful ominous causing evil        "
+  },
+  {
+    "question_id": "96",
+    "option_textA": "obstacle purposely to get on the way of    ",
+    "option_textB": "commensurate",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "obstacle purposely to get on the way of    "
+  },
+  {
+    "question_id": "97",
+    "option_textA": "ask",
+    "option_textB": "influence",
+    "option_textC": "causing harm or ruin pernicious destructive      ",
+    "option_textD": "refer to back",
+    "answer_text": "causing harm or ruin pernicious destructive      "
+  },
+  {
+    "question_id": "98",
+    "option_textA": "ambiguous",
+    "option_textB": "artificial obstacle built across a river      ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "artificial obstacle built across a river      "
+  },
+  {
+    "question_id": "99",
+    "option_textA": "wrong_option1",
+    "option_textB": "wrong_option1",
+    "option_textC": "indefinite",
+    "option_textD": "not good enough unable to have young ones without value  ",
+    "answer_text": "not good enough unable to have young ones without value  "
+  },
+  {
+    "question_id": "100",
+    "option_textA": "wrong_option1",
+    "option_textB": "in enjoy warmth and light       ",
+    "option_textC": "wrong_option22",
+    "option_textD": "agreement",
+    "answer_text": "in enjoy warmth and light       "
+  },
+  {
+    "question_id": "101",
+    "option_textA": "to bless make happy or ascribe a virtue to   ",
+    "option_textB": "commensurate",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "to bless make happy or ascribe a virtue to   "
+  },
+  {
+    "question_id": "102",
+    "option_textA": "ask",
+    "option_textB": "influence",
+    "option_textC": "to adorn especially in a cheap showy manner    ",
+    "option_textD": "refer to back",
+    "answer_text": "to adorn especially in a cheap showy manner    "
+  },
+  {
+    "question_id": "103",
+    "option_textA": "ambiguous",
+    "option_textB": "beat hard        ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "beat hard        "
+  },
+  {
+    "question_id": "104",
+    "option_textA": "wrong_option1",
+    "option_textB": "wrong_option1",
+    "option_textC": "indefinite",
+    "option_textD": "belligerent pugnacious warlike         ",
+    "answer_text": "belligerent pugnacious warlike         "
+  },
+  {
+    "question_id": "105",
+    "option_textA": "wrong_option1",
+    "option_textB": "(person nation) waging war        ",
+    "option_textC": "wrong_option23",
+    "option_textD": "agreement",
+    "answer_text": "(person nation) waging war        "
+  },
+  {
+    "question_id": "106",
+    "option_textA": "person who has given help       ",
+    "option_textB": "commensurate",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "person who has given help       "
+  },
+  {
+    "question_id": "107",
+    "option_textA": "ask",
+    "option_textB": "influence",
+    "option_textC": "wish or activity in doing good      ",
+    "option_textD": "refer to back",
+    "answer_text": "wish or activity in doing good      "
+  },
+  {
+    "question_id": "108",
+    "option_textA": "ambiguous",
+    "option_textB": "kind and gentle mild (climate)       ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "kind and gentle mild (climate)       "
+  },
+  {
+    "question_id": "109",
+    "option_textA": "wrong_option1",
+    "option_textB": "wrong_option1",
+    "option_textC": "indefinite",
+    "option_textD": "arrangement to give smth at death      ",
+    "answer_text": "arrangement to give smth at death      "
+  },
+  {
+    "question_id": "110",
+    "option_textA": "wrong_option1",
+    "option_textB": "scold sharply          ",
+    "option_textC": "wrong_option24",
+    "option_textD": "agreement",
+    "answer_text": "scold sharply          "
+  },
+  {
+    "question_id": "111",
+    "option_textA": "rob or dispossess of smth (material)      ",
+    "option_textB": "commensurate",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "rob or dispossess of smth (material)      "
+  },
+  {
+    "question_id": "112",
+    "option_textA": "ask",
+    "option_textB": "influence",
+    "option_textC": "puzzle confuse          ",
+    "option_textD": "refer to back",
+    "answer_text": "puzzle confuse          "
+  },
+  {
+    "question_id": "113",
+    "option_textA": "ambiguous",
+    "option_textB": "stubborn narrow-minded person         ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "stubborn narrow-minded person         "
+  },
+  {
+    "question_id": "114",
+    "option_textA": "wrong_option1",
+    "option_textB": "wrong_option1",
+    "option_textC": "indefinite",
+    "option_textD": "bulge the protuberance of a cask      ",
+    "answer_text": "bulge the protuberance of a cask      "
+  },
+  {
+    "question_id": "115",
+    "option_textA": "wrong_option1",
+    "option_textB": "flattery coaxing          ",
+    "option_textC": "wrong_option25",
+    "option_textD": "agreement",
+    "answer_text": "flattery coaxing          "
+  },
+  {
+    "question_id": "116",
+    "option_textA": "polite manner comforting uninteresting        ",
+    "option_textB": "commensurate",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "polite manner comforting uninteresting        "
+  },
+  {
+    "question_id": "117",
+    "option_textA": "ask",
+    "option_textB": "influence",
+    "option_textC": "noisy and rough         ",
+    "option_textD": "refer to back",
+    "answer_text": "noisy and rough         "
+  },
+  {
+    "question_id": "118",
+    "option_textA": "ambiguous",
+    "option_textB": "cheerful casual carefree         ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "cheerful casual carefree         "
+  },
+  {
+    "question_id": "119",
+    "option_textA": "wrong_option1",
+    "option_textB": "wrong_option1",
+    "option_textC": "indefinite",
+    "option_textD": "sham counterfeit not genuine        ",
+    "answer_text": "sham counterfeit not genuine        "
+  },
+  {
+    "question_id": "120",
+    "option_textA": "wrong_option1",
+    "option_textB": "loud noisy rough lacking restraint       ",
+    "option_textC": "wrong_option26",
+    "option_textD": "agreement",
+    "answer_text": "loud noisy rough lacking restraint       "
+  },
+  {
+    "question_id": "121",
+    "option_textA": "give greatly needed support        ",
+    "option_textB": "commensurate",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "give greatly needed support        "
+  },
+  {
+    "question_id": "122",
+    "option_textA": "ask",
+    "option_textB": "influence",
+    "option_textC": "crude offensive rude         ",
+    "option_textD": "refer to back",
+    "answer_text": "crude offensive rude         "
+  },
+  {
+    "question_id": "123",
+    "option_textA": "ambiguous",
+    "option_textB": "hasty rush cheeky saucy        ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "hasty rush cheeky saucy        "
+  },
+  {
+    "question_id": "124",
+    "option_textA": "wrong_option1",
+    "option_textB": "wrong_option1",
+    "option_textC": "indefinite",
+    "option_textD": "yellow metal (mixing copper and zinc)      ",
+    "answer_text": "yellow metal (mixing copper and zinc)      "
+  },
+  {
+    "question_id": "125",
+    "option_textA": "wrong_option1",
+    "option_textB": "made of brass         ",
+    "option_textC": "wrong_option27",
+    "option_textD": "agreement",
+    "answer_text": "made of brass         "
+  },
+  {
+    "question_id": "126",
+    "option_textA": "opening broken place breaking        ",
+    "option_textB": "commensurate",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "opening broken place breaking        "
+  },
+  {
+    "question_id": "127",
+    "option_textA": "ask",
+    "option_textB": "influence",
+    "option_textC": "to have an influence on",
+    "option_textD": "easily broken          ",
+    "answer_text": "easily broken          "
+  },
+  {
+    "question_id": "128",
+    "option_textA": "ambiguous",
+    "option_textB": "bring up announce begin to talk about     ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "bring up announce begin to talk about     "
+  },
+  {
+    "question_id": "129",
+    "option_textA": "wrong_option1",
+    "option_textB": "wrong_option1",
+    "option_textC": "indefinite",
+    "option_textD": "to tolerate endure         ",
+    "answer_text": "to tolerate endure         "
+  },
+  {
+    "question_id": "130",
+    "option_textA": "wrong_option1",
+    "option_textB": "able to float light-hearted        ",
+    "option_textC": "wrong_option28",
+    "option_textD": "agreement",
+    "answer_text": "able to float light-hearted        "
+  },
+  {
+    "question_id": "131",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "commensurate",
+    "option_textC": "grow forth send out buds       ",
+    "option_textD": "wrong_option4",
+    "answer_text": "grow forth send out buds       "
+  },
+  {
+    "question_id": "132",
+    "option_textA": "ask",
+    "option_textB": "to polish rub to a shine      ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "to polish rub to a shine      "
+  },
+  {
+    "question_id": "133",
+    "option_textA": "ambiguous",
+    "option_textB": "(of a person) using ambiguous or evasive language.",
+    "option_textC": "a scheme or plot a group of plotters    ",
+    "option_textD": "wrong_option4",
+    "answer_text": "a scheme or plot a group of plotters    "
+  },
+  {
+    "question_id": "134",
+    "option_textA": "wrong_option1",
+    "option_textB": "wrong_option1",
+    "option_textC": "to beg to get by begging      ",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "to beg to get by begging      "
+  },
+  {
+    "question_id": "135",
+    "option_textA": "wrong_option1",
+    "option_textB": "use flattery or deceit to persuade    ",
+    "option_textC": "wrong_option29",
+    "option_textD": "agreement",
+    "answer_text": "use flattery or deceit to persuade    "
+  },
+  {
+    "question_id": "136",
+    "option_textA": "metal supports attached to the legs measuring instrument    ",
+    "option_textB": "commensurate",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "metal supports attached to the legs measuring instrument    "
+  },
+  {
+    "question_id": "137",
+    "option_textA": "ask",
+    "option_textB": "influence",
+    "option_textC": "slander aspersion          ",
+    "option_textD": "refer to back",
+    "answer_text": "slander aspersion          "
+  },
+  {
+    "question_id": "138",
+    "option_textA": "ambiguous",
+    "option_textB": "frank straight-forward          ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "frank straight-forward          "
+  },
+  {
+    "question_id": "139",
+    "option_textA": "wrong_option1",
+    "option_textB": "wrong_option1",
+    "option_textC": "indefinite",
+    "option_textD": "insincere talk/jargon        ",
+    "answer_text": "insincere talk/jargon        "
+  },
+  {
+    "question_id": "140",
+    "option_textA": "wrong_option1",
+    "option_textB": "bad-tempered/quarrelsome         ",
+    "option_textC": "wrong_option30",
+    "option_textD": "agreement",
+    "answer_text": "bad-tempered/quarrelsome         "
+  },
+  {
+    "question_id": "141",
+    "option_textA": "discuss thoroughly sort of touting       ",
+    "option_textB": "commensurate",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "discuss thoroughly sort of touting       "
+  },
+  {
+    "question_id": "142",
+    "option_textA": "ask",
+    "option_textB": "influence",
+    "option_textC": "to chastise correct by punishing       ",
+    "option_textD": "refer to back",
+    "answer_text": "to chastise correct by punishing       "
+  },
+  {
+    "question_id": "143",
+    "option_textA": "ambiguous",
+    "option_textB": "severe punishment          ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "severe punishment          "
+  },
+  {
+    "question_id": "144",
+    "option_textA": "wrong_option1",
+    "option_textB": "wrong_option1",
+    "option_textC": "indefinite",
+    "option_textD": "substance that causes speeding up       ",
+    "answer_text": "substance that causes speeding up       "
+  },
+  {
+    "question_id": "145",
+    "option_textA": "wrong_option1",
+    "option_textB": "biting sarcastic          ",
+    "option_textC": "wrong_option31",
+    "option_textD": "agreement",
+    "answer_text": "biting sarcastic          "
+  },
+  {
+    "question_id": "146",
+    "option_textA": "expression of blame or disapproval a rebuke     ",
+    "option_textB": "commensurate",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "expression of blame or disapproval a rebuke     "
+  },
+  {
+    "question_id": "147",
+    "option_textA": "ask",
+    "option_textB": "influence",
+    "option_textC": "leader of a unit of 100 soldiers     ",
+    "option_textD": "refer to back",
+    "answer_text": "leader of a unit of 100 soldiers     "
+  },
+  {
+    "question_id": "148",
+    "option_textA": "ambiguous",
+    "option_textB": "cautious wary          ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "cautious wary          "
+  },
+  {
+    "question_id": "149",
+    "option_textA": "wrong_option1",
+    "option_textB": "wrong_option1",
+    "option_textC": "indefinite",
+    "option_textD": "corrected punished          ",
+    "answer_text": "corrected punished          "
+  },
+  {
+    "question_id": "150",
+    "option_textA": "wrong_option1",
+    "option_textB": "punishment           ",
+    "option_textC": "wrong_option32",
+    "option_textD": "agreement",
+    "answer_text": "punishment           "
+  },
+  {
+    "question_id": "151",
+    "option_textA": "a blindly devoted patriot        ",
+    "option_textB": "commensurate",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "a blindly devoted patriot        "
+  },
+  {
+    "question_id": "152",
+    "option_textA": "ask",
+    "option_textB": "influence",
+    "option_textC": "legal trickery/false argument       ",
+    "option_textD": "refer to back",
+    "answer_text": "legal trickery/false argument       "
+  },
+  {
+    "question_id": "153",
+    "option_textA": "ambiguous",
+    "option_textB": "steel tool for shaping materials       ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "steel tool for shaping materials       "
+  },
+  {
+    "question_id": "154",
+    "option_textA": "wrong_option1",
+    "option_textB": "wrong_option1",
+    "option_textC": "indefinite",
+    "option_textD": "bad-tempered person          ",
+    "answer_text": "bad-tempered person          "
+  },
+  {
+    "question_id": "155",
+    "option_textA": "wrong_option1",
+    "option_textB": "shout complain with a lot of noise     ",
+    "option_textC": "wrong_option33",
+    "option_textD": "agreement",
+    "answer_text": "shout complain with a lot of noise     "
+  },
+  {
+    "question_id": "156",
+    "option_textA": "customers         ",
+    "option_textB": "commensurate",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "customers         "
+  },
+  {
+    "question_id": "157",
+    "option_textA": "ask",
+    "option_textB": "influence",
+    "option_textC": "come to grips/settle conclusively      ",
+    "option_textD": "refer to back",
+    "answer_text": "come to grips/settle conclusively      "
+  },
+  {
+    "question_id": "158",
+    "option_textA": "ambiguous",
+    "option_textB": "to resist separation         ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "to resist separation         "
+  },
+  {
+    "question_id": "159",
+    "option_textA": "wrong_option1",
+    "option_textB": "wrong_option1",
+    "option_textC": "indefinite",
+    "option_textD": "half-solid lump formed from liquid       ",
+    "answer_text": "half-solid lump formed from liquid       "
+  },
+  {
+    "question_id": "160",
+    "option_textA": "wrong_option1",
+    "option_textB": "closing device (in Parliament) to end a debate by voting  ",
+    "option_textC": "wrong_option34",
+    "option_textD": "agreement",
+    "answer_text": "closing device (in Parliament) to end a debate by voting  "
+  },
+  {
+    "question_id": "161",
+    "option_textA": "change to a thick and solid state   ",
+    "option_textB": "commensurate",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "change to a thick and solid state   "
+  },
+  {
+    "question_id": "162",
+    "option_textA": "ask",
+    "option_textB": "influence",
+    "option_textC": "to have an influence on",
+    "option_textD": "coming together and uniting into one substance     ",
+    "answer_text": "coming together and uniting into one substance     "
+  },
+  {
+    "question_id": "163",
+    "option_textA": "ambiguous",
+    "option_textB": "get smb to do smth by kindness     ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "get smb to do smth by kindness     "
+  },
+  {
+    "question_id": "164",
+    "option_textA": "wrong_option1",
+    "option_textB": "wrong_option1",
+    "option_textC": "indefinite",
+    "option_textD": "passage that completes a piece of music   ",
+    "answer_text": "passage that completes a piece of music   "
+  },
+  {
+    "question_id": "165",
+    "option_textA": "wrong_option1",
+    "option_textB": "treat with care and tenderness       ",
+    "option_textC": "wrong_option35",
+    "option_textD": "agreement",
+    "answer_text": "treat with care and tenderness       "
+  },
+  {
+    "question_id": "166",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "commensurate",
+    "option_textC": "compel to force to make obedient      ",
+    "option_textD": "wrong_option4",
+    "answer_text": "compel to force to make obedient      "
+  },
+  {
+    "question_id": "167",
+    "option_textA": "ask",
+    "option_textB": "influence",
+    "option_textC": "of the same period coexisting       ",
+    "option_textD": "refer to back",
+    "answer_text": "of the same period coexisting       "
+  },
+  {
+    "question_id": "168",
+    "option_textA": "ambiguous",
+    "option_textB": "strong convincing          ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "strong convincing          "
+  },
+  {
+    "question_id": "169",
+    "option_textA": "wrong_option1",
+    "option_textB": "wrong_option1",
+    "option_textC": "indefinite",
+    "option_textD": "think deeply mediate         ",
+    "answer_text": "think deeply mediate         "
+  },
+  {
+    "question_id": "170",
+    "option_textA": "wrong_option1",
+    "option_textB": "the act of granting",
+    "option_textC": "being fully aware of        ",
+    "option_textD": "agreement",
+    "answer_text": "being fully aware of        "
+  },
+  {
+    "question_id": "171",
+    "option_textA": "bowl-shaped vessel with many holes used to drain off water  ",
+    "option_textB": "commensurate",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "bowl-shaped vessel with many holes used to drain off water  "
+  },
+  {
+    "question_id": "172",
+    "option_textA": "ask",
+    "option_textB": "influence",
+    "option_textC": "secret agreement for a deceitful purpose      ",
+    "option_textD": "refer to back",
+    "answer_text": "secret agreement for a deceitful purpose      "
+  },
+  {
+    "question_id": "173",
+    "option_textA": "ambiguous",
+    "option_textB": "process of burning         ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "process of burning         "
+  },
+  {
+    "question_id": "174",
+    "option_textA": "wrong_option1",
+    "option_textB": "wrong_option1",
+    "option_textC": "indefinite",
+    "option_textD": "keep the memory of        ",
+    "answer_text": "keep the memory of        "
+  },
+  {
+    "question_id": "175",
+    "option_textA": "wrong_option1",
+    "option_textB": "having plenty of space for what is needed  ",
+    "option_textC": "wrong_option37",
+    "option_textD": "agreement",
+    "answer_text": "having plenty of space for what is needed  "
+  },
+  {
+    "question_id": "176",
+    "option_textA": "person who travels regularly        ",
+    "option_textB": "commensurate",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "person who travels regularly        "
+  },
+  {
+    "question_id": "177",
+    "option_textA": "ask",
+    "option_textB": "influence",
+    "option_textC": "tending to comply obliging willingness to please     ",
+    "option_textD": "refer to back",
+    "answer_text": "tending to comply obliging willingness to please     "
+  },
+  {
+    "question_id": "178",
+    "option_textA": "ambiguous",
+    "option_textB": "feeling of regret for one's action      ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "feeling of regret for one's action      "
+  },
+  {
+    "question_id": "179",
+    "option_textA": "wrong_option1",
+    "option_textB": "wrong_option1",
+    "option_textC": "indefinite",
+    "option_textD": "hide keep secret         ",
+    "answer_text": "hide keep secret         "
+  },
+  {
+    "question_id": "180",
+    "option_textA": "wrong_option1",
+    "option_textB": "over-high opinion of too much pride      ",
+    "option_textC": "wrong_option38",
+    "option_textD": "agreement",
+    "answer_text": "over-high opinion of too much pride      "
+  },
+  {
+    "question_id": "181",
+    "option_textA": "reconciling soothing comforting mollifying        ",
+    "option_textB": "commensurate",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "reconciling soothing comforting mollifying        "
+  },
+  {
+    "question_id": "182",
+    "option_textA": "ask",
+    "option_textB": "influence",
+    "option_textC": "agreement or harmony         ",
+    "option_textD": "refer to back",
+    "answer_text": "agreement or harmony         "
+  },
+  {
+    "question_id": "183",
+    "option_textA": "ambiguous",
+    "option_textB": "agree in opinion happen together       ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "agree in opinion happen together       "
+  },
+  {
+    "question_id": "184",
+    "option_textA": "wrong_option1",
+    "option_textB": "wrong_option1",
+    "option_textC": "indefinite",
+    "option_textD": "increase in density strength make laconic      ",
+    "answer_text": "increase in density strength make laconic      "
+  },
+  {
+    "question_id": "185",
+    "option_textA": "wrong_option1",
+    "option_textB": "forgive           ",
+    "option_textC": "wrong_option39",
+    "option_textD": "agreement",
+    "answer_text": "forgive           "
+  },
+  {
+    "question_id": "186",
+    "option_textA": "make or become stiff and solid      ",
+    "option_textB": "commensurate",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "make or become stiff and solid      "
+  },
+  {
+    "question_id": "187",
+    "option_textA": "ask",
+    "option_textB": "influence",
+    "option_textC": "to join together         ",
+    "option_textD": "refer to back",
+    "answer_text": "to join together         "
+  },
+  {
+    "question_id": "188",
+    "option_textA": "ambiguous",
+    "option_textB": "a person with good judgement (e.g.. in art)    ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "a person with good judgement (e.g.. in art)    "
+  },
+  {
+    "question_id": "189",
+    "option_textA": "wrong_option1",
+    "option_textB": "wrong_option1",
+    "option_textC": "indefinite",
+    "option_textD": "suggestion in addition to        ",
+    "answer_text": "suggestion in addition to        "
+  },
+  {
+    "question_id": "190",
+    "option_textA": "wrong_option1",
+    "option_textB": "pompous self important         ",
+    "option_textC": "wrong_option40",
+    "option_textD": "agreement",
+    "answer_text": "pompous self important         "
+  },
+  {
+    "question_id": "191",
+    "option_textA": "give comfort or sympathy to       ",
+    "option_textB": "commensurate",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "give comfort or sympathy to       "
+  },
+  {
+    "question_id": "192",
+    "option_textA": "ask",
+    "option_textB": "influence",
+    "option_textC": "easily seen remarkable         ",
+    "option_textD": "refer to back",
+    "answer_text": "easily seen remarkable         "
+  },
+  {
+    "question_id": "193",
+    "option_textA": "ambiguous",
+    "option_textB": "surprise and fear dismay        ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "surprise and fear dismay        "
+  },
+  {
+    "question_id": "194",
+    "option_textA": "wrong_option1",
+    "option_textB": "wrong_option1",
+    "option_textC": "indefinite",
+    "option_textD": "compel         ",
+    "answer_text": "compel         "
+  },
+  {
+    "question_id": "195",
+    "option_textA": "wrong_option1",
+    "option_textB": "make tight or smaller        ",
+    "option_textC": "wrong_option41",
+    "option_textD": "agreement",
+    "answer_text": "make tight or smaller        "
+  },
+  {
+    "question_id": "196",
+    "option_textA": "get to the end of       ",
+    "option_textB": "commensurate",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "get to the end of       "
+  },
+  {
+    "question_id": "197",
+    "option_textA": "ask",
+    "option_textB": "influence",
+    "option_textC": "perfect/make perfect/complete        ",
+    "option_textD": "refer to back",
+    "answer_text": "perfect/make perfect/complete        "
+  },
+  {
+    "question_id": "198",
+    "option_textA": "ambiguous",
+    "option_textB": "to scorn or despise        ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "to scorn or despise        "
+  },
+  {
+    "question_id": "199",
+    "option_textA": "wrong_option1",
+    "option_textB": "wrong_option1",
+    "option_textC": "indefinite",
+    "option_textD": "argumentative pugnacious combative quarrelsome        ",
+    "answer_text": "argumentative pugnacious combative quarrelsome        "
+  },
+  {
+    "question_id": "200",
+    "option_textA": "wrong_option1",
+    "option_textB": "touching neighboring near         ",
+    "option_textC": "wrong_option42",
+    "option_textD": "agreement",
+    "answer_text": "touching neighboring near         "
+  },
+  {
+    "question_id": "201",
+    "option_textA": "filled with deep sorrow for wrongdoing      ",
+    "option_textB": "commensurate",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "filled with deep sorrow for wrongdoing      "
+  },
+  {
+    "question_id": "202",
+    "option_textA": "ask",
+    "option_textB": "influence",
+    "option_textC": "insubordinate rebellious          ",
+    "option_textD": "refer to back",
+    "answer_text": "insubordinate rebellious          "
+  },
+  {
+    "question_id": "203",
+    "option_textA": "ambiguous",
+    "option_textB": "a riddle dilemma enigma        ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "a riddle dilemma enigma        "
+  },
+  {
+    "question_id": "204",
+    "option_textA": "wrong_option1",
+    "option_textB": "wrong_option1",
+    "option_textC": "indefinite",
+    "option_textD": "convincing firm belief         ",
+    "answer_text": "convincing firm belief         "
+  },
+  {
+    "question_id": "205",
+    "option_textA": "wrong_option1",
+    "option_textB": "call together summon         ",
+    "option_textC": "wrong_option43",
+    "option_textD": "agreement",
+    "answer_text": "call together summon         "
+  },
+  {
+    "question_id": "206",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "commensurate",
+    "option_textC": "complicated coiled twisted         ",
+    "option_textD": "wrong_option4",
+    "answer_text": "complicated coiled twisted         "
+  },
+  {
+    "question_id": "207",
+    "option_textA": "warm and sincere         ",
+    "option_textB": "influence",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "warm and sincere         "
+  },
+  {
+    "question_id": "208",
+    "option_textA": "ambiguous",
+    "option_textB": "line (of police acting as a guard)     ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "line (of police acting as a guard)     "
+  },
+  {
+    "question_id": "209",
+    "option_textA": "wrong_option1",
+    "option_textB": "wrong_option1",
+    "option_textC": "indefinite",
+    "option_textD": "abundant supply        ",
+    "answer_text": "abundant supply        "
+  },
+  {
+    "question_id": "210",
+    "option_textA": "wrong_option1",
+    "option_textB": "physical of or for the body      ",
+    "option_textC": "wrong_option44",
+    "option_textD": "agreement",
+    "answer_text": "physical of or for the body      "
+  },
+  {
+    "question_id": "211",
+    "option_textA": "have a mutual relation        ",
+    "option_textB": "commensurate",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "have a mutual relation        "
+  },
+  {
+    "question_id": "212",
+    "option_textA": "ask",
+    "option_textB": "influence",
+    "option_textC": "additional strengthening evidence         ",
+    "option_textD": "refer to back",
+    "answer_text": "additional strengthening evidence         "
+  },
+  {
+    "question_id": "213",
+    "option_textA": "ambiguous",
+    "option_textB": "to favor or approve of       ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "to favor or approve of       "
+  },
+  {
+    "question_id": "214",
+    "option_textA": "wrong_option1",
+    "option_textB": "wrong_option1",
+    "option_textC": "indefinite",
+    "option_textD": "forgery           ",
+    "answer_text": "forgery           "
+  },
+  {
+    "question_id": "215",
+    "option_textA": "wrong_option1",
+    "option_textB": "counterbalance           ",
+    "option_textC": "wrong_option45",
+    "option_textD": "agreement",
+    "answer_text": "counterbalance           "
+  },
+  {
+    "question_id": "216",
+    "option_textA": "disguised           ",
+    "option_textB": "commensurate",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "disguised           "
+  },
+  {
+    "question_id": "217",
+    "option_textA": "ask",
+    "option_textB": "influence",
+    "option_textC": "eagerly desirous          ",
+    "option_textD": "refer to back",
+    "answer_text": "eagerly desirous          "
+  },
+  {
+    "question_id": "218",
+    "option_textA": "ambiguous",
+    "option_textB": "crouch shrink back         ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "crouch shrink back         "
+  },
+  {
+    "question_id": "219",
+    "option_textA": "wrong_option1",
+    "option_textB": "wrong_option1",
+    "option_textC": "indefinite",
+    "option_textD": "shy/modest (esp of a girl)     ",
+    "answer_text": "shy/modest (esp of a girl)     "
+  },
+  {
+    "question_id": "220",
+    "option_textA": "wrong_option1",
+    "option_textB": "very great (es. stupidity)      ",
+    "option_textC": "wrong_option46",
+    "option_textD": "agreement",
+    "answer_text": "very great (es. stupidity)      "
+  },
+  {
+    "question_id": "221",
+    "option_textA": "piece of linen worn as a necktie   ",
+    "option_textB": "commensurate",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "piece of linen worn as a necktie   "
+  },
+  {
+    "question_id": "222",
+    "option_textA": "ask",
+    "option_textB": "influence",
+    "option_textC": "cowardly           ",
+    "option_textD": "refer to back",
+    "answer_text": "cowardly           "
+  },
+  {
+    "question_id": "223",
+    "option_textA": "ambiguous",
+    "option_textB": "line made by crushing white line on the ground in cricket ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "line made by crushing white line on the ground in cricket "
+  },
+  {
+    "question_id": "224",
+    "option_textA": "wrong_option1",
+    "option_textB": "wrong_option1",
+    "option_textC": "indefinite",
+    "option_textD": "too great a readiness to believe things     ",
+    "answer_text": "too great a readiness to believe things     "
+  },
+  {
+    "question_id": "225",
+    "option_textA": "wrong_option1",
+    "option_textB": "ready to believe things        ",
+    "option_textC": "wrong_option47",
+    "option_textD": "agreement",
+    "answer_text": "ready to believe things        "
+  },
+  {
+    "question_id": "226",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "press lose shape subdue overwhelm       ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "press lose shape subdue overwhelm       "
+  },
+  {
+    "question_id": "227",
+    "option_textA": "ask",
+    "option_textB": "influence",
+    "option_textC": "secret with a hidden meaning       ",
+    "option_textD": "refer to back",
+    "answer_text": "secret with a hidden meaning       "
+  },
+  {
+    "question_id": "228",
+    "option_textA": "ambiguous",
+    "option_textB": "burdensome heavy and awkward to carry      ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "burdensome heavy and awkward to carry      "
+  },
+  {
+    "question_id": "229",
+    "option_textA": "wrong_option1",
+    "option_textB": "wrong_option1",
+    "option_textC": "indefinite",
+    "option_textD": "bad-tempered person          ",
+    "answer_text": "bad-tempered person          "
+  },
+  {
+    "question_id": "230",
+    "option_textA": "wrong_option1",
+    "option_textB": "course of study         ",
+    "option_textC": "wrong_option48",
+    "option_textD": "agreement",
+    "answer_text": "course of study         "
+  },
+  {
+    "question_id": "231",
+    "option_textA": "quick hurried          ",
+    "option_textB": "commensurate",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "quick hurried          "
+  },
+  {
+    "question_id": "232",
+    "option_textA": "ask",
+    "option_textB": "influence",
+    "option_textC": "make shorter then was planned       ",
+    "option_textD": "refer to back",
+    "answer_text": "make shorter then was planned       "
+  },
+  {
+    "question_id": "233",
+    "option_textA": "ambiguous",
+    "option_textB": "pretty/delicate(food)/difficult to please       ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "pretty/delicate(food)/difficult to please       "
+  },
+  {
+    "question_id": "234",
+    "option_textA": "wrong_option1",
+    "option_textB": "wrong_option1",
+    "option_textC": "indefinite",
+    "option_textD": "intimidate make fearful         ",
+    "answer_text": "intimidate make fearful         "
+  },
+  {
+    "question_id": "235",
+    "option_textA": "wrong_option1",
+    "option_textB": "person who is slow waste of time     ",
+    "option_textC": "wrong_option49",
+    "option_textD": "agreement",
+    "answer_text": "person who is slow waste of time     "
+  },
+  {
+    "question_id": "236",
+    "option_textA": "shortage           ",
+    "option_textB": "commensurate",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "shortage           "
+  },
+  {
+    "question_id": "237",
+    "option_textA": "ask",
+    "option_textB": "influence",
+    "option_textC": "a breakup overthrow sudden disaster       ",
+    "option_textD": "refer to back",
+    "answer_text": "a breakup overthrow sudden disaster       "
+  },
+  {
+    "question_id": "238",
+    "option_textA": "ambiguous",
+    "option_textB": "propriety properness          ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "propriety properness          "
+  },
+  {
+    "question_id": "239",
+    "option_textA": "wrong_option1",
+    "option_textB": "wrong_option1",
+    "option_textC": "indefinite",
+    "option_textD": "order given by authority        ",
+    "answer_text": "order given by authority        "
+  },
+  {
+    "question_id": "240",
+    "option_textA": "wrong_option1",
+    "option_textB": "disapprove of          ",
+    "option_textC": "wrong_option50",
+    "option_textD": "agreement",
+    "answer_text": "disapprove of          "
+  },
+  {
+    "question_id": "241",
+    "option_textA": "postpone give way (to show respect)      ",
+    "option_textB": "commensurate",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "postpone give way (to show respect)      "
+  },
+  {
+    "question_id": "242",
+    "option_textA": "ask",
+    "option_textB": "influence",
+    "option_textC": "showing respect          ",
+    "option_textD": "refer to back",
+    "answer_text": "showing respect          "
+  },
+  {
+    "question_id": "243",
+    "option_textA": "ambiguous",
+    "option_textB": "open disobedience or resistance        ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "open disobedience or resistance        "
+  },
+  {
+    "question_id": "244",
+    "option_textA": "wrong_option1",
+    "option_textB": "wrong_option1",
+    "option_textC": "indefinite",
+    "option_textD": "to portray depict sketch out       ",
+    "answer_text": "to portray depict sketch out       "
+  },
+  {
+    "question_id": "245",
+    "option_textA": "wrong_option1",
+    "option_textB": "great flood heavy rush of water      ",
+    "option_textC": "wrong_option51",
+    "option_textD": "agreement",
+    "answer_text": "great flood heavy rush of water      "
+  },
+  {
+    "question_id": "246",
+    "option_textA": "person appealing not to reasons       ",
+    "option_textB": "commensurate",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "person appealing not to reasons       "
+  },
+  {
+    "question_id": "247",
+    "option_textA": "ask",
+    "option_textB": "influence",
+    "option_textC": "to hesitate raise objections        ",
+    "option_textD": "refer to back",
+    "answer_text": "to hesitate raise objections        "
+  },
+  {
+    "question_id": "248",
+    "option_textA": "ambiguous",
+    "option_textB": "blacken belittle sully defame        ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "blacken belittle sully defame        "
+  },
+  {
+    "question_id": "249",
+    "option_textA": "wrong_option1",
+    "option_textB": "wrong_option1",
+    "option_textC": "indefinite",
+    "option_textD": "an outcome or solution the unraveling of a plot   ",
+    "answer_text": "an outcome or solution the unraveling of a plot   "
+  },
+  {
+    "question_id": "250",
+    "option_textA": "wrong_option1",
+    "option_textB": "use until none remains        ",
+    "option_textC": "wrong_option52",
+    "option_textD": "agreement",
+    "answer_text": "use until none remains        "
+  },
+  {
+    "question_id": "251",
+    "option_textA": "dethronement depositing          ",
+    "option_textB": "commensurate",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "dethronement depositing          "
+  },
+  {
+    "question_id": "252",
+    "option_textA": "ask",
+    "option_textB": "influence",
+    "option_textC": "make morally bad corrupt        ",
+    "option_textD": "refer to back",
+    "answer_text": "make morally bad corrupt        "
+  },
+  {
+    "question_id": "253",
+    "option_textA": "ambiguous",
+    "option_textB": "protest against express disapproval of       ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "protest against express disapproval of       "
+  },
+  {
+    "question_id": "254",
+    "option_textA": "wrong_option1",
+    "option_textB": "wrong_option1",
+    "option_textC": "indefinite",
+    "option_textD": "deserting and leaving to fall into ruins     ",
+    "answer_text": "deserting and leaving to fall into ruins     "
+  },
+  {
+    "question_id": "255",
+    "option_textA": "wrong_option1",
+    "option_textB": "ridicule mockery deriding         ",
+    "option_textC": "wrong_option53",
+    "option_textD": "agreement",
+    "answer_text": "ridicule mockery deriding         "
+  },
+  {
+    "question_id": "256",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "unoriginal obtained from another source       ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "unoriginal obtained from another source       "
+  },
+  {
+    "question_id": "257",
+    "option_textA": "ask",
+    "option_textB": "influence",
+    "option_textC": "insulting tending to damage        ",
+    "option_textD": "refer to back",
+    "answer_text": "insulting tending to damage        "
+  },
+  {
+    "question_id": "258",
+    "option_textA": "ambiguous",
+    "option_textB": "catch sight of see smth in the distance    ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "catch sight of see smth in the distance    "
+  },
+  {
+    "question_id": "259",
+    "option_textA": "wrong_option1",
+    "option_textB": "wrong_option1",
+    "option_textC": "indefinite",
+    "option_textD": "substance used to absorb moisture       ",
+    "answer_text": "substance used to absorb moisture       "
+  },
+  {
+    "question_id": "260",
+    "option_textA": "wrong_option1",
+    "option_textB": "cessation of use disuse        ",
+    "option_textC": "wrong_option54",
+    "option_textD": "agreement",
+    "answer_text": "cessation of use disuse        "
+  },
+  {
+    "question_id": "261",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "aimless haphazard digressing at random       ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "aimless haphazard digressing at random       "
+  },
+  {
+    "question_id": "262",
+    "option_textA": "ask",
+    "option_textB": "discourage hinder          ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "discourage hinder          "
+  },
+  {
+    "question_id": "263",
+    "option_textA": "ambiguous",
+    "option_textB": "slandering verbal attack aspersion        ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "slandering verbal attack aspersion        "
+  },
+  {
+    "question_id": "264",
+    "option_textA": "wrong_option1",
+    "option_textB": "diminishing or lessening of swelling       ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "diminishing or lessening of swelling       "
+  },
+  {
+    "question_id": "265",
+    "option_textA": "wrong_option1",
+    "option_textB": "being different in moral standards (from normal)     ",
+    "option_textC": "wrong_option55",
+    "option_textD": "agreement",
+    "answer_text": "being different in moral standards (from normal)     "
+  },
+  {
+    "question_id": "266",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "skill (esp. in handling)        ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "skill (esp. in handling)        "
+  },
+  {
+    "question_id": "267",
+    "option_textA": "ask",
+    "option_textB": "transparent gauzy          ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "transparent gauzy          "
+  },
+  {
+    "question_id": "268",
+    "option_textA": "ambiguous",
+    "option_textB": "bitter and violent attack in words      ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "bitter and violent attack in words      "
+  },
+  {
+    "question_id": "269",
+    "option_textA": "wrong_option1",
+    "option_textB": "shyness           ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "shyness           "
+  },
+  {
+    "question_id": "270",
+    "option_textA": "wrong_option1",
+    "option_textB": "speak comprehensively become wider large       ",
+    "option_textC": "wrong_option56",
+    "option_textD": "agreement",
+    "answer_text": "speak comprehensively become wider large       "
+  },
+  {
+    "question_id": "271",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "refuse to allow or accept as a correct    ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "refuse to allow or accept as a correct    "
+  },
+  {
+    "question_id": "272",
+    "option_textA": "ask",
+    "option_textB": "see with an effort but clearly      ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "see with an effort but clearly      "
+  },
+  {
+    "question_id": "273",
+    "option_textA": "ambiguous",
+    "option_textB": "confuse embarrass          ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "confuse embarrass          "
+  },
+  {
+    "question_id": "274",
+    "option_textA": "wrong_option1",
+    "option_textB": "upset the self-possession of        ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "upset the self-possession of        "
+  },
+  {
+    "question_id": "275",
+    "option_textA": "wrong_option1",
+    "option_textB": "refuse to approve of        ",
+    "option_textC": "wrong_option57",
+    "option_textD": "agreement",
+    "answer_text": "refuse to approve of        "
+  },
+  {
+    "question_id": "276",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "speech lecture          ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "speech lecture          "
+  },
+  {
+    "question_id": "277",
+    "option_textA": "ask",
+    "option_textB": "refuse to believe         ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "refuse to believe         "
+  },
+  {
+    "question_id": "278",
+    "option_textA": "ambiguous",
+    "option_textB": "careful/prudent         ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "careful/prudent         "
+  },
+  {
+    "question_id": "279",
+    "option_textA": "wrong_option1",
+    "option_textB": "individually distinct        ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "individually distinct        "
+  },
+  {
+    "question_id": "280",
+    "option_textA": "wrong_option1",
+    "option_textB": "look on with contempt        ",
+    "option_textC": "wrong_option58",
+    "option_textD": "agreement",
+    "answer_text": "look on with contempt        "
+  },
+  {
+    "question_id": "281",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "free from encumbrance         ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "free from encumbrance         "
+  },
+  {
+    "question_id": "282",
+    "option_textA": "ask",
+    "option_textB": "untidy           ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "untidy           "
+  },
+  {
+    "question_id": "283",
+    "option_textA": "ambiguous",
+    "option_textB": "sophisticated artful trying to deceive cunning      ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "sophisticated artful trying to deceive cunning      "
+  },
+  {
+    "question_id": "284",
+    "option_textA": "wrong_option1",
+    "option_textB": "dig up from the earth       ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "dig up from the earth       "
+  },
+  {
+    "question_id": "285",
+    "option_textA": "wrong_option1",
+    "option_textB": "move force from the place occupied      ",
+    "option_textC": "wrong_option59",
+    "option_textD": "agreement",
+    "answer_text": "move force from the place occupied      "
+  },
+  {
+    "question_id": "286",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "sad gloomy miserable         ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "sad gloomy miserable         "
+  },
+  {
+    "question_id": "287",
+    "option_textA": "ask",
+    "option_textB": "essentially different          ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "essentially different          "
+  },
+  {
+    "question_id": "288",
+    "option_textA": "ambiguous",
+    "option_textB": "proof to the contrary      ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "proof to the contrary      "
+  },
+  {
+    "question_id": "289",
+    "option_textA": "wrong_option1",
+    "option_textB": "speak or behave so as to hide smth (in mind)  ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "speak or behave so as to hide smth (in mind)  "
+  },
+  {
+    "question_id": "290",
+    "option_textA": "wrong_option1",
+    "option_textB": "distribute (esp. ideas)         ",
+    "option_textC": "wrong_option60",
+    "option_textD": "agreement",
+    "answer_text": "distribute (esp. ideas)         "
+  },
+  {
+    "question_id": "291",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "have a different opinion refuse to assent     ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "have a different opinion refuse to assent     "
+  },
+  {
+    "question_id": "292",
+    "option_textA": "ask",
+    "option_textB": "disintegration looseness in morals        ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "disintegration looseness in morals        "
+  },
+  {
+    "question_id": "293",
+    "option_textA": "ambiguous",
+    "option_textB": "distracted violently upset in mind       ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "distracted violently upset in mind       "
+  },
+  {
+    "question_id": "294",
+    "option_textA": "wrong_option1",
+    "option_textB": "getting farther apart from a point      ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "getting farther apart from a point      "
+  },
+  {
+    "question_id": "295",
+    "option_textA": "wrong_option1",
+    "option_textB": "taking off getting rid of giving up     ",
+    "option_textC": "wrong_option61",
+    "option_textD": "agreement",
+    "answer_text": "taking off getting rid of giving up     "
+  },
+  {
+    "question_id": "296",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "make known smth secret        ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "make known smth secret        "
+  },
+  {
+    "question_id": "297",
+    "option_textA": "ask",
+    "option_textB": "trivial poorly constructed verse        ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "trivial poorly constructed verse        "
+  },
+  {
+    "question_id": "298",
+    "option_textA": "ambiguous",
+    "option_textB": "positive certain arbitrary without room for discussion     ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "positive certain arbitrary without room for discussion     "
+  },
+  {
+    "question_id": "299",
+    "option_textA": "wrong_option1",
+    "option_textB": "stupid fellow          ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "stupid fellow          "
+  },
+  {
+    "question_id": "300",
+    "option_textA": "wrong_option1",
+    "option_textB": "in a state of inactivity but awaiting development    ",
+    "option_textC": "wrong_option62",
+    "option_textD": "agreement",
+    "answer_text": "in a state of inactivity but awaiting development    "
+  },
+  {
+    "question_id": "301",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "show much fondness center one's attention      ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "show much fondness center one's attention      "
+  },
+  {
+    "question_id": "302",
+    "option_textA": "ask",
+    "option_textB": "slow way of speaking      ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "slow way of speaking      "
+  },
+  {
+    "question_id": "303",
+    "option_textA": "ambiguous",
+    "option_textB": "jesting         ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "jesting         "
+  },
+  {
+    "question_id": "304",
+    "option_textA": "wrong_option1",
+    "option_textB": "male bee person who isn't self-employed      ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "male bee person who isn't self-employed      "
+  },
+  {
+    "question_id": "305",
+    "option_textA": "wrong_option1",
+    "option_textB": "feeling sleepy half asleep        ",
+    "option_textC": "wrong_option63",
+    "option_textD": "agreement",
+    "answer_text": "feeling sleepy half asleep        "
+  },
+  {
+    "question_id": "306",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "feeling doubt          ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "feeling doubt          "
+  },
+  {
+    "question_id": "307",
+    "option_textA": "ask",
+    "option_textB": "no use person smth that fails      ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "no use person smth that fails      "
+  },
+  {
+    "question_id": "308",
+    "option_textA": "ambiguous",
+    "option_textB": "melodious harmonious          ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "melodious harmonious          "
+  },
+  {
+    "question_id": "309",
+    "option_textA": "wrong_option1",
+    "option_textB": "cheat make a fool of       ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "cheat make a fool of       "
+  },
+  {
+    "question_id": "310",
+    "option_textA": "wrong_option1",
+    "option_textB": "deliberate deception          ",
+    "option_textC": "wrong_option64",
+    "option_textD": "agreement",
+    "answer_text": "deliberate deception          "
+  },
+  {
+    "question_id": "311",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "threats to compel smb        ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "threats to compel smb        "
+  },
+  {
+    "question_id": "312",
+    "option_textA": "ask",
+    "option_textB": "person or smb much below the usual size    ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "person or smb much below the usual size    "
+  },
+  {
+    "question_id": "313",
+    "option_textA": "ambiguous",
+    "option_textB": "a generator something that produces electric current     ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "a generator something that produces electric current     "
+  },
+  {
+    "question_id": "314",
+    "option_textA": "wrong_option1",
+    "option_textB": "dishes made of baked clay       ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "dishes made of baked clay       "
+  },
+  {
+    "question_id": "315",
+    "option_textA": "wrong_option1",
+    "option_textB": "exuberance outburst of feeling        ",
+    "option_textC": "wrong_option65",
+    "option_textD": "agreement",
+    "answer_text": "exuberance outburst of feeling        "
+  },
+  {
+    "question_id": "316",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "overflowing with enthusiasm showing excitement       ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "overflowing with enthusiasm showing excitement       "
+  },
+  {
+    "question_id": "317",
+    "option_textA": "ask",
+    "option_textB": "representing the whole Christian world       ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "representing the whole Christian world       "
+  },
+  {
+    "question_id": "318",
+    "option_textA": "ambiguous",
+    "option_textB": "voracious devouring          ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "voracious devouring          "
+  },
+  {
+    "question_id": "319",
+    "option_textA": "wrong_option1",
+    "option_textB": "circular or spiral movement (e.g.. of wind)     ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "circular or spiral movement (e.g.. of wind)     "
+  },
+  {
+    "question_id": "320",
+    "option_textA": "wrong_option1",
+    "option_textB": "fit to be eaten/not poisonous     ",
+    "option_textC": "wrong_option66",
+    "option_textD": "agreement",
+    "answer_text": "fit to be eaten/not poisonous     "
+  },
+  {
+    "question_id": "321",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "infertile worn out weak        ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "infertile worn out weak        "
+  },
+  {
+    "question_id": "322",
+    "option_textA": "ask",
+    "option_textB": "production of a desired result       ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "production of a desired result       "
+  },
+  {
+    "question_id": "323",
+    "option_textA": "ambiguous",
+    "option_textB": "outflow in a stream of particles a noxious odor or vapor ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "outflow in a stream of particles a noxious odor or vapor "
+  },
+  {
+    "question_id": "324",
+    "option_textA": "wrong_option1",
+    "option_textB": "boldness impudence arrogance         ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "boldness impudence arrogance         "
+  },
+  {
+    "question_id": "325",
+    "option_textA": "wrong_option1",
+    "option_textB": "way out exit         ",
+    "option_textC": "wrong_option67",
+    "option_textD": "agreement",
+    "answer_text": "way out exit         "
+  },
+  {
+    "question_id": "326",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "worked out with much care in great detail    ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "worked out with much care in great detail    "
+  },
+  {
+    "question_id": "327",
+    "option_textA": "ask",
+    "option_textB": "a lament a melancholy composition       ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "a lament a melancholy composition       "
+  },
+  {
+    "question_id": "328",
+    "option_textA": "ambiguous",
+    "option_textB": "draw out          ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "draw out          "
+  },
+  {
+    "question_id": "329",
+    "option_textA": "wrong_option1",
+    "option_textB": "fluent speaking skillful use of language      ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "fluent speaking skillful use of language      "
+  },
+  {
+    "question_id": "330",
+    "option_textA": "wrong_option1",
+    "option_textB": "make thin and weak        ",
+    "option_textC": "wrong_option68",
+    "option_textD": "agreement",
+    "answer_text": "make thin and weak        "
+  },
+  {
+    "question_id": "331",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "make beautiful          ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "make beautiful          "
+  },
+  {
+    "question_id": "332",
+    "option_textA": "ask",
+    "option_textB": "use in a wrong way for one's own benefit   ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "use in a wrong way for one's own benefit   "
+  },
+  {
+    "question_id": "333",
+    "option_textA": "ambiguous",
+    "option_textB": "stir up excite         ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "stir up excite         "
+  },
+  {
+    "question_id": "334",
+    "option_textA": "wrong_option1",
+    "option_textB": "relying on experiment         ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "relying on experiment         "
+  },
+  {
+    "question_id": "335",
+    "option_textA": "wrong_option1",
+    "option_textB": "enclose in capsule         ",
+    "option_textC": "wrong_option69",
+    "option_textD": "agreement",
+    "answer_text": "enclose in capsule         "
+  },
+  {
+    "question_id": "336",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "warm or glowing praise eulogy panegyric      ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "warm or glowing praise eulogy panegyric      "
+  },
+  {
+    "question_id": "337",
+    "option_textA": "ask",
+    "option_textB": "burden things that get on the way of    ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "burden things that get on the way of    "
+  },
+  {
+    "question_id": "338",
+    "option_textA": "ambiguous",
+    "option_textB": "making dear or liked        ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "making dear or liked        "
+  },
+  {
+    "question_id": "339",
+    "option_textA": "wrong_option1",
+    "option_textB": "epidemic           ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "epidemic           "
+  },
+  {
+    "question_id": "340",
+    "option_textA": "wrong_option1",
+    "option_textB": "write one's name on the back of     ",
+    "option_textC": "wrong_option70",
+    "option_textD": "agreement",
+    "answer_text": "write one's name on the back of     "
+  },
+  {
+    "question_id": "341",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "lasting           ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "lasting           "
+  },
+  {
+    "question_id": "342",
+    "option_textA": "ask",
+    "option_textB": "weaken deprive of strength attenuate       ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "weaken deprive of strength attenuate       "
+  },
+  {
+    "question_id": "343",
+    "option_textA": "ambiguous",
+    "option_textB": "cause produce give rise to       ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "cause produce give rise to       "
+  },
+  {
+    "question_id": "344",
+    "option_textA": "wrong_option1",
+    "option_textB": "impress deeply          ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "impress deeply          "
+  },
+  {
+    "question_id": "345",
+    "option_textA": "wrong_option1",
+    "option_textB": "taken up all the time or attention writing in large or formal",
+    "option_textC": "wrong_option71",
+    "option_textD": "agreement",
+    "answer_text": "taken up all the time or attention writing in large or formal"
+  },
+  {
+    "question_id": "346",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "swallow up          ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "swallow up          "
+  },
+  {
+    "question_id": "347",
+    "option_textA": "ask",
+    "option_textB": "smth that is puzzling        ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "smth that is puzzling        "
+  },
+  {
+    "question_id": "348",
+    "option_textA": "ambiguous",
+    "option_textB": "hatred being an enemy        ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "hatred being an enemy        "
+  },
+  {
+    "question_id": "349",
+    "option_textA": "wrong_option1",
+    "option_textB": "flag/badge         ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "flag/badge         "
+  },
+  {
+    "question_id": "350",
+    "option_textA": "wrong_option1",
+    "option_textB": "put into difficulties         ",
+    "option_textC": "wrong_option72",
+    "option_textD": "agreement",
+    "answer_text": "put into difficulties         "
+  },
+  {
+    "question_id": "351",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "please greatly/enslave (fig)       ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "please greatly/enslave (fig)       "
+  },
+  {
+    "question_id": "352",
+    "option_textA": "ask",
+    "option_textB": "tempt or persuade       ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "tempt or persuade       "
+  },
+  {
+    "question_id": "353",
+    "option_textA": "ambiguous",
+    "option_textB": "ask earnestly          ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "ask earnestly          "
+  },
+  {
+    "question_id": "354",
+    "option_textA": "wrong_option1",
+    "option_textB": "pronounce (words)/express a theory      ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "pronounce (words)/express a theory      "
+  },
+  {
+    "question_id": "355",
+    "option_textA": "wrong_option1",
+    "option_textB": "catalyst           ",
+    "option_textC": "wrong_option73",
+    "option_textD": "agreement",
+    "answer_text": "catalyst           "
+  },
+  {
+    "question_id": "356",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "devoted to pleasure (sensuous enjoyment)       ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "devoted to pleasure (sensuous enjoyment)       "
+  },
+  {
+    "question_id": "357",
+    "option_textA": "ask",
+    "option_textB": "letter           ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "letter           "
+  },
+  {
+    "question_id": "358",
+    "option_textA": "ambiguous",
+    "option_textB": "adjective           ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "adjective           "
+  },
+  {
+    "question_id": "359",
+    "option_textA": "wrong_option1",
+    "option_textB": "brief summary representative example a typical model     ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "brief summary representative example a typical model     "
+  },
+  {
+    "question_id": "360",
+    "option_textA": "wrong_option1",
+    "option_textB": "steady regular          ",
+    "option_textC": "wrong_option74",
+    "option_textD": "agreement",
+    "answer_text": "steady regular          "
+  },
+  {
+    "question_id": "361",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "calmness of temperament         ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "calmness of temperament         "
+  },
+  {
+    "question_id": "362",
+    "option_textA": "ask",
+    "option_textB": "state of being balanced        ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "state of being balanced        "
+  },
+  {
+    "question_id": "363",
+    "option_textA": "ambiguous",
+    "option_textB": "equal distribution of weight equilibrium       ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "equal distribution of weight equilibrium       "
+  },
+  {
+    "question_id": "364",
+    "option_textA": "wrong_option1",
+    "option_textB": "having a double or doubtful meaning suspicious     ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "having a double or doubtful meaning suspicious     "
+  },
+  {
+    "question_id": "365",
+    "option_textA": "wrong_option1",
+    "option_textB": "try to deceive by equivocal language      ",
+    "option_textC": "wrong_option75",
+    "option_textD": "agreement",
+    "answer_text": "try to deceive by equivocal language      "
+  },
+  {
+    "question_id": "366",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "get rid of pull up by the roots    ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "get rid of pull up by the roots    "
+  },
+  {
+    "question_id": "367",
+    "option_textA": "ask",
+    "option_textB": "irregular in behaviour or opinion       ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "irregular in behaviour or opinion       "
+  },
+  {
+    "question_id": "368",
+    "option_textA": "ambiguous",
+    "option_textB": "learned scholarly          ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "learned scholarly          "
+  },
+  {
+    "question_id": "369",
+    "option_textA": "wrong_option1",
+    "option_textB": "avoid         ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "avoid         "
+  },
+  {
+    "question_id": "370",
+    "option_textA": "wrong_option1",
+    "option_textB": "abstruse intended only for a small circle of    ",
+    "option_textC": "wrong_option76",
+    "option_textD": "agreement",
+    "answer_text": "abstruse intended only for a small circle of    "
+  },
+  {
+    "question_id": "371",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "marry give one's support to       ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "marry give one's support to       "
+  },
+  {
+    "question_id": "372",
+    "option_textA": "ask",
+    "option_textB": "formal praise panegyric         ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "formal praise panegyric         "
+  },
+  {
+    "question_id": "373",
+    "option_textA": "ambiguous",
+    "option_textB": "elation state of pleasant excitement       ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "elation state of pleasant excitement       "
+  },
+  {
+    "question_id": "374",
+    "option_textA": "wrong_option1",
+    "option_textB": "easy and painless death        ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "easy and painless death        "
+  },
+  {
+    "question_id": "375",
+    "option_textA": "wrong_option1",
+    "option_textB": "tending to evade       ",
+    "option_textC": "wrong_option77",
+    "option_textD": "agreement",
+    "answer_text": "tending to evade       "
+  },
+  {
+    "question_id": "376",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "to show clearly to indicate       ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "to show clearly to indicate       "
+  },
+  {
+    "question_id": "377",
+    "option_textA": "ask",
+    "option_textB": "call up bring out        ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "call up bring out        "
+  },
+  {
+    "question_id": "378",
+    "option_textA": "ambiguous",
+    "option_textB": "severe criticism          ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "severe criticism          "
+  },
+  {
+    "question_id": "379",
+    "option_textA": "wrong_option1",
+    "option_textB": "to clear from a charge of guilt     ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "to clear from a charge of guilt     "
+  },
+  {
+    "question_id": "380",
+    "option_textA": "wrong_option1",
+    "option_textB": "complete thorough          ",
+    "option_textC": "wrong_option78",
+    "option_textD": "agreement",
+    "answer_text": "complete thorough          "
+  },
+  {
+    "question_id": "381",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "emergency an urgent situation        ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "emergency an urgent situation        "
+  },
+  {
+    "question_id": "382",
+    "option_textA": "ask",
+    "option_textB": "set smb clear free (e.g.. from blame)     ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "set smb clear free (e.g.. from blame)     "
+  },
+  {
+    "question_id": "383",
+    "option_textA": "ambiguous",
+    "option_textB": "much too high or great       ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "much too high or great       "
+  },
+  {
+    "question_id": "384",
+    "option_textA": "wrong_option1",
+    "option_textB": "to roam wander freely        ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "to roam wander freely        "
+  },
+  {
+    "question_id": "385",
+    "option_textA": "wrong_option1",
+    "option_textB": "likely to be useful for a purpose     ",
+    "option_textC": "wrong_option79",
+    "option_textD": "agreement",
+    "answer_text": "likely to be useful for a purpose     "
+  },
+  {
+    "question_id": "386",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "ending expiring          ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "ending expiring          "
+  },
+  {
+    "question_id": "387",
+    "option_textA": "ask",
+    "option_textB": "brilliant achievement develop use selfishly       ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "brilliant achievement develop use selfishly       "
+  },
+  {
+    "question_id": "388",
+    "option_textA": "ambiguous",
+    "option_textB": "argue earnestly to dissuade correct or protest     ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "argue earnestly to dissuade correct or protest     "
+  },
+  {
+    "question_id": "389",
+    "option_textA": "wrong_option1",
+    "option_textB": "to remove obscenity purify censor       ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "to remove obscenity purify censor       "
+  },
+  {
+    "question_id": "390",
+    "option_textA": "wrong_option1",
+    "option_textB": "to cut out cut away       ",
+    "option_textC": "wrong_option80",
+    "option_textD": "agreement",
+    "answer_text": "to cut out cut away       "
+  },
+  {
+    "question_id": "391",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "still in existence         ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "still in existence         "
+  },
+  {
+    "question_id": "392",
+    "option_textA": "ask",
+    "option_textB": "without previous thought or preparation     ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "without previous thought or preparation     "
+  },
+  {
+    "question_id": "393",
+    "option_textA": "ambiguous",
+    "option_textB": "reduce the strength of lessen seriousness partially excuse    ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "reduce the strength of lessen seriousness partially excuse    "
+  },
+  {
+    "question_id": "394",
+    "option_textA": "wrong_option1",
+    "option_textB": "no longer active         ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "no longer active         "
+  },
+  {
+    "question_id": "395",
+    "option_textA": "wrong_option1",
+    "option_textB": "end the existence of/wipe or put out   ",
+    "option_textC": "wrong_option81",
+    "option_textD": "agreement",
+    "answer_text": "end the existence of/wipe or put out   "
+  },
+  {
+    "question_id": "396",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "to destroy exterminate cut out exscind      ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "to destroy exterminate cut out exscind      "
+  },
+  {
+    "question_id": "397",
+    "option_textA": "ask",
+    "option_textB": "praise highly          ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "praise highly          "
+  },
+  {
+    "question_id": "398",
+    "option_textA": "ambiguous",
+    "option_textB": "obtain by threats violence        ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "obtain by threats violence        "
+  },
+  {
+    "question_id": "399",
+    "option_textA": "wrong_option1",
+    "option_textB": "outside the law         ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "outside the law         "
+  },
+  {
+    "question_id": "400",
+    "option_textA": "wrong_option1",
+    "option_textB": "that can be freed        ",
+    "option_textC": "wrong_option82",
+    "option_textD": "agreement",
+    "answer_text": "that can be freed        "
+  },
+  {
+    "question_id": "401",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "cheerful person          ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "cheerful person          "
+  },
+  {
+    "question_id": "402",
+    "option_textA": "ask",
+    "option_textB": "state of growing vigorously being full of life    ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "state of growing vigorously being full of life    "
+  },
+  {
+    "question_id": "403",
+    "option_textA": "ambiguous",
+    "option_textB": "humorous funny jocular         ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "humorous funny jocular         "
+  },
+  {
+    "question_id": "404",
+    "option_textA": "wrong_option1",
+    "option_textB": "easily done          ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "easily done          "
+  },
+  {
+    "question_id": "405",
+    "option_textA": "wrong_option1",
+    "option_textB": "based on error         ",
+    "option_textC": "wrong_option83",
+    "option_textD": "agreement",
+    "answer_text": "based on error         "
+  },
+  {
+    "question_id": "406",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "waver/move in an uncertain manner     ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "waver/move in an uncertain manner     "
+  },
+  {
+    "question_id": "407",
+    "option_textA": "ask",
+    "option_textB": "without sense foolish self-satisfaction        ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "without sense foolish self-satisfaction        "
+  },
+  {
+    "question_id": "408",
+    "option_textA": "ambiguous",
+    "option_textB": "young deer try to win smb's favor     ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "young deer try to win smb's favor     "
+  },
+  {
+    "question_id": "409",
+    "option_textA": "wrong_option1",
+    "option_textB": "lacking purpose or vitality ineffective careless      ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "lacking purpose or vitality ineffective careless      "
+  },
+  {
+    "question_id": "410",
+    "option_textA": "wrong_option1",
+    "option_textB": "fertile           ",
+    "option_textC": "wrong_option84",
+    "option_textD": "agreement",
+    "answer_text": "fertile           "
+  },
+  {
+    "question_id": "411",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "pretend           ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "pretend           "
+  },
+  {
+    "question_id": "412",
+    "option_textA": "ask",
+    "option_textB": "apt suitably expressed well chosen apropos      ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "apt suitably expressed well chosen apropos      "
+  },
+  {
+    "question_id": "413",
+    "option_textA": "ambiguous",
+    "option_textB": "person guilty of murder        ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "person guilty of murder        "
+  },
+  {
+    "question_id": "414",
+    "option_textA": "wrong_option1",
+    "option_textB": "substance become excited         ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "substance become excited         "
+  },
+  {
+    "question_id": "415",
+    "option_textA": "wrong_option1",
+    "option_textB": "savage cruelty          ",
+    "option_textC": "wrong_option85",
+    "option_textD": "agreement",
+    "answer_text": "savage cruelty          "
+  },
+  {
+    "question_id": "416",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "discover by searching search        ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "discover by searching search        "
+  },
+  {
+    "question_id": "417",
+    "option_textA": "ask",
+    "option_textB": "showing earnest feeling         ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "showing earnest feeling         "
+  },
+  {
+    "question_id": "418",
+    "option_textA": "ambiguous",
+    "option_textB": "warmth of feelings earnestness        ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "warmth of feelings earnestness        "
+  },
+  {
+    "question_id": "419",
+    "option_textA": "wrong_option1",
+    "option_textB": "stinking         ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "stinking         "
+  },
+  {
+    "question_id": "420",
+    "option_textA": "wrong_option1",
+    "option_textB": "to shackle put in chains       ",
+    "option_textC": "wrong_option86",
+    "option_textD": "agreement",
+    "answer_text": "to shackle put in chains       "
+  },
+  {
+    "question_id": "421",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "bitter quarrel over a long period of time    ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "bitter quarrel over a long period of time    "
+  },
+  {
+    "question_id": "422",
+    "option_textA": "ask",
+    "option_textB": "loyalty accuracy          ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "loyalty accuracy          "
+  },
+  {
+    "question_id": "423",
+    "option_textA": "ambiguous",
+    "option_textB": "move restlessly make nervous        ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "move restlessly make nervous        "
+  },
+  {
+    "question_id": "424",
+    "option_textA": "wrong_option1",
+    "option_textB": "carved image on the prow of a ship    ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "carved image on the prow of a ship    "
+  },
+  {
+    "question_id": "425",
+    "option_textA": "wrong_option1",
+    "option_textB": "delicate way of dealing with a situation     ",
+    "option_textC": "wrong_option87",
+    "option_textD": "agreement",
+    "answer_text": "delicate way of dealing with a situation     "
+  },
+  {
+    "question_id": "426",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "too fussy about food clothing etc.      ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "too fussy about food clothing etc.      "
+  },
+  {
+    "question_id": "427",
+    "option_textA": "ask",
+    "option_textB": "finical           ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "finical           "
+  },
+  {
+    "question_id": "428",
+    "option_textA": "ambiguous",
+    "option_textB": "splitting or division (esp. of cells)      ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "splitting or division (esp. of cells)      "
+  },
+  {
+    "question_id": "429",
+    "option_textA": "wrong_option1",
+    "option_textB": "stare at          ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "stare at          "
+  },
+  {
+    "question_id": "430",
+    "option_textA": "wrong_option1",
+    "option_textB": "criticism/anti-aircraft guns        ",
+    "option_textC": "wrong_option88",
+    "option_textD": "agreement",
+    "answer_text": "criticism/anti-aircraft guns        "
+  },
+  {
+    "question_id": "431",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "brightly colored florid         ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "brightly colored florid         "
+  },
+  {
+    "question_id": "432",
+    "option_textA": "ask",
+    "option_textB": "show off complacently         ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "show off complacently         "
+  },
+  {
+    "question_id": "433",
+    "option_textA": "ambiguous",
+    "option_textB": "pale yellow (hair) a plant       ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "pale yellow (hair) a plant       "
+  },
+  {
+    "question_id": "434",
+    "option_textA": "wrong_option1",
+    "option_textB": "able to fly trained experienced       ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "able to fly trained experienced       "
+  },
+  {
+    "question_id": "435",
+    "option_textA": "wrong_option1",
+    "option_textB": "number of ships quick-moving        ",
+    "option_textC": "wrong_option89",
+    "option_textD": "agreement",
+    "answer_text": "number of ships quick-moving        "
+  },
+  {
+    "question_id": "436",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "draw move back wince        ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "draw move back wince        "
+  },
+  {
+    "question_id": "437",
+    "option_textA": "ask",
+    "option_textB": "fail/move/fall clumsily        ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "fail/move/fall clumsily        "
+  },
+  {
+    "question_id": "438",
+    "option_textA": "ambiguous",
+    "option_textB": "very much ornamented naturally red (e.g.. of face)    ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "very much ornamented naturally red (e.g.. of face)    "
+  },
+  {
+    "question_id": "439",
+    "option_textA": "wrong_option1",
+    "option_textB": "reject mock to go against (as in going against tradition)  ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "reject mock to go against (as in going against tradition)  "
+  },
+  {
+    "question_id": "440",
+    "option_textA": "wrong_option1",
+    "option_textB": "lucky stroke        ",
+    "option_textC": "wrong_option90",
+    "option_textD": "agreement",
+    "answer_text": "lucky stroke        "
+  },
+  {
+    "question_id": "441",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "make nervous or confused        ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "make nervous or confused        "
+  },
+  {
+    "question_id": "442",
+    "option_textA": "ask",
+    "option_textB": "defect of character (a person is wrongly proud)    ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "defect of character (a person is wrongly proud)    "
+  },
+  {
+    "question_id": "443",
+    "option_textA": "ambiguous",
+    "option_textB": "prevent from carrying out contrast       ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "prevent from carrying out contrast       "
+  },
+  {
+    "question_id": "444",
+    "option_textA": "wrong_option1",
+    "option_textB": "put smth warm (to lessen the pain)     ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "put smth warm (to lessen the pain)     "
+  },
+  {
+    "question_id": "445",
+    "option_textA": "wrong_option1",
+    "option_textB": "incapable of failure or error     ",
+    "option_textC": "wrong_option91",
+    "option_textD": "agreement",
+    "answer_text": "incapable of failure or error     "
+  },
+  {
+    "question_id": "446",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "like a man who pays too much attention to his clothes ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "like a man who pays too much attention to his clothes "
+  },
+  {
+    "question_id": "447",
+    "option_textA": "ask",
+    "option_textB": "food for horses and cattle     ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "food for horses and cattle     "
+  },
+  {
+    "question_id": "448",
+    "option_textA": "ambiguous",
+    "option_textB": "refrain from be patient ancestor       ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "refrain from be patient ancestor       "
+  },
+  {
+    "question_id": "449",
+    "option_textA": "wrong_option1",
+    "option_textB": "patience willingness to wait        ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "patience willingness to wait        "
+  },
+  {
+    "question_id": "450",
+    "option_textA": "wrong_option1",
+    "option_textB": "shallow place in a river (to cross)     ",
+    "option_textC": "wrong_option92",
+    "option_textD": "agreement",
+    "answer_text": "shallow place in a river (to cross)     "
+  },
+  {
+    "question_id": "451",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "prevent by taking action in advance preempt     ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "prevent by taking action in advance preempt     "
+  },
+  {
+    "question_id": "452",
+    "option_textA": "ask",
+    "option_textB": "suffer the loss of smth       ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "suffer the loss of smth       "
+  },
+  {
+    "question_id": "453",
+    "option_textA": "ambiguous",
+    "option_textB": "workshop for the shaping of metal to shape metal lead  ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "workshop for the shaping of metal to shape metal lead  "
+  },
+  {
+    "question_id": "454",
+    "option_textA": "wrong_option1",
+    "option_textB": "counterfeit           ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "counterfeit           "
+  },
+  {
+    "question_id": "455",
+    "option_textA": "wrong_option1",
+    "option_textB": "renounce disallow repudiate         ",
+    "option_textC": "wrong_option93",
+    "option_textD": "agreement",
+    "answer_text": "renounce disallow repudiate         "
+  },
+  {
+    "question_id": "456",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "nurture care for         ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "nurture care for         "
+  },
+  {
+    "question_id": "457",
+    "option_textA": "ask",
+    "option_textB": "noisy quarrel        ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "noisy quarrel        "
+  },
+  {
+    "question_id": "458",
+    "option_textA": "ambiguous",
+    "option_textB": "easily injured broken or destroyed       ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "easily injured broken or destroyed       "
+  },
+  {
+    "question_id": "459",
+    "option_textA": "wrong_option1",
+    "option_textB": "sweet-smelling           ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "sweet-smelling           "
+  },
+  {
+    "question_id": "460",
+    "option_textA": "wrong_option1",
+    "option_textB": "wildly excited with joy pain anxiety      ",
+    "option_textC": "wrong_option94",
+    "option_textD": "agreement",
+    "answer_text": "wildly excited with joy pain anxiety      "
+  },
+  {
+    "question_id": "461",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "frantic frenzied          ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "frantic frenzied          "
+  },
+  {
+    "question_id": "462",
+    "option_textA": "ask",
+    "option_textB": "worry irritation wear away        ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "worry irritation wear away        "
+  },
+  {
+    "question_id": "463",
+    "option_textA": "ambiguous",
+    "option_textB": "edge ornamental border part of hair over the forehead   ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "edge ornamental border part of hair over the forehead   "
+  },
+  {
+    "question_id": "464",
+    "option_textA": "wrong_option1",
+    "option_textB": "intractable not willing to yield or comply stubborn    ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "intractable not willing to yield or comply stubborn    "
+  },
+  {
+    "question_id": "465",
+    "option_textA": "wrong_option1",
+    "option_textB": "careful economical          ",
+    "option_textC": "wrong_option95",
+    "option_textD": "agreement",
+    "answer_text": "careful economical          "
+  },
+  {
+    "question_id": "466",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "bitter protest          ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "bitter protest          "
+  },
+  {
+    "question_id": "467",
+    "option_textA": "ask",
+    "option_textB": "disgusting offensive due to excessiveness       ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "disgusting offensive due to excessiveness       "
+  },
+  {
+    "question_id": "468",
+    "option_textA": "ambiguous",
+    "option_textB": "to deny to oppose",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "to deny to oppose"
+  },
+  {
+    "question_id": "469",
+    "option_textA": "wrong_option1",
+    "option_textB": "make unfair selection from facts     ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "make unfair selection from facts     "
+  },
+  {
+    "question_id": "470",
+    "option_textA": "wrong_option1",
+    "option_textB": "article of clothing         ",
+    "option_textC": "wrong_option96",
+    "option_textD": "agreement",
+    "answer_text": "article of clothing         "
+  },
+  {
+    "question_id": "471",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "to gather and save to store up     ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "to gather and save to store up     "
+  },
+  {
+    "question_id": "472",
+    "option_textA": "ask",
+    "option_textB": "talkativeness           ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "talkativeness           "
+  },
+  {
+    "question_id": "473",
+    "option_textA": "ambiguous",
+    "option_textB": "too talkative          ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "too talkative          "
+  },
+  {
+    "question_id": "474",
+    "option_textA": "wrong_option1",
+    "option_textB": "socially awkward tactless behavior        ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "socially awkward tactless behavior        "
+  },
+  {
+    "question_id": "475",
+    "option_textA": "wrong_option1",
+    "option_textB": "relevant pertinent to         ",
+    "option_textC": "wrong_option97",
+    "option_textD": "agreement",
+    "answer_text": "relevant pertinent to         "
+  },
+  {
+    "question_id": "476",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "the point general sense        ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "the point general sense        "
+  },
+  {
+    "question_id": "477",
+    "option_textA": "ask",
+    "option_textB": "gather facts in small quantities       ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "gather facts in small quantities       "
+  },
+  {
+    "question_id": "478",
+    "option_textA": "ambiguous",
+    "option_textB": "ready and smooth but not sincere      ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "ready and smooth but not sincere      "
+  },
+  {
+    "question_id": "479",
+    "option_textA": "wrong_option1",
+    "option_textB": "weak/unsteady light        ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "weak/unsteady light        "
+  },
+  {
+    "question_id": "480",
+    "option_textA": "wrong_option1",
+    "option_textB": "over look at with selfish delight      ",
+    "option_textC": "wrong_option98",
+    "option_textD": "agreement",
+    "answer_text": "over look at with selfish delight      "
+  },
+  {
+    "question_id": "481",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "supply to much fill to excess      ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "supply to much fill to excess      "
+  },
+  {
+    "question_id": "482",
+    "option_textA": "ask",
+    "option_textB": "waste away bite steadily        ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "waste away bite steadily        "
+  },
+  {
+    "question_id": "483",
+    "option_textA": "ambiguous",
+    "option_textB": "smth urging a person to action      ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "smth urging a person to action      "
+  },
+  {
+    "question_id": "484",
+    "option_textA": "wrong_option1",
+    "option_textB": "eat greedily/narrow opening with a stream    ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "eat greedily/narrow opening with a stream    "
+  },
+  {
+    "question_id": "485",
+    "option_textA": "wrong_option1",
+    "option_textB": "soft light delicate material        ",
+    "option_textC": "wrong_option99",
+    "option_textD": "agreement",
+    "answer_text": "soft light delicate material        "
+  },
+  {
+    "question_id": "486",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "tool for cutting grooves in wood      ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "tool for cutting grooves in wood      "
+  },
+  {
+    "question_id": "487",
+    "option_textA": "ask",
+    "option_textB": "using pompous words       ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "using pompous words       "
+  },
+  {
+    "question_id": "488",
+    "option_textA": "ambiguous",
+    "option_textB": "serious requiring consideration         ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "serious requiring consideration         "
+  },
+  {
+    "question_id": "489",
+    "option_textA": "wrong_option1",
+    "option_textB": "touch or scrape lightly in passing    ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "touch or scrape lightly in passing    "
+  },
+  {
+    "question_id": "490",
+    "option_textA": "wrong_option1",
+    "option_textB": "living in societies liking the company      ",
+    "option_textC": "wrong_option100",
+    "option_textD": "agreement",
+    "answer_text": "living in societies liking the company      "
+  },
+  {
+    "question_id": "491",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "causing grief or pain serious dire grave     ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "causing grief or pain serious dire grave     "
+  },
+  {
+    "question_id": "492",
+    "option_textA": "ask",
+    "option_textB": "crawl humble oneself         ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "crawl humble oneself         "
+  },
+  {
+    "question_id": "493",
+    "option_textA": "ambiguous",
+    "option_textB": "deceit cunning          ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "deceit cunning          "
+  },
+  {
+    "question_id": "494",
+    "option_textA": "wrong_option1",
+    "option_textB": "easily gulled          ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "easily gulled          "
+  },
+  {
+    "question_id": "495",
+    "option_textA": "wrong_option1",
+    "option_textB": "burst out suddenly/talk ardently      ",
+    "option_textC": "wrong_option101",
+    "option_textD": "agreement",
+    "answer_text": "burst out suddenly/talk ardently      "
+  },
+  {
+    "question_id": "496",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "outburst of feeling sudden rain wind fire etc.    ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "outburst of feeling sudden rain wind fire etc.    "
+  },
+  {
+    "question_id": "497",
+    "option_textA": "ask",
+    "option_textB": "cut roughly hired horse        ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "cut roughly hired horse        "
+  },
+  {
+    "question_id": "498",
+    "option_textA": "ambiguous",
+    "option_textB": "calm and peaceful       ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "calm and peaceful       "
+  },
+  {
+    "question_id": "499",
+    "option_textA": "wrong_option1",
+    "option_textB": "to make holy consecrate        ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "to make holy consecrate        "
+  },
+  {
+    "question_id": "500",
+    "option_textA": "wrong_option1",
+    "option_textB": "a long passionate speech        ",
+    "option_textC": "wrong_option102",
+    "option_textD": "agreement",
+    "answer_text": "a long passionate speech        "
+  },
+  {
+    "question_id": "501",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "smth or smb that foretells the coming of    ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "smth or smb that foretells the coming of    "
+  },
+  {
+    "question_id": "502",
+    "option_textA": "ask",
+    "option_textB": "to distress create stress or torment      ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "to distress create stress or torment      "
+  },
+  {
+    "question_id": "503",
+    "option_textA": "ambiguous",
+    "option_textB": "arrogant conceited          ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "arrogant conceited          "
+  },
+  {
+    "question_id": "504",
+    "option_textA": "wrong_option1",
+    "option_textB": "attention/give notice to       ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "attention/give notice to       "
+  },
+  {
+    "question_id": "505",
+    "option_textA": "wrong_option1",
+    "option_textB": "odious (of crime)         ",
+    "option_textC": "wrong_option103",
+    "option_textD": "agreement",
+    "answer_text": "odious (of crime)         "
+  },
+  {
+    "question_id": "506",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "belief contrary to what is generally accepted     ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "belief contrary to what is generally accepted     "
+  },
+  {
+    "question_id": "507",
+    "option_textA": "ask",
+    "option_textB": "sealed by fusion         ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "sealed by fusion         "
+  },
+  {
+    "question_id": "508",
+    "option_textA": "ambiguous",
+    "option_textB": "made up of different kinds       ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "made up of different kinds       "
+  },
+  {
+    "question_id": "509",
+    "option_textA": "wrong_option1",
+    "option_textB": "make by hard work cut (by striking)     ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "make by hard work cut (by striking)     "
+  },
+  {
+    "question_id": "510",
+    "option_textA": "wrong_option1",
+    "option_textB": "(person) with superior tastes      ",
+    "option_textC": "wrong_option104",
+    "option_textD": "agreement",
+    "answer_text": "(person) with superior tastes      "
+  },
+  {
+    "question_id": "511",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "hairy shaggy          ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "hairy shaggy          "
+  },
+  {
+    "question_id": "512",
+    "option_textA": "ask",
+    "option_textB": "mischievous trick played on smb for a joke    ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "mischievous trick played on smb for a joke    "
+  },
+  {
+    "question_id": "513",
+    "option_textA": "ambiguous",
+    "option_textB": "polloi the masses the rabble       ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "polloi the masses the rabble       "
+  },
+  {
+    "question_id": "514",
+    "option_textA": "wrong_option1",
+    "option_textB": "not soled with hole        ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "not soled with hole        "
+  },
+  {
+    "question_id": "515",
+    "option_textA": "wrong_option1",
+    "option_textB": "leather case for a pistol       ",
+    "option_textC": "wrong_option105",
+    "option_textD": "agreement",
+    "answer_text": "leather case for a pistol       "
+  },
+  {
+    "question_id": "516",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "act of preaching       ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "act of preaching       "
+  },
+  {
+    "question_id": "517",
+    "option_textA": "ask",
+    "option_textB": "stone used for sharpening tools       ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "stone used for sharpening tools       "
+  },
+  {
+    "question_id": "518",
+    "option_textA": "ambiguous",
+    "option_textB": "trick mislead          ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "trick mislead          "
+  },
+  {
+    "question_id": "519",
+    "option_textA": "wrong_option1",
+    "option_textB": "liking to give hospitality        ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "liking to give hospitality        "
+  },
+  {
+    "question_id": "520",
+    "option_textA": "wrong_option1",
+    "option_textB": "arrogant pride          ",
+    "option_textC": "wrong_option106",
+    "option_textD": "agreement",
+    "answer_text": "arrogant pride          "
+  },
+  {
+    "question_id": "521",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "make or become silent      ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "make or become silent      "
+  },
+  {
+    "question_id": "522",
+    "option_textA": "ask",
+    "option_textB": "worthless outside part of anything       ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "worthless outside part of anything       "
+  },
+  {
+    "question_id": "523",
+    "option_textA": "ambiguous",
+    "option_textB": "falsely making oneself appear to be good     ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "falsely making oneself appear to be good     "
+  },
+  {
+    "question_id": "524",
+    "option_textA": "wrong_option1",
+    "option_textB": "person who attacks popular beliefs       ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "person who attacks popular beliefs       "
+  },
+  {
+    "question_id": "525",
+    "option_textA": "wrong_option1",
+    "option_textB": "personal mannerism          ",
+    "option_textC": "wrong_option107",
+    "option_textD": "agreement",
+    "answer_text": "personal mannerism          "
+  },
+  {
+    "question_id": "526",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "excessive admiration of         ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "excessive admiration of         "
+  },
+  {
+    "question_id": "527",
+    "option_textA": "ask",
+    "option_textB": "a carefree episode or experience       ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "a carefree episode or experience       "
+  },
+  {
+    "question_id": "528",
+    "option_textA": "ambiguous",
+    "option_textB": "dishonorable common undignified         ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "dishonorable common undignified         "
+  },
+  {
+    "question_id": "529",
+    "option_textA": "wrong_option1",
+    "option_textB": "shameful dishonorable undignified disgraceful        ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "shameful dishonorable undignified disgraceful        "
+  },
+  {
+    "question_id": "530",
+    "option_textA": "wrong_option1",
+    "option_textB": "unlawful forbidden          ",
+    "option_textC": "wrong_option108",
+    "option_textD": "agreement",
+    "answer_text": "unlawful forbidden          "
+  },
+  {
+    "question_id": "531",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "complicated and embarrassing situation        ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "complicated and embarrassing situation        "
+  },
+  {
+    "question_id": "532",
+    "option_textA": "ask",
+    "option_textB": "pure faultless          ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "pure faultless          "
+  },
+  {
+    "question_id": "533",
+    "option_textA": "ambiguous",
+    "option_textB": "likely to come or happen soon      ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "likely to come or happen soon      "
+  },
+  {
+    "question_id": "534",
+    "option_textA": "wrong_option1",
+    "option_textB": "that cannot be changed        ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "that cannot be changed        "
+  },
+  {
+    "question_id": "535",
+    "option_textA": "wrong_option1",
+    "option_textB": "worsen diminish in value        ",
+    "option_textC": "wrong_option109",
+    "option_textD": "agreement",
+    "answer_text": "worsen diminish in value        "
+  },
+  {
+    "question_id": "536",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "unmoved feeling no sign of passion      ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "unmoved feeling no sign of passion      "
+  },
+  {
+    "question_id": "537",
+    "option_textA": "ask",
+    "option_textB": "having little or no money       ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "having little or no money       "
+  },
+  {
+    "question_id": "538",
+    "option_textA": "ambiguous",
+    "option_textB": "hinder get in the way of      ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "hinder get in the way of      "
+  },
+  {
+    "question_id": "539",
+    "option_textA": "wrong_option1",
+    "option_textB": "smth that hinders (e.g. stammer)       ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "smth that hinders (e.g. stammer)       "
+  },
+  {
+    "question_id": "540",
+    "option_textA": "wrong_option1",
+    "option_textB": "imminent being about to happen expected      ",
+    "option_textC": "wrong_option110",
+    "option_textD": "agreement",
+    "answer_text": "imminent being about to happen expected      "
+  },
+  {
+    "question_id": "541",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "urgent essential          ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "urgent essential          "
+  },
+  {
+    "question_id": "542",
+    "option_textA": "ask",
+    "option_textB": "commanding haughty arrogant         ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "commanding haughty arrogant         "
+  },
+  {
+    "question_id": "543",
+    "option_textA": "ambiguous",
+    "option_textB": "that cannot be permeated        ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "that cannot be permeated        "
+  },
+  {
+    "question_id": "544",
+    "option_textA": "wrong_option1",
+    "option_textB": "calm not capable of being excited      ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "calm not capable of being excited      "
+  },
+  {
+    "question_id": "545",
+    "option_textA": "wrong_option1",
+    "option_textB": "not allowing to pass through (of materials)     ",
+    "option_textC": "wrong_option111",
+    "option_textD": "agreement",
+    "answer_text": "not allowing to pass through (of materials)     "
+  },
+  {
+    "question_id": "546",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "haughty arrogant commanding         ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "haughty arrogant commanding         "
+  },
+  {
+    "question_id": "547",
+    "option_textA": "ask",
+    "option_textB": "having sudden energy impulsive thrusting ahead forceful     ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "having sudden energy impulsive thrusting ahead forceful     "
+  },
+  {
+    "question_id": "548",
+    "option_textA": "ambiguous",
+    "option_textB": "lack of reverence or dutifulness       ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "lack of reverence or dutifulness       "
+  },
+  {
+    "question_id": "549",
+    "option_textA": "wrong_option1",
+    "option_textB": "incapable of being placated unpleasable       ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "incapable of being placated unpleasable       "
+  },
+  {
+    "question_id": "550",
+    "option_textA": "wrong_option1",
+    "option_textB": "show that smb has a share      ",
+    "option_textC": "wrong_option112",
+    "option_textD": "agreement",
+    "answer_text": "show that smb has a share      "
+  },
+  {
+    "question_id": "551",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "implied though not plainly expressed       ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "implied though not plainly expressed       "
+  },
+  {
+    "question_id": "552",
+    "option_textA": "ask",
+    "option_textB": "collapse bursting inward         ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "collapse bursting inward         "
+  },
+  {
+    "question_id": "553",
+    "option_textA": "ambiguous",
+    "option_textB": "beg urgently solicit (of a prostitute)      ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "beg urgently solicit (of a prostitute)      "
+  },
+  {
+    "question_id": "554",
+    "option_textA": "wrong_option1",
+    "option_textB": "an invocation of evil a curse      ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "an invocation of evil a curse      "
+  },
+  {
+    "question_id": "555",
+    "option_textA": "wrong_option1",
+    "option_textB": "without preparation          ",
+    "option_textC": "wrong_option113",
+    "option_textD": "agreement",
+    "answer_text": "without preparation          "
+  },
+  {
+    "question_id": "556",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "rash indiscreet          ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "rash indiscreet          "
+  },
+  {
+    "question_id": "557",
+    "option_textA": "ask",
+    "option_textB": "challenged to be doubted        ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "challenged to be doubted        "
+  },
+  {
+    "question_id": "558",
+    "option_textA": "ambiguous",
+    "option_textB": "to attribute to a cause or source ascribe    ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "to attribute to a cause or source ascribe    "
+  },
+  {
+    "question_id": "559",
+    "option_textA": "wrong_option1",
+    "option_textB": "not paying proper attention        ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "not paying proper attention        "
+  },
+  {
+    "question_id": "560",
+    "option_textA": "wrong_option1",
+    "option_textB": "silly senseless          ",
+    "option_textC": "wrong_option114",
+    "option_textD": "agreement",
+    "answer_text": "silly senseless          "
+  },
+  {
+    "question_id": "561",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "since because          ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "since because          "
+  },
+  {
+    "question_id": "562",
+    "option_textA": "ask",
+    "option_textB": "make angry          ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "make angry          "
+  },
+  {
+    "question_id": "563",
+    "option_textA": "ambiguous",
+    "option_textB": "often repeated continual         ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "often repeated continual         "
+  },
+  {
+    "question_id": "564",
+    "option_textA": "wrong_option1",
+    "option_textB": "not yet fully formed rudimentary elementary      ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "not yet fully formed rudimentary elementary      "
+  },
+  {
+    "question_id": "565",
+    "option_textA": "wrong_option1",
+    "option_textB": "beginning         ",
+    "option_textC": "wrong_option115",
+    "option_textD": "agreement",
+    "answer_text": "beginning         "
+  },
+  {
+    "question_id": "566",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "engrave make a cut in       ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "engrave make a cut in       "
+  },
+  {
+    "question_id": "567",
+    "option_textA": "ask",
+    "option_textB": "stir up rouse         ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "stir up rouse         "
+  },
+  {
+    "question_id": "568",
+    "option_textA": "ambiguous",
+    "option_textB": "directing the mind in a certain direction     ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "directing the mind in a certain direction     "
+  },
+  {
+    "question_id": "569",
+    "option_textA": "wrong_option1",
+    "option_textB": "out of place not in harmony or agreement    ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "out of place not in harmony or agreement    "
+  },
+  {
+    "question_id": "570",
+    "option_textA": "wrong_option1",
+    "option_textB": "cannot be cured or corrected       ",
+    "option_textC": "wrong_option116",
+    "option_textD": "agreement",
+    "answer_text": "cannot be cured or corrected       "
+  },
+  {
+    "question_id": "571",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "skeptical unwilling to believe        ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "skeptical unwilling to believe        "
+  },
+  {
+    "question_id": "572",
+    "option_textA": "ask",
+    "option_textB": "fix firmly by repetition        ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "fix firmly by repetition        "
+  },
+  {
+    "question_id": "573",
+    "option_textA": "ambiguous",
+    "option_textB": "official duties          ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "official duties          "
+  },
+  {
+    "question_id": "574",
+    "option_textA": "wrong_option1",
+    "option_textB": "a raid a sudden attack       ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "a raid a sudden attack       "
+  },
+  {
+    "question_id": "575",
+    "option_textA": "wrong_option1",
+    "option_textB": "not easily exhaustible tirelessness        ",
+    "option_textC": "wrong_option117",
+    "option_textD": "agreement",
+    "answer_text": "not easily exhaustible tirelessness        "
+  },
+  {
+    "question_id": "576",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "that cannot be rubbed out       ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "that cannot be rubbed out       "
+  },
+  {
+    "question_id": "577",
+    "option_textA": "ask",
+    "option_textB": "poverty           ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "poverty           "
+  },
+  {
+    "question_id": "578",
+    "option_textA": "ambiguous",
+    "option_textB": "native           ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "native           "
+  },
+  {
+    "question_id": "579",
+    "option_textA": "wrong_option1",
+    "option_textB": "not easily heard seen clearly marked      ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "not easily heard seen clearly marked      "
+  },
+  {
+    "question_id": "580",
+    "option_textA": "wrong_option1",
+    "option_textB": "laziness           ",
+    "option_textC": "wrong_option118",
+    "option_textD": "agreement",
+    "answer_text": "laziness           "
+  },
+  {
+    "question_id": "581",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "not easily discouraged or subdued       ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "not easily discouraged or subdued       "
+  },
+  {
+    "question_id": "582",
+    "option_textA": "ask",
+    "option_textB": "gratify give way to satisfy allow oneself     ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "gratify give way to satisfy allow oneself     "
+  },
+  {
+    "question_id": "583",
+    "option_textA": "ambiguous",
+    "option_textB": "inclined to indulge         ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "inclined to indulge         "
+  },
+  {
+    "question_id": "584",
+    "option_textA": "wrong_option1",
+    "option_textB": "to great to be described in words     ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "to great to be described in words     "
+  },
+  {
+    "question_id": "585",
+    "option_textA": "wrong_option1",
+    "option_textB": "certain inevitable          ",
+    "option_textC": "wrong_option119",
+    "option_textD": "agreement",
+    "answer_text": "certain inevitable          "
+  },
+  {
+    "question_id": "586",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "unskillful said or done at the wrong time    ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "unskillful said or done at the wrong time    "
+  },
+  {
+    "question_id": "587",
+    "option_textA": "ask",
+    "option_textB": "quality of being unskillful      ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "quality of being unskillful      "
+  },
+  {
+    "question_id": "588",
+    "option_textA": "ambiguous",
+    "option_textB": "hell         ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "hell         "
+  },
+  {
+    "question_id": "589",
+    "option_textA": "wrong_option1",
+    "option_textB": "fill with fury or rage       ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "fill with fury or rage       "
+  },
+  {
+    "question_id": "590",
+    "option_textA": "wrong_option1",
+    "option_textB": "put pour fill         ",
+    "option_textC": "wrong_option120",
+    "option_textD": "agreement",
+    "answer_text": "put pour fill         "
+  },
+  {
+    "question_id": "591",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "naive young artless frank honest sincere      ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "naive young artless frank honest sincere      "
+  },
+  {
+    "question_id": "592",
+    "option_textA": "ask",
+    "option_textB": "take in by swallowing        ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "take in by swallowing        "
+  },
+  {
+    "question_id": "593",
+    "option_textA": "ambiguous",
+    "option_textB": "harmful or friendly         ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "harmful or friendly         "
+  },
+  {
+    "question_id": "594",
+    "option_textA": "wrong_option1",
+    "option_textB": "defying imitation unmatchable         ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "defying imitation unmatchable         "
+  },
+  {
+    "question_id": "595",
+    "option_textA": "wrong_option1",
+    "option_textB": "causing no harm         ",
+    "option_textC": "wrong_option121",
+    "option_textD": "agreement",
+    "answer_text": "causing no harm         "
+  },
+  {
+    "question_id": "596",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "incapable of being discovered or understood      ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "incapable of being discovered or understood      "
+  },
+  {
+    "question_id": "597",
+    "option_textA": "ask",
+    "option_textB": "unconscious unresponsive unaffected         ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "unconscious unresponsive unaffected         "
+  },
+  {
+    "question_id": "598",
+    "option_textA": "ambiguous",
+    "option_textB": "suggest unpleasantly make a way for smth gently    ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "suggest unpleasantly make a way for smth gently    "
+  },
+  {
+    "question_id": "599",
+    "option_textA": "wrong_option1",
+    "option_textB": "without taste or flavor        ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "without taste or flavor        "
+  },
+  {
+    "question_id": "600",
+    "option_textA": "wrong_option1",
+    "option_textB": "unconcerned carefree          ",
+    "option_textC": "wrong_option122",
+    "option_textD": "agreement",
+    "answer_text": "unconcerned carefree          "
+  },
+  {
+    "question_id": "601",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "narrow-mindedness isolated          ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "narrow-mindedness isolated          "
+  },
+  {
+    "question_id": "602",
+    "option_textA": "ask",
+    "option_textB": "rising of people to open resistance to     ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "rising of people to open resistance to     "
+  },
+  {
+    "question_id": "603",
+    "option_textA": "ambiguous",
+    "option_textB": "prohibit forbid          ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "prohibit forbid          "
+  },
+  {
+    "question_id": "604",
+    "option_textA": "wrong_option1",
+    "option_textB": "as an installment         ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "as an installment         "
+  },
+  {
+    "question_id": "605",
+    "option_textA": "wrong_option1",
+    "option_textB": "place here and there        ",
+    "option_textC": "wrong_option123",
+    "option_textD": "agreement",
+    "answer_text": "place here and there        "
+  },
+  {
+    "question_id": "606",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "unwillingness to compromise stubbornness intractability       ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "unwillingness to compromise stubbornness intractability       "
+  },
+  {
+    "question_id": "607",
+    "option_textA": "ask",
+    "option_textB": "uncompromising           ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "uncompromising           "
+  },
+  {
+    "question_id": "608",
+    "option_textA": "ambiguous",
+    "option_textB": "fearless brave undaunted         ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "fearless brave undaunted         "
+  },
+  {
+    "question_id": "609",
+    "option_textA": "wrong_option1",
+    "option_textB": "examining one's own thoughts and feelings      ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "examining one's own thoughts and feelings      "
+  },
+  {
+    "question_id": "610",
+    "option_textA": "wrong_option1",
+    "option_textB": "flood cover by overflowing        ",
+    "option_textC": "wrong_option124",
+    "option_textD": "agreement",
+    "answer_text": "flood cover by overflowing        "
+  },
+  {
+    "question_id": "611",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "accustomed to adapted         ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "accustomed to adapted         "
+  },
+  {
+    "question_id": "612",
+    "option_textA": "ask",
+    "option_textB": "abusive language curses         ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "abusive language curses         "
+  },
+  {
+    "question_id": "613",
+    "option_textA": "ambiguous",
+    "option_textB": "to attack verbally denounce deprecate       ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "to attack verbally denounce deprecate       "
+  },
+  {
+    "question_id": "614",
+    "option_textA": "wrong_option1",
+    "option_textB": "deep-rooted. long-established          ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "deep-rooted. long-established          "
+  },
+  {
+    "question_id": "615",
+    "option_textA": "wrong_option1",
+    "option_textB": "too strong to be defeated     ",
+    "option_textC": "wrong_option125",
+    "option_textD": "agreement",
+    "answer_text": "too strong to be defeated     "
+  },
+  {
+    "question_id": "616",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "complex           ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "complex           "
+  },
+  {
+    "question_id": "617",
+    "option_textA": "ask",
+    "option_textB": "irritable easily angered         ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "irritable easily angered         "
+  },
+  {
+    "question_id": "618",
+    "option_textA": "ambiguous",
+    "option_textB": "angry           ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "angry           "
+  },
+  {
+    "question_id": "619",
+    "option_textA": "wrong_option1",
+    "option_textB": "anger           ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "anger           "
+  },
+  {
+    "question_id": "620",
+    "option_textA": "wrong_option1",
+    "option_textB": "tiresome           ",
+    "option_textC": "wrong_option126",
+    "option_textD": "agreement",
+    "answer_text": "tiresome           "
+  },
+  {
+    "question_id": "621",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "hesitating undecided          ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "hesitating undecided          "
+  },
+  {
+    "question_id": "622",
+    "option_textA": "ask",
+    "option_textB": "final and unalterable         ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "final and unalterable         "
+  },
+  {
+    "question_id": "623",
+    "option_textA": "ambiguous",
+    "option_textB": "to travel from place to place to peregrinate    ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "to travel from place to place to peregrinate    "
+  },
+  {
+    "question_id": "624",
+    "option_textA": "wrong_option1",
+    "option_textB": "talk excitedly utter rapidly        ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "talk excitedly utter rapidly        "
+  },
+  {
+    "question_id": "625",
+    "option_textA": "wrong_option1",
+    "option_textB": "gibe make fun of        ",
+    "option_textC": "wrong_option127",
+    "option_textD": "agreement",
+    "answer_text": "gibe make fun of        "
+  },
+  {
+    "question_id": "626",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "meant as a joke        ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "meant as a joke        "
+  },
+  {
+    "question_id": "627",
+    "option_textA": "ask",
+    "option_textB": "sound in judgment wise        ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "sound in judgment wise        "
+  },
+  {
+    "question_id": "628",
+    "option_textA": "ambiguous",
+    "option_textB": "draw together unite firmly        ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "draw together unite firmly        "
+  },
+  {
+    "question_id": "629",
+    "option_textA": "wrong_option1",
+    "option_textB": "to entangle the state of affairs      ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "to entangle the state of affairs      "
+  },
+  {
+    "question_id": "630",
+    "option_textA": "wrong_option1",
+    "option_textB": "causing tears tearful         ",
+    "option_textC": "wrong_option128",
+    "option_textD": "agreement",
+    "answer_text": "causing tears tearful         "
+  },
+  {
+    "question_id": "631",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "(of eyes) dull         ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "(of eyes) dull         "
+  },
+  {
+    "question_id": "632",
+    "option_textA": "ask",
+    "option_textB": "show feel great sorrow        ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "show feel great sorrow        "
+  },
+  {
+    "question_id": "633",
+    "option_textA": "ambiguous",
+    "option_textB": "weariness tiredness          ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "weariness tiredness          "
+  },
+  {
+    "question_id": "634",
+    "option_textA": "wrong_option1",
+    "option_textB": "present but not yet active developed or visible    ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "present but not yet active developed or visible    "
+  },
+  {
+    "question_id": "635",
+    "option_textA": "wrong_option1",
+    "option_textB": "expressing or giving praise        ",
+    "option_textC": "wrong_option129",
+    "option_textD": "agreement",
+    "answer_text": "expressing or giving praise        "
+  },
+  {
+    "question_id": "636",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "giving or producing freely liberally or generously     ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "giving or producing freely liberally or generously     "
+  },
+  {
+    "question_id": "637",
+    "option_textA": "ask",
+    "option_textB": "smth handed down from ancestors       ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "smth handed down from ancestors       "
+  },
+  {
+    "question_id": "638",
+    "option_textA": "ambiguous",
+    "option_textB": "formal reception/embankment        ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "formal reception/embankment        "
+  },
+  {
+    "question_id": "639",
+    "option_textA": "wrong_option1",
+    "option_textB": "lack of seriousness       ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "lack of seriousness       "
+  },
+  {
+    "question_id": "640",
+    "option_textA": "wrong_option1",
+    "option_textB": "statement that damages reputation        ",
+    "option_textC": "wrong_option130",
+    "option_textD": "agreement",
+    "answer_text": "statement that damages reputation        "
+  },
+  {
+    "question_id": "641",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "free giving generosity         ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "free giving generosity         "
+  },
+  {
+    "question_id": "642",
+    "option_textA": "ask",
+    "option_textB": "immoral person          ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "immoral person          "
+  },
+  {
+    "question_id": "643",
+    "option_textA": "ambiguous",
+    "option_textB": "legal claim until a debt on it is repaid   ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "legal claim until a debt on it is repaid   "
+  },
+  {
+    "question_id": "644",
+    "option_textA": "wrong_option1",
+    "option_textB": "paint portray          ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "paint portray          "
+  },
+  {
+    "question_id": "645",
+    "option_textA": "wrong_option1",
+    "option_textB": "lacking strength walking unevenly        ",
+    "option_textC": "wrong_option131",
+    "option_textD": "agreement",
+    "answer_text": "lacking strength walking unevenly        "
+  },
+  {
+    "question_id": "646",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "treat as a famous person     ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "treat as a famous person     "
+  },
+  {
+    "question_id": "647",
+    "option_textA": "ask",
+    "option_textB": "bending twisting          ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "bending twisting          "
+  },
+  {
+    "question_id": "648",
+    "option_textA": "ambiguous",
+    "option_textB": "rest to sit or stand in a lazy way hang (dog's tongue)",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "rest to sit or stand in a lazy way hang (dog's tongue)"
+  },
+  {
+    "question_id": "649",
+    "option_textA": "wrong_option1",
+    "option_textB": "move along with long strides     ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "move along with long strides     "
+  },
+  {
+    "question_id": "650",
+    "option_textA": "wrong_option1",
+    "option_textB": "talkative garrulous          ",
+    "option_textC": "wrong_option132",
+    "option_textD": "agreement",
+    "answer_text": "talkative garrulous          "
+  },
+  {
+    "question_id": "651",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "write in scholarly fashion        ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "write in scholarly fashion        "
+  },
+  {
+    "question_id": "652",
+    "option_textA": "ask",
+    "option_textB": "easily understood lucid clear        ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "easily understood lucid clear        "
+  },
+  {
+    "question_id": "653",
+    "option_textA": "ambiguous",
+    "option_textB": "mournful excessively sad         ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "mournful excessively sad         "
+  },
+  {
+    "question_id": "654",
+    "option_textA": "wrong_option1",
+    "option_textB": "become quiet or less active       ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "become quiet or less active       "
+  },
+  {
+    "question_id": "655",
+    "option_textA": "wrong_option1",
+    "option_textB": "move in a clumsy/noisy way     ",
+    "option_textC": "wrong_option133",
+    "option_textD": "agreement",
+    "answer_text": "move in a clumsy/noisy way     "
+  },
+  {
+    "question_id": "656",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "star light-giving body         ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "star light-giving body         "
+  },
+  {
+    "question_id": "657",
+    "option_textA": "ask",
+    "option_textB": "be out of view ready to attack   ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "be out of view ready to attack   "
+  },
+  {
+    "question_id": "658",
+    "option_textA": "ambiguous",
+    "option_textB": "being bright polished         ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "being bright polished         "
+  },
+  {
+    "question_id": "659",
+    "option_textA": "wrong_option1",
+    "option_textB": "gruesome suggesting death         ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "gruesome suggesting death         "
+  },
+  {
+    "question_id": "660",
+    "option_textA": "wrong_option1",
+    "option_textB": "make or become soft by soaking in water  ",
+    "option_textC": "wrong_option134",
+    "option_textD": "agreement",
+    "answer_text": "make or become soft by soaking in water  "
+  },
+  {
+    "question_id": "661",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "plot scheme (esp. evil)        ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "plot scheme (esp. evil)        "
+  },
+  {
+    "question_id": "662",
+    "option_textA": "ask",
+    "option_textB": "tactless clumsy          ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "tactless clumsy          "
+  },
+  {
+    "question_id": "663",
+    "option_textA": "ambiguous",
+    "option_textB": "misuse of a word (for one that resembles it)   ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "misuse of a word (for one that resembles it)   "
+  },
+  {
+    "question_id": "664",
+    "option_textA": "wrong_option1",
+    "option_textB": "wishing to do evil        ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "wishing to do evil        "
+  },
+  {
+    "question_id": "665",
+    "option_textA": "wrong_option1",
+    "option_textB": "injurious speak ill of smb tell lie     ",
+    "option_textC": "wrong_option135",
+    "option_textD": "agreement",
+    "answer_text": "injurious speak ill of smb tell lie     "
+  },
+  {
+    "question_id": "666",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "to fake illness or injury in order to shirk a duty ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "to fake illness or injury in order to shirk a duty "
+  },
+  {
+    "question_id": "667",
+    "option_textA": "ask",
+    "option_textB": "yielding easily shaped moldable adapting       ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "yielding easily shaped moldable adapting       "
+  },
+  {
+    "question_id": "668",
+    "option_textA": "ambiguous",
+    "option_textB": "chains for the hands or feet      ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "chains for the hands or feet      "
+  },
+  {
+    "question_id": "669",
+    "option_textA": "wrong_option1",
+    "option_textB": "cruel killing of a large number of people    ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "cruel killing of a large number of people    "
+  },
+  {
+    "question_id": "670",
+    "option_textA": "wrong_option1",
+    "option_textB": "be admitted enter a university as a student    ",
+    "option_textC": "wrong_option136",
+    "option_textD": "agreement",
+    "answer_text": "be admitted enter a university as a student    "
+  },
+  {
+    "question_id": "671",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "sentimental in a silly or tearful way     ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "sentimental in a silly or tearful way     "
+  },
+  {
+    "question_id": "672",
+    "option_textA": "ask",
+    "option_textB": "hurt by rough handling      ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "hurt by rough handling      "
+  },
+  {
+    "question_id": "673",
+    "option_textA": "ambiguous",
+    "option_textB": "rebel nonconformist          ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "rebel nonconformist          "
+  },
+  {
+    "question_id": "674",
+    "option_textA": "wrong_option1",
+    "option_textB": "sweetly flowing          ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "sweetly flowing          "
+  },
+  {
+    "question_id": "675",
+    "option_textA": "wrong_option1",
+    "option_textB": "dishonesty           ",
+    "option_textC": "wrong_option137",
+    "option_textD": "agreement",
+    "answer_text": "dishonesty           "
+  },
+  {
+    "question_id": "676",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "a beggar          ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "a beggar          "
+  },
+  {
+    "question_id": "677",
+    "option_textA": "ask",
+    "option_textB": "quick changeable in character fleeting       ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "quick changeable in character fleeting       "
+  },
+  {
+    "question_id": "678",
+    "option_textA": "ambiguous",
+    "option_textB": "attractive on the surface but of little value    ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "attractive on the surface but of little value    "
+  },
+  {
+    "question_id": "679",
+    "option_textA": "wrong_option1",
+    "option_textB": "hypnotize           ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "hypnotize           "
+  },
+  {
+    "question_id": "680",
+    "option_textA": "wrong_option1",
+    "option_textB": "giving great attention to details       ",
+    "option_textC": "wrong_option138",
+    "option_textD": "agreement",
+    "answer_text": "giving great attention to details       "
+  },
+  {
+    "question_id": "681",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "quality of endurance or courage       ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "quality of endurance or courage       "
+  },
+  {
+    "question_id": "682",
+    "option_textA": "ask",
+    "option_textB": "courageous high-spirited          ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "courageous high-spirited          "
+  },
+  {
+    "question_id": "683",
+    "option_textA": "ambiguous",
+    "option_textB": "fairly good but not very good      ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "fairly good but not very good      "
+  },
+  {
+    "question_id": "684",
+    "option_textA": "wrong_option1",
+    "option_textB": "menacing threatening          ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "menacing threatening          "
+  },
+  {
+    "question_id": "685",
+    "option_textA": "wrong_option1",
+    "option_textB": "pronounce or speak affectedly euphemize       ",
+    "option_textC": "wrong_option139",
+    "option_textD": "agreement",
+    "answer_text": "pronounce or speak affectedly euphemize       "
+  },
+  {
+    "question_id": "686",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "person who hates mankind        ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "person who hates mankind        "
+  },
+  {
+    "question_id": "687",
+    "option_textA": "ask",
+    "option_textB": "harmful causing mischief         ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "harmful causing mischief         "
+  },
+  {
+    "question_id": "688",
+    "option_textA": "ambiguous",
+    "option_textB": "person who loves wealth and spends little     ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "person who loves wealth and spends little     "
+  },
+  {
+    "question_id": "689",
+    "option_textA": "wrong_option1",
+    "option_textB": "one who hates women/females        ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "one who hates women/females        "
+  },
+  {
+    "question_id": "690",
+    "option_textA": "wrong_option1",
+    "option_textB": "quality of being limited not extreme      ",
+    "option_textC": "wrong_option140",
+    "option_textD": "agreement",
+    "answer_text": "quality of being limited not extreme      "
+  },
+  {
+    "question_id": "691",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "make calmer or quieter        ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "make calmer or quieter        "
+  },
+  {
+    "question_id": "692",
+    "option_textA": "ask",
+    "option_textB": "moult lose hair feathers before new growing     ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "moult lose hair feathers before new growing     "
+  },
+  {
+    "question_id": "693",
+    "option_textA": "ambiguous",
+    "option_textB": "diseased unhealthy (e.g.. about ideas)       ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "diseased unhealthy (e.g.. about ideas)       "
+  },
+  {
+    "question_id": "694",
+    "option_textA": "wrong_option1",
+    "option_textB": "ill-tempered unsocial          ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "ill-tempered unsocial          "
+  },
+  {
+    "question_id": "695",
+    "option_textA": "wrong_option1",
+    "option_textB": "cloth worn round the neck/silencer     ",
+    "option_textC": "wrong_option141",
+    "option_textD": "agreement",
+    "answer_text": "cloth worn round the neck/silencer     "
+  },
+  {
+    "question_id": "696",
+    "option_textA": "to be in proportion or corresponding in degree or amount",
+    "option_textB": "varied motley greatly diversified        ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "varied motley greatly diversified        "
+  },
+  {
+    "question_id": "697",
+    "option_textA": "ask",
+    "option_textB": "worldly as opposed to spiritual commonplace everyday     ",
+    "option_textC": "to have an influence on",
+    "option_textD": "refer to back",
+    "answer_text": "worldly as opposed to spiritual commonplace everyday     "
+  },
+  {
+    "question_id": "698",
+    "option_textA": "ambiguous",
+    "option_textB": "very great number         ",
+    "option_textC": "wrong_option3",
+    "option_textD": "wrong_option4",
+    "answer_text": "very great number         "
+  },
+  {
+    "question_id": "699",
+    "option_textA": "wrong_option1",
+    "option_textB": "lowest weakest point         ",
+    "option_textC": "indefinite",
+    "option_textD": "thinking or communicating in an unfocused or imprecise way",
+    "answer_text": "lowest weakest point         "
+  },
+  {
+    "question_id": "700",
+    "option_textA": "wrong_option1",
+    "option_textB": "tale story fibers for knitting       ",
+    "option_textC": "wrong_option142",
+    "option_textD": "agreement",
+    "answer_text": "tale story fibers for knitting       "
   }
 ]
